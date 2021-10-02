@@ -4,7 +4,7 @@ $(document).ready(function() {
 });
 
 function getData() {
-    let url = "static/animal_data.json";
+    let url = "../static/acc_data.json";
 
     // AJAX
     $.ajax({
@@ -15,7 +15,7 @@ function getData() {
         success: function(data) {
 
             console.log(data);
-            animaltypeDropdown (data);
+            vis_1 (data);
         },
         error: function(data) {
             console.log("YOU BROKE IT!!");
@@ -24,4 +24,10 @@ function getData() {
             console.log("Request finished");
         }
     });
+}
+
+function vis_1 (data) {
+    let curr_id = $("#animalFilter").val();
+    let curr_data = data.animal_type.filter(x => x.id === curr_id)[0];
+    console.log(curr_data);
 }
