@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    alert("Page Loaded");
+    //alert("Page Loaded");
     getData();
 });
 
@@ -14,7 +14,7 @@ function getData() {
         dataType: "json",
         success: function(data) {
 
-            console.log(data);
+            //console.log(data);
             vis_1 (data);
         },
         error: function(data) {
@@ -28,6 +28,6 @@ function getData() {
 
 function vis_1 (data) {
     let curr_id = $("#animalFilter").val();
-    let curr_data = data.animal_type.filter(x => x.id === curr_id)[0];
+    let curr_data = data.filter(x => x.animal_type === curr_id);
     console.log(curr_data);
 }
