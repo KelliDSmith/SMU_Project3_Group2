@@ -170,6 +170,58 @@
         #openNav{
             background-color: #474e5d; 
         }
+
+        .w3-container{
+          color: white;
+          text-align: center;
+          padding: 70px, 0;
+        }
+
+     
+
+        
+        .gauge{
+            border-style: double;
+            border: 2px solid 474e5d;
+            border-radius: 8px;
+            padding: 5px;
+        }
+
+        .bubble{
+            border-style: double;
+            border: 2px solid 474e5d;
+            border-radius: 8px;
+            padding: 5px;
+            margin-left: 20px;
+        }
+ 
+        .demo{
+            border-style: double;
+            border: 2px solid 474e5d;
+            border-radius: 8px;
+            padding: 5px;
+            margin-left: 20px;
+        } 
+
+        .card{
+            border-style: double;
+            border: 2px solid 474e5d;
+            border-radius: 8px;
+            padding: 5px;
+        } 
+
+        .bar{
+            border-style: double;
+            border: 2px solid 474e5d;
+            border-radius: 8px;
+            padding: 5px;
+        }
+        
+        #openNav{
+          background-color: 474e5d;
+          color:white;
+
+        }
         </style>
 
     </head>
@@ -193,36 +245,87 @@
           <div id="main">
           
           <div class="nav_background">
-            <button id="openNav" class="w3-button  w3-xlarge" onclick="w3_open()">&#9776;</button>
-            <div class="w3-container">
-              <h1>The Dash</h1>
+            <button id="openNav" class="w3-button  w3-xxlarge" onclick="w3_open()">&#9776;</button>
+            <div class="w3-container" >
+              <h1 class="page_title">The Dash</h1>
             </div>
           </div>
-
-    
+            
+        
 
 
   <!-- *****************************************************comment box code****************************************** -->
-        <section id="app">
+        <!-- <section id="app">
             <div class="container">
               <div class="row">
                 <div class="col-6">
                   <div class="comment">
                 <p v-for="items in item" v-text="items"></p>
-                  </div><!--End Comment-->
-                </div><!--End col -->
-                </div><!-- End row -->
+                  </div>End Comment
+                 </div>End col -->
+                <!-- </div>End row -->
 
 
-              <div class="row">
+              <!-- <div class="row">
                 <div class="col-6">
                     <textarea type="text" class="input" placeholder="Write a comment" v-model="newItem" @keyup.enter="addItem()"></textarea>
-                    <button v-on:click="addItem()" class='primaryContained float-right' type="submit">Add Comment</button>
-                </div><!-- End col -->
-              </div><!--End Row -->
-            </div><!--End Container -->
-          </section><!-- end App -->
+                    <button v-on:click="addItem()" class='primaryContained float-right' type="submit">Add Comment</button> -->
+                <!-- </div>End col -->
+              <!-- </div>End Row -->
+            <!-- </div>End Container -->
+          <!-- </section>end App --> 
 <!-- *************************************************END  "comment box" code****************************************** -->
+        <div class="row">
+          <div class="demo col-md-2">
+              <div class="well">
+                  <h5>description of Kelly's Charts </h5>
+                  <!-- <select id="selDataset"></select>  Link filter for chart? -->
+
+              </div>
+           
+              <div class="card border-custom" style="max-width: 15rem;">
+                  <div class="card-header">Filter and chart info ?  
+                  <p>the charts to the right illistrate some details about animals that will be filled in at a later date</p>
+                  </div>
+                  <div id="sample-metadata" class="card-body">
+                </div>
+              </div>
+          </div>
+          
+          <div class="chart col-md-">
+              <div id="bar">
+              </div>
+          </div>
+
+            <div class="gauge col-md-3">
+              <h5>Link Kelly's chart 1 loreom12</h5>
+              <div id="gauge"></div>
+           </div>
+
+            <div class="gauge col-md-3">
+              <h5>Link Kelly's chart 2 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis nobis iusto dolorum molestiae rerum quam?</h5>
+              <div id="gauge"></div>
+            </div>
+
+            <div class="gauge col-md-3">
+              <h5>Link Kelly's chart 3, these will expand to fill the page once the charts are include (in theory anyway</h5>
+              <div id="gauge"></div>
+            </div>
+        </div>
+
+
+      
+
+
+        <div class="row">
+          <div class="bubble col-md-11">
+            <h5>maybe some stuff here </h5>
+            <div class="w3-panel">
+    
+
+            </div>
+              <div id="bubble"></div>
+          </div>
 
 
 <!-- ************************************************* "back to top" code****************************************** -->
