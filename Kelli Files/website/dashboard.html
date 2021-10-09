@@ -21,17 +21,21 @@
     <script src="https://d3js.org/d3.v7.min.js"></script>
     <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
     <script src="./static/js/appkelli.js"></script>
+    <script src="./static/js/applucas.js"></script>
+    
 </head>
 
 <body>
 
-  <!-- Filter Buttons as Plan B -->
-  <!-- <div class="container-fluid">
+
+  <div class="container-fluid">
       <div class="row">
         <div class="col-md-12 jumbotron text-center">
           <h1>Austin Animial Shelter Dashboard</h1>
           <p>Use the interactive charts below to explore the dataset</p>
-          <div class="btn-group" role="group" aria-label="Basic example" id="animalFilter">
+
+            <!-- Filter Buttons as Plan B -->
+          <!-- <div class="btn-group" role="group" aria-label="Basic example" id="animalFilter">
             <button type="button" class="btn btn-secondary" value="Dog">Dog</button>
             <button type="button" class="btn btn-secondary" value="Cat">Cat</button>
             <button type="button" class="btn btn-secondary">All</button>
@@ -44,8 +48,8 @@
             <button type="button" class="btn btn-secondary" value="2017">2017</button>
             <button type="button" class="btn btn-secondary" value="2014">All Years</button>
           </div>
-        </div>
-      </div> -->
+        </div> -->
+  </div>
 
   <div class="container-fluid align-items-center">
     <div class="row">
@@ -97,6 +101,15 @@
       </div>
     </div>
   </div>
+
+  <div class="container-fluid align-items-center">
+    <div class="row">
+      <div class="col-md-5">
+        <div id="pie"></div>
+      </div>
+      <div class="col-md-7">
+        <div id="line"></div>
+      </div>
 </body>
 
 </html>

@@ -42,6 +42,15 @@ function getData() {
     });
 }
 
+// d3.json('https://raw.githubusercontent.com/plotly/datasets/master/custom_heatmap_colorscale.json', function(figure) {
+// var data = [{
+//   z: figure.z,
+//   colorscale: 'Electric',
+//   type: 'heatmap'
+// }];
+// Plotly.newPlot('myDiv', data);
+//    });
+
 function kellicharts (data) {
     let animal_type_filter = $("#animalFilter").val();
     let year_filter = $("#yearFilter").val();
@@ -71,10 +80,22 @@ function kellicharts (data) {
         height: 500,
         title: `Owner Surrender (count: ${surrender_sum})`,
         yaxis: {
+            title: 'Outcome',
+            titlefont: {
+                size: 16,
+                color: 'black'
+            },
             range: [0, 70],
             tickfont: {
                 size: 10,
                 color: 'black',
+            },
+        },
+        xaxis:{
+            title: 'Intake Type',
+            titlefont: {
+                size: 16,
+                color: 'black'
             }
         }
     };
@@ -105,10 +126,22 @@ function kellicharts (data) {
         height: 500,
         title: `Public Assist (count: ${passist_sum})`,
         yaxis: {
+            title: 'Outcome',
+            titlefont: {
+                size: 16,
+                color: 'black'
+            },
             range: [0, 70],
             tickfont: {
                 size: 10,
                 color: 'black',
+            },
+        },
+        xaxis:{
+            title: 'Intake Type',
+            titlefont: {
+                size: 16,
+                color: 'black'
             }
         }
     };
@@ -140,10 +173,22 @@ function kellicharts (data) {
         height: 500,
         title: `Stray (count: ${stray_sum})`,
         yaxis: {
+            title: 'Outcome',
+            titlefont: {
+                size: 16,
+                color: 'black'
+            },
             range: [0, 70],
             tickfont: {
                 size: 10,
                 color: 'black',
+            },
+        },
+        xaxis:{
+            title: 'Intake Type',
+            titlefont: {
+                size: 16,
+                color: 'black'
             }
         }
     };

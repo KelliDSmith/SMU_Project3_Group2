@@ -1,0 +1,4531 @@
+intake_year,animal_type,breed,count
+2013,Cat,Domestic Shorthair Mix,960
+2013,Cat,Domestic Medium Hair Mix,141
+2013,Cat,Domestic Longhair Mix,73
+2013,Cat,Siamese Mix,49
+2013,Cat,Domestic Shorthair,20
+2013,Cat,Siamese/Domestic Shorthair,11
+2013,Cat,Snowshoe Mix,8
+2013,Cat,Maine Coon Mix,7
+2013,Cat,Manx Mix,6
+2013,Cat,Russian Blue Mix,5
+2013,Cat,Domestic Medium Hair,4
+2013,Cat,Domestic Longhair,3
+2013,Cat,Himalayan Mix,3
+2013,Cat,Bengal Mix,2
+2013,Cat,Ragdoll Mix,2
+2013,Cat,Abyssinian Mix,2
+2013,Cat,Persian Mix,2
+2013,Cat,Bombay Mix,1
+2013,Cat,British Shorthair Mix,1
+2013,Cat,Balinese Mix,1
+2013,Cat,American Shorthair Mix,1
+2013,Cat,Siamese,1
+2013,Cat,Manx/Domestic Shorthair,1
+2013,Cat,Burmese,1
+2013,Cat,Bengal,1
+2013,Cat,Tonkinese Mix,1
+2013,Cat,Exotic Shorthair Mix,1
+2013,Cat,Domestic Longhair/Persian,1
+2013,Dog,Pit Bull Mix,311
+2013,Dog,Chihuahua Shorthair Mix,279
+2013,Dog,Labrador Retriever Mix,247
+2013,Dog,German Shepherd Mix,98
+2013,Dog,Australian Cattle Dog Mix,70
+2013,Dog,Dachshund Mix,55
+2013,Dog,Australian Shepherd Mix,47
+2013,Dog,Miniature Poodle Mix,43
+2013,Dog,Border Collie Mix,37
+2013,Dog,Boxer Mix,30
+2013,Dog,Rat Terrier Mix,29
+2013,Dog,Jack Russell Terrier Mix,25
+2013,Dog,Catahoula Mix,24
+2013,Dog,American Bulldog Mix,23
+2013,Dog,Chihuahua Longhair Mix,21
+2013,Dog,Chihuahua Shorthair,21
+2013,Dog,Australian Kelpie Mix,20
+2013,Dog,Cairn Terrier Mix,20
+2013,Dog,Dachshund/Chihuahua Shorthair,20
+2013,Dog,Border Collie/Labrador Retriever,19
+2013,Dog,Beagle Mix,19
+2013,Dog,Rottweiler Mix,18
+2013,Dog,Labrador Retriever/German Shepherd,18
+2013,Dog,Pit Bull,17
+2013,Dog,American Pit Bull Terrier Mix,17
+2013,Dog,American Staffordshire Terrier Mix,17
+2013,Dog,Siberian Husky Mix,17
+2013,Dog,Labrador Retriever/Pit Bull,17
+2013,Dog,Miniature Schnauzer Mix,17
+2013,Dog,Pointer Mix,15
+2013,Dog,Staffordshire Mix,15
+2013,Dog,Anatol Shepherd Mix,15
+2013,Dog,Labrador Retriever,15
+2013,Dog,Yorkshire Terrier Mix,14
+2013,Dog,Black Mouth Cur Mix,14
+2013,Dog,German Shepherd/Labrador Retriever,13
+2013,Dog,Chinese Sharpei Mix,12
+2013,Dog,Beagle/Chihuahua Shorthair,12
+2013,Dog,Doberman Pinsch Mix,12
+2013,Dog,Pit Bull/Labrador Retriever,12
+2013,Dog,German Shepherd,11
+2013,Dog,Chihuahua Shorthair/Dachshund,11
+2013,Dog,Queensland Heeler Mix,10
+2013,Dog,Shih Tzu Mix,10
+2013,Dog,Cardigan Welsh Corgi Mix,10
+2013,Dog,Plott Hound Mix,10
+2013,Dog,Jack Russell Terrier,10
+2013,Dog,Maltese Mix,9
+2013,Dog,Miniature Pinscher Mix,9
+2013,Dog,Border Terrier Mix,9
+2013,Dog,Miniature Schnauzer/Miniature Poodle,9
+2013,Dog,Great Pyrenees Mix,9
+2013,Dog,Basset Hound Mix,8
+2013,Dog,Pug Mix,8
+2013,Dog,Pit Bull/Boxer,8
+2013,Dog,Chow Chow Mix,8
+2013,Dog,Cocker Spaniel Mix,8
+2013,Dog,German Shepherd/Mastiff,8
+2013,Dog,Flat Coat Retriever Mix,7
+2013,Dog,Australian Cattle Dog,7
+2013,Dog,Miniature Poodle,7
+2013,Dog,Belgian Malinois Mix,7
+2013,Dog,Boxer/Pit Bull,7
+2013,Dog,Boston Terrier Mix,7
+2013,Dog,Golden Retriever Mix,7
+2013,Dog,Mastiff Mix,6
+2013,Dog,Labrador Retriever/Border Collie,6
+2013,Dog,Black/Tan Hound Mix,6
+2013,Dog,Chihuahua Shorthair/Rat Terrier,6
+2013,Dog,Lhasa Apso Mix,6
+2013,Dog,Cocker Spaniel,6
+2013,Dog,Norfolk Terrier Mix,6
+2013,Dog,Dachshund,6
+2013,Dog,Leonberger Mix,6
+2013,Dog,Parson Russell Terrier Mix,5
+2013,Dog,Shih Tzu,5
+2013,Dog,Pomeranian Mix,5
+2013,Dog,Collie Smooth Mix,5
+2013,Dog,Maltese/Miniature Poodle,5
+2013,Dog,Anatol Shepherd/Labrador Retriever,5
+2013,Dog,Bull Terrier Mix,5
+2013,Dog,Blue Lacy Mix,5
+2013,Dog,Rhod Ridgeback Mix,5
+2013,Dog,Great Dane,5
+2013,Dog,Soft Coated Wheaten Terrier Mix,5
+2013,Dog,Labrador Retriever/Rottweiler,5
+2013,Dog,Yorkshire Terrier/Chihuahua Shorthair,5
+2013,Dog,Toy Poodle Mix,4
+2013,Dog,Rottweiler,4
+2013,Dog,Redbone Hound Mix,4
+2013,Dog,Vizsla Mix,4
+2013,Dog,Siberian Husky,4
+2013,Dog,Doberman Pinsch,4
+2013,Dog,Pug,4
+2013,Dog,Boxer,4
+2013,Dog,Dachshund Wirehair/Border Terrier,4
+2013,Dog,Miniature Schnauzer,4
+2013,Dog,Labrador Retriever/Black/Tan Hound,4
+2013,Dog,Basenji Mix,4
+2013,Dog,Labrador Retriever/Chow Chow,4
+2013,Dog,Basset Hound,4
+2013,Dog,Australian Cattle Dog/Australian Shepherd,4
+2013,Dog,German Shepherd/Siberian Husky,4
+2013,Dog,Australian Cattle Dog/Labrador Retriever,4
+2013,Dog,Chesa Bay Retr Mix,4
+2013,Dog,Great Dane Mix,3
+2013,Dog,American Bulldog,3
+2013,Dog,Pomeranian,3
+2013,Dog,Australian Cattle Dog/Border Collie,3
+2013,Dog,Weimaraner Mix,3
+2013,Dog,Jack Russell Terrier/Australian Cattle Dog,3
+2013,Dog,Brittany Mix,3
+2013,Dog,Labrador Retriever/Australian Cattle Dog,3
+2013,Dog,Anatol Shepherd/Great Pyrenees,3
+2013,Dog,Labrador Retriever/Beagle,3
+2013,Dog,Golden Retriever,3
+2013,Dog,Labrador Retriever/Chinese Sharpei,3
+2013,Dog,Norwich Terrier Mix,3
+2013,Dog,Dachshund/Rat Terrier,3
+2013,Dog,Brittany,3
+2013,Dog,Border Terrier/Yorkshire Terrier,3
+2013,Dog,Bruss Griffon Mix,3
+2013,Dog,Dachshund Longhair Mix,3
+2013,Dog,Rat Terrier/Chihuahua Shorthair,3
+2013,Dog,Chihuahua Shorthair/Pug,3
+2013,Dog,Shiba Inu Mix,3
+2013,Dog,Manchester Terrier/Chihuahua Shorthair,3
+2013,Dog,Siberian Husky/German Shepherd,3
+2013,Dog,Miniature Pinscher,3
+2013,Dog,Dachshund/Bloodhound,3
+2013,Dog,Boxer/Labrador Retriever,3
+2013,Dog,Whippet Mix,3
+2013,Dog,Beagle,3
+2013,Dog,Great Pyrenees,3
+2013,Dog,Wire Hair Fox Terrier Mix,2
+2013,Dog,Great Pyrenees/German Shepherd,2
+2013,Dog,Redbone Hound/Labrador Retriever,2
+2013,Dog,English Bulldog,2
+2013,Dog,Labrador Retriever/Siberian Husky,2
+2013,Dog,Jack Russell Terrier/Pit Bull,2
+2013,Dog,Australian Kelpie/Pit Bull,2
+2013,Dog,Chinese Sharpei/Labrador Retriever,2
+2013,Dog,Rottweiler/Labrador Retriever,2
+2013,Dog,Australian Cattle Dog/Chow Chow,2
+2013,Dog,Carolina Dog Mix,2
+2013,Dog,Boston Terrier/Pointer,2
+2013,Dog,Labrador Retriever/Staffordshire,2
+2013,Dog,English Foxhound Mix,2
+2013,Dog,German Shepherd/Alaskan Husky,2
+2013,Dog,Australian Cattle Dog/Pit Bull,2
+2013,Dog,Australian Cattle Dog/German Shepherd,2
+2013,Dog,English Springer Spaniel Mix,2
+2013,Dog,German Shepherd/Nova Scotia Duck Tolling Retriever,2
+2013,Dog,Greyhound Mix,2
+2013,Dog,Shetland Sheepdog,2
+2013,Dog,American Foxhound Mix,2
+2013,Dog,Shih Tzu/Miniature Poodle,2
+2013,Dog,Miniature Schnauzer/Yorkshire Terrier,2
+2013,Dog,Silky Terrier Mix,2
+2013,Dog,Labrador Retriever/Basset Hound,2
+2013,Dog,Yorkshire Terrier/Miniature Poodle,2
+2013,Dog,Harrier Mix,2
+2013,Dog,Welsh Terrier Mix,2
+2013,Dog,Finnish Spitz Mix,2
+2013,Dog,Yorkshire Terrier/Chihuahua Longhair,2
+2013,Dog,Pbgv Mix,2
+2013,Dog,Cairn Terrier,2
+2013,Dog,Pekingese,2
+2013,Dog,Cairn Terrier/Chihuahua Shorthair,2
+2013,Dog,Pekingese Mix,2
+2013,Dog,Beagle/Rat Terrier,2
+2013,Dog,American Eskimo Mix,2
+2013,Dog,Dachshund Wirehair Mix,2
+2013,Dog,Chihuahua Shorthair/Miniature Pinscher,2
+2013,Dog,Labrador Retriever/Golden Retriever,2
+2013,Dog,Pit Bull/Basset Hound,2
+2013,Dog,Schipperke Mix,2
+2013,Dog,Pit Bull/Blue Lacy,2
+2013,Dog,Labrador Retriever/Great Pyrenees,2
+2013,Dog,Labrador Retriever/Boxer,2
+2013,Dog,Cardigan Welsh Corgi/Chihuahua Shorthair,2
+2013,Dog,Pit Bull/Chinese Sharpei,2
+2013,Dog,German Shorthair Pointer Mix,2
+2013,Dog,Bluetick Hound Mix,2
+2013,Dog,Jack Russell Terrier/Beagle,2
+2013,Dog,Pit Bull/Mastiff,2
+2013,Dog,Skye Terrier Mix,2
+2013,Dog,Australian Cattle Dog/Bloodhound,2
+2013,Dog,Australian Shepherd/Labrador Retriever,2
+2013,Dog,Bullmastiff Mix,2
+2013,Dog,Treeing Walker Coonhound Mix,2
+2013,Dog,Pointer/Anatol Shepherd,2
+2013,Dog,Catahoula/Labrador Retriever,2
+2013,Dog,Pointer/Australian Cattle Dog,2
+2013,Dog,Jack Russell Terrier/Chihuahua Shorthair,2
+2013,Dog,Pointer/Pit Bull,2
+2013,Dog,Catahoula/Australian Cattle Dog,2
+2013,Dog,Border Collie/Chow Chow,2
+2013,Dog,Bichon Frise,2
+2013,Dog,Black Mouth Cur/Dachshund,2
+2013,Dog,Pembroke Welsh Corgi Mix,2
+2013,Dog,Alaskan Husky Mix,2
+2013,Dog,Dachshund/English Bulldog,1
+2013,Dog,Chow Chow/Labrador Retriever,1
+2013,Dog,Pit Bull/Pointer,1
+2013,Dog,Dachshund/Parson Russell Terrier,1
+2013,Dog,St. Bernard Rough Coat/German Shepherd,1
+2013,Dog,Dachshund/Pembroke Welsh Corgi,1
+2013,Dog,Pharaoh Hound Mix,1
+2013,Dog,Border Collie/American Staffordshire Terrier,1
+2013,Dog,American Bulldog/Labrador Retriever,1
+2013,Dog,Border Collie/Anatol Shepherd,1
+2013,Dog,Collie Smooth/German Shepherd,1
+2013,Dog,Border Collie/Australian Shepherd,1
+2013,Dog,Dachshund/American Staffordshire Terrier,1
+2013,Dog,Doberman Pinsch/Border Collie,1
+2013,Dog,Papillon Mix,1
+2013,Dog,Doberman Pinsch/Pit Bull,1
+2013,Dog,Chihuahua Shorthair/Lhasa Apso,1
+2013,Dog,Dogue De Bordeaux/American Bulldog,1
+2013,Dog,Podengo Pequeno Mix,1
+2013,Dog,Eng Toy Spaniel Mix,1
+2013,Dog,Black/Tan Hound,1
+2013,Dog,Australian Cattle Dog/Akita,1
+2013,Dog,Collie Rough Mix,1
+2013,Dog,English Bulldog/American Staffordshire Terrier,1
+2013,Dog,Bloodhound Mix,1
+2013,Dog,English Foxhound,1
+2013,Dog,Standard Schnauzer Mix,1
+2013,Dog,Border Collie/Doberman Pinsch,1
+2013,Dog,Whippet/Miniature Pinscher,1
+2013,Dog,English Pointer,1
+2013,Dog,Cavalier Span Mix,1
+2013,Dog,English Pointer Mix,1
+2013,Dog,Beauceron Mix,1
+2013,Dog,English Pointer/Labrador Retriever,1
+2013,Dog,Pit Bull/Anatol Shepherd,1
+2013,Dog,English Setter Mix,1
+2013,Dog,Pit Bull/English Bulldog,1
+2013,Dog,English Springer Spaniel,1
+2013,Dog,Plott Hound/Australian Cattle Dog,1
+2013,Dog,Border Collie/German Shepherd,1
+2013,Dog,Pointer/Boxer,1
+2013,Dog,Entlebucher Mix,1
+2013,Dog,Australian Kelpie/Blue Lacy,1
+2013,Dog,Border Collie/Great Pyrenees,1
+2013,Dog,Chow Chow/English Cocker Spaniel,1
+2013,Dog,Border Collie/Jack Russell Terrier,1
+2013,Dog,Black/Tan Hound/German Shepherd,1
+2013,Dog,French Bulldog Mix,1
+2013,Dog,Scottish Terrier/Cairn Terrier,1
+2013,Dog,French Bulldog/Chihuahua Shorthair,1
+2013,Dog,Shih Tzu/Cavalier Span,1
+2013,Dog,German Pinscher Mix,1
+2013,Dog,Silky Terrier/Maltese,1
+2013,Dog,Australian Kelpie/Shiba Inu,1
+2013,Dog,Staffordshire/French Bulldog,1
+2013,Dog,Affenpinscher Mix,1
+2013,Dog,Dachshund Wirehair/Miniature Schnauzer,1
+2013,Dog,Border Collie/Parson Russell Terrier,1
+2013,Dog,Dachshund/Beagle,1
+2013,Dog,Yorkshire Terrier/Miniature Schnauzer,1
+2013,Dog,Dachshund/Catahoula,1
+2013,Dog,German Shepherd/Chow Chow,1
+2013,Dog,Newfoundland/Labrador Retriever,1
+2013,Dog,German Shepherd/Collie Rough,1
+2013,Dog,Alaskan Malamute/German Shepherd,1
+2013,Dog,German Shepherd/Collie Smooth,1
+2013,Dog,Pbgv,1
+2013,Dog,German Shepherd/Golden Retriever,1
+2013,Dog,Pekingese/Miniature Poodle,1
+2013,Dog,Border Collie/Pit Bull,1
+2013,Dog,Chihuahua Shorthair/Cardigan Welsh Corgi,1
+2013,Dog,Australian Kelpie/Whippet,1
+2013,Dog,Australian Cattle Dog/Parson Russell Terrier,1
+2013,Dog,Border Terrier/Affenpinscher,1
+2013,Dog,Pit Bull/Chihuahua Shorthair,1
+2013,Dog,German Shepherd/Pit Bull,1
+2013,Dog,Chihuahua Shorthair/Mexican Hairless,1
+2013,Dog,German Shepherd/Rottweiler,1
+2013,Dog,Pit Bull/St. Bernard Smooth Coat,1
+2013,Dog,Border Terrier/Border Collie,1
+2013,Dog,Plott Hound/Labrador Retriever,1
+2013,Dog,Australian Shepherd,1
+2013,Dog,Black Mouth Cur,1
+2013,Dog,Boston Terrier,1
+2013,Dog,Pointer/Labrador Retriever,1
+2013,Dog,Australian Cattle Dog/Anatol Shepherd,1
+2013,Dog,Pomeranian/Border Terrier,1
+2013,Dog,Golden Retriever/Border Collie,1
+2013,Dog,Pug/Beagle,1
+2013,Dog,Golden Retriever/Standard Poodle,1
+2013,Dog,Chow Chow/Basset Hound,1
+2013,Dog,Boston Terrier/Beagle,1
+2013,Dog,Rat Terrier/Queensland Heeler,1
+2013,Dog,Boston Terrier/Chihuahua Shorthair,1
+2013,Dog,Australian Kelpie/Chihuahua Shorthair,1
+2013,Dog,Great Dane/Labrador Retriever,1
+2013,Dog,Cocker Spaniel/Dachshund,1
+2013,Dog,Australian Shepherd/Australian Cattle Dog,1
+2013,Dog,Schipperke/Chihuahua Shorthair,1
+2013,Dog,Boston Terrier/Rat Terrier,1
+2013,Dog,Shetland Sheepdog Mix,1
+2013,Dog,Great Pyrenees/Border Collie,1
+2013,Dog,Collie Smooth/Jack Russell Terrier,1
+2013,Dog,Australian Shepherd/Brittany,1
+2013,Dog,Shih Tzu/Maltese,1
+2013,Dog,Great Pyrenees/Labrador Retriever,1
+2013,Dog,Dachshund Longhair/Cardigan Welsh Corgi,1
+2013,Dog,Greyhound,1
+2013,Dog,Australian Kelpie/Labrador Retriever,1
+2013,Dog,Australian Shepherd/English Setter,1
+2013,Dog,Boerboel Mix,1
+2013,Dog,Harrier,1
+2013,Dog,Standard Poodle Mix,1
+2013,Dog,Boxer/Beagle,1
+2013,Dog,Tibetan Terrier Mix,1
+2013,Dog,Harrier/Labrador Retriever,1
+2013,Dog,Dachshund Wirehair/Standard Poodle,1
+2013,Dog,Havanese Mix,1
+2013,Dog,Dachshund/Basset Hound,1
+2013,Dog,Ibizan Hound Mix,1
+2013,Dog,Border Collie,1
+2013,Dog,Irish Terrier/Irish Wolfhound,1
+2013,Dog,Wire Hair Fox Terrier/German Shepherd,1
+2013,Dog,Irish Wolfhound Mix,1
+2013,Dog,Yorkshire Terrier/Cairn Terrier,1
+2013,Dog,Italian Greyhound/Cavalier Span,1
+2013,Dog,Dachshund/Miniature Pinscher,1
+2013,Dog,Boxer/Catahoula,1
+2013,Dog,Newfoundland/Queensland Heeler,1
+2013,Dog,Boxer/Doberman Pinsch,1
+2013,Dog,Norfolk Terrier/Yorkshire Terrier,1
+2013,Dog,Boxer/German Shepherd,1
+2013,Dog,Old English Sheepdog,1
+2013,Dog,Australian Shepherd/Greyhound,1
+2013,Dog,Bearded Collie Mix,1
+2013,Dog,Jack Russell Terrier/Brittany,1
+2013,Dog,Chihuahua Longhair/Papillon,1
+2013,Dog,Jack Russell Terrier/Cairn Terrier,1
+2013,Dog,Afghan Hound Mix,1
+2013,Dog,American Bulldog/Pit Bull,1
+2013,Dog,Chihuahua Shorthair/Boston Terrier,1
+2013,Dog,Jack Russell Terrier/Dachshund,1
+2013,Dog,Picardy Sheepdog,1
+2013,Dog,Jack Russell Terrier/Miniature Poodle,1
+2013,Dog,Akita/German Shepherd,1
+2013,Dog,Australian Shepherd/Rhod Ridgeback,1
+2013,Dog,Pit Bull/Australian Cattle Dog,1
+2013,Dog,Jack Russell Terrier/Yorkshire Terrier,1
+2013,Dog,Chihuahua Shorthair/Jack Russell Terrier,1
+2013,Dog,Japanese Chin Mix,1
+2013,Dog,Pit Bull/Catahoula,1
+2013,Dog,Keeshond Mix,1
+2013,Dog,Chihuahua Shorthair/Manchester Terrier,1
+2013,Dog,Kuvasz/Labrador Retriever,1
+2013,Dog,Pit Bull/German Shepherd,1
+2013,Dog,Australian Cattle Dog/Belgian Malinois,1
+2013,Dog,Belgian Malinois/Australian Shepherd,1
+2013,Dog,Airedale Terrier,1
+2013,Dog,Pit Bull/Pug,1
+2013,Dog,American Staffordshire Terrier/Pit Bull,1
+2013,Dog,Chihuahua Shorthair/Papillon,1
+2013,Dog,Labrador Retriever/Australian Kelpie,1
+2013,Dog,Plott Hound/Black/Tan Hound,1
+2013,Dog,Labrador Retriever/Australian Shepherd,1
+2013,Dog,Plott Hound/Pit Bull,1
+2013,Dog,Bruss Griffon/Maltese,1
+2013,Dog,American Pit Bull Terrier,1
+2013,Dog,Bull Terrier Miniature Mix,1
+2013,Dog,Chihuahua Shorthair/Whippet,1
+2013,Dog,Labrador Retriever/Beauceron,1
+2013,Dog,Pointer/Collie Smooth,1
+2013,Dog,American Bulldog/Pointer,1
+2013,Dog,Chinese Sharpei,1
+2013,Dog,Bulldog/Australian Cattle Dog,1
+2013,Dog,Chinese Sharpei/Border Collie,1
+2013,Dog,Labrador Retriever/Boston Terrier,1
+2013,Dog,Port Water Dog Mix,1
+2013,Dog,Basset Hound/Australian Cattle Dog,1
+2013,Dog,Chow Chow,1
+2013,Dog,Basset Hound/Australian Shepherd,1
+2013,Dog,Pug/Chihuahua Shorthair,1
+2013,Dog,Anatol Shepherd/Collie Rough,1
+2013,Dog,Rat Terrier,1
+2013,Dog,Labrador Retriever/Collie Smooth,1
+2013,Dog,Rat Terrier/Australian Cattle Dog,1
+2013,Dog,Labrador Retriever/Dachshund,1
+2013,Dog,Rat Terrier/Pit Bull,1
+2013,Dog,Labrador Retriever/Flat Coat Retriever,1
+2013,Dog,Redbone Hound,1
+2013,Dog,Australian Cattle Dog/English Coonhound,1
+2013,Dog,Redbone Hound/Boxer,1
+2013,Dog,Canaan Dog/Pit Bull,1
+2013,Dog,Rhod Ridgeback,1
+2013,Dog,Cane Corso Mix,1
+2013,Dog,Rhod Ridgeback/Pit Bull,1
+2013,Dog,Labrador Retriever/Greyhound,1
+2013,Dog,Cocker Spaniel/Miniature Poodle,1
+2013,Dog,Labrador Retriever/Jack Russell Terrier,1
+2013,Dog,Collie Rough/Australian Cattle Dog,1
+2013,Dog,Beagle/American Staffordshire Terrier,1
+2013,Dog,Scottish Terrier Mix,1
+2013,Dog,Labrador Retriever/Rhod Ridgeback,1
+2013,Dog,Black/Tan Hound/Labrador Retriever,1
+2013,Dog,Cardigan Welsh Corgi/Australian Cattle Dog,1
+2013,Dog,Shetland Sheepdog/Italian Greyhound,1
+2013,Dog,Cardigan Welsh Corgi/Australian Kelpie,1
+2013,Dog,Collie Smooth/Golden Retriever,1
+2013,Dog,Cardigan Welsh Corgi/Beagle,1
+2013,Dog,Shih Tzu/Affenpinscher,1
+2013,Dog,Landseer Mix,1
+2013,Dog,Shih Tzu/Havanese,1
+2013,Dog,Beagle/Boxer,1
+2013,Dog,Collie Smooth/Labrador Retriever,1
+2013,Dog,Cardigan Welsh Corgi/Pit Bull,1
+2013,Dog,Australian Kelpie/Chinese Sharpei,1
+2013,Dog,Lhasa Apso/Miniature Poodle,1
+2013,Dog,Dachshund Longhair/Chihuahua Shorthair,1
+2013,Dog,Maltese,1
+2013,Dog,Blue Lacy/Great Dane,1
+2013,Dog,Cardigan Welsh Corgi/Rat Terrier,1
+2013,Dog,Soft Coated Wheaten Terrier/Yorkshire Terrier,1
+2013,Dog,Beagle/Chihuahua Longhair,1
+2013,Dog,Staffordshire,1
+2013,Dog,Maltese/Papillon,1
+2013,Dog,Staffordshire/Beagle,1
+2013,Dog,Catahoula,1
+2013,Dog,Standard Poodle,1
+2013,Dog,Alaskan Malamute Mix,1
+2013,Dog,Standard Schnauzer,1
+2013,Dog,Mastiff/Dutch Shepherd,1
+2013,Dog,Swedish Vallhund Mix,1
+2013,Dog,Mastiff/Pit Bull,1
+2013,Dog,Toy Poodle,1
+2013,Dog,Catahoula/Alaskan Husky,1
+2013,Dog,Toy Poodle/Miniature Schnauzer,1
+2013,Dog,Beagle/Cocker Spaniel,1
+2013,Dog,Vizsla,1
+2013,Dog,Miniature Pinscher/Australian Cattle Dog,1
+2013,Dog,Vizsla/Dachshund,1
+2013,Dog,Catahoula/Boxer,1
+2013,Dog,Weimaraner/Labrador Retriever,1
+2013,Dog,Catahoula/Chow Chow,1
+2013,Dog,West Highland Mix,1
+2013,Dog,Miniature Poodle/Labrador Retriever,1
+2013,Dog,Whippet/Beagle,1
+2013,Dog,Miniature Poodle/Maltese,1
+2013,Dog,Dachshund/Cardigan Welsh Corgi,1
+2013,Dog,Miniature Poodle/Yorkshire Terrier,1
+2013,Dog,Yorkshire Terrier,1
+2013,Dog,Beagle/Dachshund,1
+2013,Dog,Yorkshire Terrier/Border Terrier,1
+2013,Dog,Catahoula/Mastiff,1
+2013,Dog,Australian Kelpie/Miniature Pinscher,1
+2013,Dog,Catahoula/Pit Bull,1
+2013,Dog,Dachshund/German Pinscher,1
+2013,Dog,Catahoula/Pointer,1
+2013,Dog,Newfoundland/Australian Cattle Dog,1
+2013,Dog,German Shepherd/Black/Tan Hound,1
+2014,Cat,Domestic Shorthair Mix,5443
+2014,Cat,Domestic Medium Hair Mix,513
+2014,Cat,Domestic Longhair Mix,334
+2014,Cat,Siamese Mix,230
+2014,Cat,Domestic Shorthair,80
+2014,Cat,Snowshoe Mix,60
+2014,Cat,Manx Mix,41
+2014,Cat,Maine Coon Mix,36
+2014,Cat,Russian Blue Mix,29
+2014,Cat,Domestic Medium Hair,27
+2014,Cat,Siamese,18
+2014,Cat,Domestic Longhair,16
+2014,Cat,Angora Mix,11
+2014,Cat,Himalayan Mix,11
+2014,Cat,Ragdoll Mix,10
+2014,Cat,Japanese Bobtail Mix,7
+2014,Cat,Snowshoe,5
+2014,Cat,Tonkinese Mix,5
+2014,Cat,Persian Mix,4
+2014,Cat,Cymric Mix,4
+2014,Cat,American Shorthair Mix,4
+2014,Cat,Maine Coon,3
+2014,Cat,Balinese Mix,3
+2014,Cat,Ragdoll,2
+2014,Cat,Himalayan,2
+2014,Cat,Bengal Mix,2
+2014,Cat,Russian Blue,2
+2014,Cat,Pixiebob Shorthair Mix,2
+2014,Cat,Devon Rex,2
+2014,Cat,Bombay Mix,2
+2014,Cat,Domestic Shorthair/Siamese,2
+2014,Cat,Persian,2
+2014,Cat,British Shorthair Mix,2
+2014,Cat,Domestic Longhair/Rex,2
+2014,Cat,Norwegian Forest Cat Mix,2
+2014,Cat,Manx/Domestic Shorthair,2
+2014,Cat,Siamese/Angora,1
+2014,Cat,Snowshoe/Domestic Shorthair,1
+2014,Cat,Domestic Medium Hair/Siamese,1
+2014,Cat,Manx/Domestic Longhair,1
+2014,Cat,Sphynx,1
+2014,Cat,British Shorthair,1
+2014,Cat,Siamese/Domestic Shorthair,1
+2014,Cat,Domestic Longhair/Russian Blue,1
+2014,Cat,Chartreux Mix,1
+2014,Cat,Domestic Shorthair/British Shorthair,1
+2014,Cat,Snowshoe/Ragdoll,1
+2014,Cat,Devon Rex Mix,1
+2014,Cat,Exotic Shorthair Mix,1
+2014,Cat,Angora/Persian,1
+2014,Cat,Munchkin Shorthair Mix,1
+2014,Dog,Pit Bull Mix,1374
+2014,Dog,Chihuahua Shorthair Mix,1084
+2014,Dog,Labrador Retriever Mix,815
+2014,Dog,German Shepherd Mix,372
+2014,Dog,Australian Cattle Dog Mix,245
+2014,Dog,Dachshund Mix,203
+2014,Dog,Border Collie Mix,152
+2014,Dog,Miniature Poodle Mix,148
+2014,Dog,Boxer Mix,144
+2014,Dog,Catahoula Mix,123
+2014,Dog,Jack Russell Terrier Mix,113
+2014,Dog,Rat Terrier Mix,106
+2014,Dog,Australian Shepherd Mix,106
+2014,Dog,Yorkshire Terrier Mix,105
+2014,Dog,Beagle Mix,94
+2014,Dog,Siberian Husky Mix,89
+2014,Dog,Miniature Schnauzer Mix,86
+2014,Dog,Chihuahua Shorthair/Dachshund,86
+2014,Dog,Australian Kelpie Mix,82
+2014,Dog,American Bulldog Mix,79
+2014,Dog,Rottweiler Mix,77
+2014,Dog,American Staffordshire Terrier Mix,70
+2014,Dog,Chihuahua Longhair Mix,66
+2014,Dog,Cairn Terrier Mix,64
+2014,Dog,Labrador Retriever,63
+2014,Dog,Shih Tzu Mix,61
+2014,Dog,Pointer Mix,61
+2014,Dog,Great Pyrenees Mix,61
+2014,Dog,Staffordshire Mix,56
+2014,Dog,Labrador Retriever/Pit Bull,50
+2014,Dog,Plott Hound Mix,49
+2014,Dog,Dachshund/Chihuahua Shorthair,49
+2014,Dog,Golden Retriever Mix,47
+2014,Dog,Dachshund,47
+2014,Dog,Chihuahua Shorthair,47
+2014,Dog,Anatol Shepherd Mix,47
+2014,Dog,Pit Bull,46
+2014,Dog,German Shepherd/Labrador Retriever,46
+2014,Dog,Miniature Pinscher Mix,46
+2014,Dog,American Pit Bull Terrier Mix,43
+2014,Dog,Black Mouth Cur Mix,40
+2014,Dog,German Shepherd,38
+2014,Dog,Labrador Retriever/German Shepherd,36
+2014,Dog,Cardigan Welsh Corgi Mix,35
+2014,Dog,Chow Chow Mix,35
+2014,Dog,Shih Tzu,32
+2014,Dog,Queensland Heeler Mix,32
+2014,Dog,Manchester Terrier Mix,32
+2014,Dog,Miniature Schnauzer/Miniature Poodle,32
+2014,Dog,Boston Terrier Mix,32
+2014,Dog,Labrador Retriever/Border Collie,31
+2014,Dog,Maltese Mix,30
+2014,Dog,Cocker Spaniel Mix,30
+2014,Dog,Pomeranian Mix,29
+2014,Dog,Doberman Pinsch Mix,29
+2014,Dog,Australian Cattle Dog/Labrador Retriever,29
+2014,Dog,Carolina Dog Mix,27
+2014,Dog,Border Terrier Mix,27
+2014,Dog,Maltese,26
+2014,Dog,Flat Coat Retriever Mix,26
+2014,Dog,Border Collie/Labrador Retriever,25
+2014,Dog,Pug Mix,24
+2014,Dog,Chihuahua Shorthair/Pug,23
+2014,Dog,Chihuahua Shorthair/Jack Russell Terrier,23
+2014,Dog,Basset Hound Mix,23
+2014,Dog,Maltese/Miniature Poodle,22
+2014,Dog,Dachshund Longhair Mix,22
+2014,Dog,Chihuahua Shorthair/Rat Terrier,22
+2014,Dog,Australian Cattle Dog,22
+2014,Dog,Boxer,22
+2014,Dog,Blue Lacy Mix,22
+2014,Dog,Rottweiler,21
+2014,Dog,Lhasa Apso Mix,21
+2014,Dog,Collie Smooth Mix,21
+2014,Dog,Siberian Husky,20
+2014,Dog,Dachshund Wirehair Mix,20
+2014,Dog,Labrador Retriever/Australian Cattle Dog,19
+2014,Dog,Chinese Sharpei Mix,19
+2014,Dog,Beagle,19
+2014,Dog,Toy Poodle Mix,18
+2014,Dog,Labrador Retriever/Pointer,18
+2014,Dog,Labrador Retriever/Australian Shepherd,18
+2014,Dog,English Bulldog Mix,18
+2014,Dog,Bull Terrier Mix,18
+2014,Dog,Pit Bull/Labrador Retriever,17
+2014,Dog,Rat Terrier/Chihuahua Shorthair,17
+2014,Dog,Great Dane Mix,17
+2014,Dog,Shetland Sheepdog Mix,16
+2014,Dog,Miniature Schnauzer,16
+2014,Dog,Great Pyrenees,16
+2014,Dog,Labrador Retriever/Boxer,16
+2014,Dog,Dogo Argentino Mix,16
+2014,Dog,Pekingese Mix,15
+2014,Dog,Rhod Ridgeback Mix,15
+2014,Dog,Miniature Poodle/Miniature Schnauzer,15
+2014,Dog,Parson Russell Terrier Mix,15
+2014,Dog,Black/Tan Hound Mix,15
+2014,Dog,Redbone Hound Mix,14
+2014,Dog,Pembroke Welsh Corgi Mix,14
+2014,Dog,Weimaraner Mix,14
+2014,Dog,Yorkshire Terrier,14
+2014,Dog,Mastiff Mix,14
+2014,Dog,Miniature Poodle,14
+2014,Dog,Miniature Pinscher/Chihuahua Shorthair,14
+2014,Dog,Chihuahua Shorthair/Cardigan Welsh Corgi,14
+2014,Dog,Doberman Pinsch,14
+2014,Dog,Rat Terrier,13
+2014,Dog,Pug/Chihuahua Shorthair,13
+2014,Dog,Pit Bull/Boxer,13
+2014,Dog,Chihuahua Shorthair/Cairn Terrier,13
+2014,Dog,Catahoula/Labrador Retriever,13
+2014,Dog,Boston Terrier,13
+2014,Dog,Basset Hound,13
+2014,Dog,Pit Bull/Australian Cattle Dog,12
+2014,Dog,Labrador Retriever/Blue Lacy,12
+2014,Dog,Labrador Retriever/Chow Chow,12
+2014,Dog,Australian Shepherd/Labrador Retriever,12
+2014,Dog,Bruss Griffon Mix,12
+2014,Dog,Akita Mix,12
+2014,Dog,Boxer/Pit Bull,12
+2014,Dog,Belgian Malinois Mix,12
+2014,Dog,West Highland Mix,11
+2014,Dog,Pointer/Labrador Retriever,11
+2014,Dog,Italian Greyhound Mix,11
+2014,Dog,German Shorthair Pointer Mix,11
+2014,Dog,Bulldog Mix,11
+2014,Dog,Boxer/Labrador Retriever,11
+2014,Dog,Border Collie,11
+2014,Dog,Shiba Inu Mix,10
+2014,Dog,Soft Coated Wheaten Terrier Mix,10
+2014,Dog,Pug,10
+2014,Dog,Labrador Retriever/Great Pyrenees,10
+2014,Dog,Lhasa Apso,10
+2014,Dog,German Shepherd/Australian Cattle Dog,10
+2014,Dog,Cairn Terrier/Chihuahua Shorthair,10
+2014,Dog,Cocker Spaniel,10
+2014,Dog,American Eskimo Mix,10
+2014,Dog,Border Collie/German Shepherd,10
+2014,Dog,Whippet Mix,9
+2014,Dog,Pit Bull/Catahoula,9
+2014,Dog,Wire Hair Fox Terrier Mix,9
+2014,Dog,Smooth Fox Terrier Mix,9
+2014,Dog,Plott Hound/Labrador Retriever,9
+2014,Dog,German Shepherd/Rottweiler,9
+2014,Dog,German Shepherd/Chow Chow,9
+2014,Dog,Labrador Retriever/Catahoula,9
+2014,Dog,Cardigan Welsh Corgi/Chihuahua Shorthair,9
+2014,Dog,Dachshund/Beagle,9
+2014,Dog,Chihuahua Shorthair/Beagle,9
+2014,Dog,Border Collie/Great Pyrenees,9
+2014,Dog,Rhod Ridgeback/Labrador Retriever,8
+2014,Dog,Yorkshire Terrier/Miniature Poodle,8
+2014,Dog,Great Dane/Labrador Retriever,8
+2014,Dog,Norfolk Terrier Mix,8
+2014,Dog,Harrier Mix,8
+2014,Dog,Chow Chow/Labrador Retriever,8
+2014,Dog,English Pointer Mix,8
+2014,Dog,Australian Cattle Dog/Pit Bull,8
+2014,Dog,Bichon Frise Mix,8
+2014,Dog,Beagle/German Shepherd,8
+2014,Dog,Tibetan Spaniel Mix,7
+2014,Dog,Standard Poodle Mix,7
+2014,Dog,Siberian Husky/German Shepherd,7
+2014,Dog,Pug/Beagle,7
+2014,Dog,Rottweiler/Labrador Retriever,7
+2014,Dog,Vizsla Mix,7
+2014,Dog,Labrador Retriever/Beagle,7
+2014,Dog,Jack Russell Terrier,7
+2014,Dog,German Shepherd/Boxer,7
+2014,Dog,Great Pyrenees/Border Collie,7
+2014,Dog,Havanese Mix,7
+2014,Dog,Golden Retriever/Chow Chow,7
+2014,Dog,German Shepherd/Siberian Husky,7
+2014,Dog,Dogue De Bordeaux Mix,7
+2014,Dog,Catahoula/Pit Bull,7
+2014,Dog,Chesa Bay Retr Mix,7
+2014,Dog,Cavalier Span Mix,7
+2014,Dog,Dachshund Longhair,7
+2014,Dog,Chihuahua Shorthair/Border Terrier,7
+2014,Dog,Feist Mix,7
+2014,Dog,Chihuahua Shorthair/Yorkshire Terrier,7
+2014,Dog,Australian Cattle Dog/Border Collie,7
+2014,Dog,American Bulldog,7
+2014,Dog,Australian Shepherd,7
+2014,Dog,Staffordshire,6
+2014,Dog,Pit Bull/Chinese Sharpei,6
+2014,Dog,Siberian Husky/Labrador Retriever,6
+2014,Dog,Pbgv Mix,6
+2014,Dog,St. Bernard Smooth Coat Mix,6
+2014,Dog,West Highland,6
+2014,Dog,Standard Schnauzer Mix,6
+2014,Dog,Siberian Husky/Australian Cattle Dog,6
+2014,Dog,Pomeranian,6
+2014,Dog,German Shepherd/Doberman Pinsch,6
+2014,Dog,Great Pyrenees/Labrador Retriever,6
+2014,Dog,Norwich Terrier Mix,6
+2014,Dog,Jack Russell Terrier/Dachshund,6
+2014,Dog,Golden Retriever/Labrador Retriever,6
+2014,Dog,Labrador Retriever/Basset Hound,6
+2014,Dog,Irish Terrier Mix,6
+2014,Dog,Papillon Mix,6
+2014,Dog,Bullmastiff Mix,6
+2014,Dog,Cane Corso Mix,6
+2014,Dog,Bull Terrier,6
+2014,Dog,Cairn Terrier/Yorkshire Terrier,6
+2014,Dog,French Bulldog Mix,6
+2014,Dog,Chinese Sharpei/Labrador Retriever,6
+2014,Dog,Cairn Terrier,6
+2014,Dog,Chow Chow,6
+2014,Dog,Dutch Shepherd Mix,6
+2014,Dog,Border Terrier/Chihuahua Shorthair,6
+2014,Dog,Australian Cattle Dog/Beagle,6
+2014,Dog,Beagle/Dachshund,6
+2014,Dog,Beagle/Labrador Retriever,6
+2014,Dog,American Staffordshire Terrier,6
+2014,Dog,Blue Lacy/American Bulldog,6
+2014,Dog,Australian Shepherd/Border Collie,6
+2014,Dog,Pointer/Catahoula,5
+2014,Dog,Pembroke Welsh Corgi,5
+2014,Dog,Pit Bull/Pointer,5
+2014,Dog,Plott Hound,5
+2014,Dog,Yorkshire Terrier/Maltese,5
+2014,Dog,Schipperke Mix,5
+2014,Dog,Yorkshire Terrier/Cairn Terrier,5
+2014,Dog,German Shepherd/Cardigan Welsh Corgi,5
+2014,Dog,Otterhound Mix,5
+2014,Dog,Labrador Retriever/Plott Hound,5
+2014,Dog,Labrador Retriever/Siberian Husky,5
+2014,Dog,Great Dane,5
+2014,Dog,Miniature Pinscher,5
+2014,Dog,Jack Russell Terrier/Australian Cattle Dog,5
+2014,Dog,Jack Russell Terrier/Chihuahua Shorthair,5
+2014,Dog,Irish Setter/Pit Bull,5
+2014,Dog,Manchester Terrier/Beagle,5
+2014,Dog,Labrador Retriever/Chinese Sharpei,5
+2014,Dog,Chow Chow/Australian Cattle Dog,5
+2014,Dog,German Shepherd/Border Collie,5
+2014,Dog,Catahoula,5
+2014,Dog,Chihuahua Longhair,5
+2014,Dog,Chihuahua Shorthair/Dachshund Wirehair,5
+2014,Dog,English Foxhound Mix,5
+2014,Dog,Dachshund Wirehair/Chihuahua Shorthair,5
+2014,Dog,Chihuahua Shorthair/Boston Terrier,5
+2014,Dog,Catahoula/Pointer,5
+2014,Dog,Collie Rough Mix,5
+2014,Dog,Finnish Spitz Mix,5
+2014,Dog,Chow Chow/German Shepherd,5
+2014,Dog,American Bulldog/Pit Bull,5
+2014,Dog,Beauceron Mix,5
+2014,Dog,Australian Kelpie,5
+2014,Dog,Boxer/Catahoula,5
+2014,Dog,Alaskan Husky Mix,5
+2014,Dog,American Staffordshire Terrier/Labrador Retriever,5
+2014,Dog,Basset Hound/Australian Cattle Dog,5
+2014,Dog,Anatol Shepherd,5
+2014,Dog,Basenji Mix,5
+2014,Dog,Brittany Mix,5
+2014,Dog,Wire Hair Fox Terrier/Chihuahua Shorthair,4
+2014,Dog,Toy Fox Terrier Mix,4
+2014,Dog,Silky Terrier Mix,4
+2014,Dog,Presa Canario Mix,4
+2014,Dog,Treeing Walker Coonhound Mix,4
+2014,Dog,Patterdale Terr Mix,4
+2014,Dog,Pekingese,4
+2014,Dog,Pit Bull/Weimaraner,4
+2014,Dog,Tibetan Terrier Mix,4
+2014,Dog,Pharaoh Hound Mix,4
+2014,Dog,Toy Poodle,4
+2014,Dog,Pbgv,4
+2014,Dog,Wire Hair Fox Terrier/Beagle,4
+2014,Dog,Samoyed Mix,4
+2014,Dog,Pointer/Border Collie,4
+2014,Dog,Newfoundland Mix,4
+2014,Dog,Greater Swiss Mountain Dog Mix,4
+2014,Dog,Labrador Retriever/Collie Smooth,4
+2014,Dog,Greyhound Mix,4
+2014,Dog,Miniature Schnauzer/Chihuahua Shorthair,4
+2014,Dog,Labrador Retriever/Jack Russell Terrier,4
+2014,Dog,Norfolk Terrier/Yorkshire Terrier,4
+2014,Dog,Labrador Retriever/American Bulldog,4
+2014,Dog,Great Pyrenees/Standard Poodle,4
+2014,Dog,Labrador Retriever/Australian Kelpie,4
+2014,Dog,Jack Russell Terrier/Labrador Retriever,4
+2014,Dog,Miniature Poodle/Maltese,4
+2014,Dog,German Shepherd/Catahoula,4
+2014,Dog,Dalmatian,4
+2014,Dog,English Coonhound Mix,4
+2014,Dog,Catahoula/German Shepherd,4
+2014,Dog,Chihuahua Shorthair/Miniature Pinscher,4
+2014,Dog,French Bulldog,4
+2014,Dog,Chinese Crested Mix,4
+2014,Dog,Dalmatian Mix,4
+2014,Dog,Chow Chow/Golden Retriever,4
+2014,Dog,Dutch Shepherd,4
+2014,Dog,Cocker Spaniel/Miniature Poodle,4
+2014,Dog,Catahoula/Plott Hound,4
+2014,Dog,German Shepherd/Alaskan Malamute,4
+2014,Dog,Dachshund/Australian Cattle Dog,4
+2014,Dog,Collie Smooth/Labrador Retriever,4
+2014,Dog,Alaskan Malamute Mix,4
+2014,Dog,Bruss Griffon/Pug,4
+2014,Dog,American Foxhound Mix,4
+2014,Dog,Australian Cattle Dog/Pointer,4
+2014,Dog,Beagle/Jack Russell Terrier,4
+2014,Dog,Black Mouth Cur,4
+2014,Dog,Affenpinscher Mix,4
+2014,Dog,Anatol Shepherd/Labrador Retriever,4
+2014,Dog,Boston Terrier/Chihuahua Shorthair,4
+2014,Dog,Australian Cattle Dog/Akita,4
+2014,Dog,Bloodhound Mix,4
+2014,Dog,Beagle/Chihuahua Shorthair,4
+2014,Dog,Beagle/Pug,4
+2014,Dog,Yorkshire Terrier/Chihuahua Shorthair,3
+2014,Dog,Pit Bull/German Shepherd,3
+2014,Dog,Welsh Terrier Mix,3
+2014,Dog,Rottweiler/Australian Cattle Dog,3
+2014,Dog,Rhod Ridgeback,3
+2014,Dog,Pit Bull/Chihuahua Shorthair,3
+2014,Dog,Pointer/American Pit Bull Terrier,3
+2014,Dog,Podengo Pequeno Mix,3
+2014,Dog,Pointer/Australian Cattle Dog,3
+2014,Dog,Yorkshire Terrier/Miniature Schnauzer,3
+2014,Dog,Whippet/Dachshund,3
+2014,Dog,Rat Terrier/Beagle,3
+2014,Dog,Queensland Heeler/Pit Bull,3
+2014,Dog,Shetland Sheepdog,3
+2014,Dog,Yorkshire Terrier/Border Terrier,3
+2014,Dog,German Shepherd/Pit Bull,3
+2014,Dog,Miniature Poodle/Cocker Spaniel,3
+2014,Dog,Greyhound,3
+2014,Dog,Labrador Retriever/Great Dane,3
+2014,Dog,German Shepherd/Chinese Sharpei,3
+2014,Dog,Labrador Retriever/American Pit Bull Terrier,3
+2014,Dog,Golden Retriever,3
+2014,Dog,Labrador Retriever/Rottweiler,3
+2014,Dog,Labrador Retriever/Golden Retriever,3
+2014,Dog,German Shorthair Pointer,3
+2014,Dog,Miniature Poodle/Dachshund,3
+2014,Dog,Labrador Retriever/Black Mouth Cur,3
+2014,Dog,Parson Russell Terrier,3
+2014,Dog,Keeshond Mix,3
+2014,Dog,Harrier,3
+2014,Dog,Great Dane/Mastiff,3
+2014,Dog,Maltese/Yorkshire Terrier,3
+2014,Dog,Kuvasz Mix,3
+2014,Dog,Golden Retriever/Great Pyrenees,3
+2014,Dog,German Shepherd/Golden Retriever,3
+2014,Dog,Great Pyrenees/Rottweiler,3
+2014,Dog,Labrador Retriever/Flat Coat Retriever,3
+2014,Dog,Manchester Terrier/Jack Russell Terrier,3
+2014,Dog,Labrador Retriever/Doberman Pinsch,3
+2014,Dog,Chihuahua Shorthair/Wire Hair Fox Terrier,3
+2014,Dog,Carolina Dog,3
+2014,Dog,Chinese Sharpei,3
+2014,Dog,Chihuahua Longhair/Maltese,3
+2014,Dog,Chihuahua Shorthair/Whippet,3
+2014,Dog,Cane Corso,3
+2014,Dog,Cairn Terrier/Dachshund,3
+2014,Dog,Cairn Terrier/Chihuahua Longhair,3
+2014,Dog,Flat Coat Retriever/Pit Bull,3
+2014,Dog,Chihuahua Shorthair/Italian Greyhound,3
+2014,Dog,Dalmatian/Labrador Retriever,3
+2014,Dog,Dachshund Longhair/Chihuahua Shorthair,3
+2014,Dog,Catahoula/Great Dane,3
+2014,Dog,Chihuahua Longhair/Cairn Terrier,3
+2014,Dog,English Bulldog,3
+2014,Dog,Dachshund/Pit Bull,3
+2014,Dog,Chihuahua Longhair/Dachshund,3
+2014,Dog,Dachshund/Rat Terrier,3
+2014,Dog,Flat Coat Retriever/German Shepherd,3
+2014,Dog,Dachshund/Shih Tzu,3
+2014,Dog,Cardigan Welsh Corgi/German Shepherd,3
+2014,Dog,Chihuahua Shorthair/Miniature Schnauzer,3
+2014,Dog,Cardigan Welsh Corgi/Cocker Spaniel,3
+2014,Dog,Chesa Bay Retr/Labrador Retriever,3
+2014,Dog,Border Terrier/Yorkshire Terrier,3
+2014,Dog,Australian Cattle Dog/Catahoula,3
+2014,Dog,American Bulldog/Labrador Retriever,3
+2014,Dog,Australian Cattle Dog/Plott Hound,3
+2014,Dog,Airedale Terrier Mix,3
+2014,Dog,Australian Kelpie/Blue Lacy,3
+2014,Dog,American Pit Bull Terrier,3
+2014,Dog,Australian Shepherd/Australian Cattle Dog,3
+2014,Dog,Bernese Mountain Dog Mix,3
+2014,Dog,Australian Shepherd/Chow Chow,3
+2014,Dog,Bluetick Hound,3
+2014,Dog,Australian Shepherd/Cocker Spaniel,3
+2014,Dog,Border Terrier,3
+2014,Dog,Australian Shepherd/Plott Hound,3
+2014,Dog,Alaskan Malamute/Border Collie,3
+2014,Dog,Anatol Shepherd/German Shepherd,3
+2014,Dog,Boxer/Staffordshire,3
+2014,Dog,Bruss Griffon/Chihuahua Shorthair,3
+2014,Dog,Bichon Frise,3
+2014,Dog,Pit Bull/Flat Coat Retriever,2
+2014,Dog,Pointer,2
+2014,Dog,Plott Hound/Rhod Ridgeback,2
+2014,Dog,Pointer/Harrier,2
+2014,Dog,Vizsla,2
+2014,Dog,Pointer/Jack Russell Terrier,2
+2014,Dog,Whippet/Australian Kelpie,2
+2014,Dog,Rat Terrier/Dachshund,2
+2014,Dog,Staffordshire/Blue Lacy,2
+2014,Dog,Redbone Hound,2
+2014,Dog,Treeing Cur Mix,2
+2014,Dog,Rottweiler/Chow Chow,2
+2014,Dog,Vizsla/Golden Retriever,2
+2014,Dog,Rottweiler/Doberman Pinsch,2
+2014,Dog,Pug/Labrador Retriever,2
+2014,Dog,Rottweiler/German Shepherd,2
+2014,Dog,St. Bernard Smooth Coat/Anatol Shepherd,2
+2014,Dog,Schipperke/Chihuahua Shorthair,2
+2014,Dog,Pit Bull/Dachshund,2
+2014,Dog,Scottish Terrier Mix,2
+2014,Dog,Staffordshire/English Bulldog,2
+2014,Dog,Pit Bull/Pit Bull,2
+2014,Dog,Pit Bull/Dalmatian,2
+2014,Dog,Shiba Inu/German Shepherd,2
+2014,Dog,Treeing Walker Coonhound/Labrador Retriever,2
+2014,Dog,Pbgv/Jack Russell Terrier,2
+2014,Dog,Pug/Italian Greyhound,2
+2014,Dog,Skye Terrier Mix,2
+2014,Dog,Weimaraner,2
+2014,Dog,Soft Coated Wheaten Terrier,2
+2014,Dog,Weimaraner/Labrador Retriever,2
+2014,Dog,Soft Coated Wheaten Terrier/Labrador Retriever,2
+2014,Dog,Queensland Heeler,2
+2014,Dog,Spinone Italiano Mix,2
+2014,Dog,Parson Russell Terrier/Chihuahua Shorthair,2
+2014,Dog,Plott Hound/Pit Bull,2
+2014,Dog,Siberian Husky/Pit Bull,2
+2014,Dog,Miniature Poodle/Lhasa Apso,2
+2014,Dog,Newfoundland/Great Pyrenees,2
+2014,Dog,Labrador Retriever/Dachshund,2
+2014,Dog,Jack Russell Terrier/Welsh Terrier,2
+2014,Dog,Golden Retriever/Akita,2
+2014,Dog,German Shepherd/Pembroke Welsh Corgi,2
+2014,Dog,Leonberger Mix,2
+2014,Dog,Labrador Retriever/Border Terrier,2
+2014,Dog,Lhasa Apso/Miniature Poodle,2
+2014,Dog,Jindo Mix,2
+2014,Dog,Lhasa Apso/Shih Tzu,2
+2014,Dog,Mastiff,2
+2014,Dog,Labrador Retriever/English Springer Spaniel,2
+2014,Dog,Irish Terrier/Labrador Retriever,2
+2014,Dog,Labrador Retriever/Standard Schnauzer,2
+2014,Dog,Mastiff/Rottweiler,2
+2014,Dog,Great Dane/Anatol Shepherd,2
+2014,Dog,Ibizan Hound Mix,2
+2014,Dog,Labrador Retriever/Dalmatian,2
+2014,Dog,German Shepherd/Collie Rough,2
+2014,Dog,Lhasa Apso/Miniature Schnauzer,2
+2014,Dog,Great Pyrenees/Australian Cattle Dog,2
+2014,Dog,Newfoundland/Labrador Retriever,2
+2014,Dog,Glen Of Imaal Mix,2
+2014,Dog,Great Dane/Pit Bull,2
+2014,Dog,Labrador Retriever/Queensland Heeler,2
+2014,Dog,Maltese/Jack Russell Terrier,2
+2014,Dog,Labrador Retriever/Cocker Spaniel,2
+2014,Dog,Maltese/Toy Poodle,2
+2014,Dog,Jack Russell Terrier/Pit Bull,2
+2014,Dog,Labrador Retriever/Bloodhound,2
+2014,Dog,Labrador Retriever/Chesa Bay Retr,2
+2014,Dog,Chihuahua Shorthair/Manchester Terrier,2
+2014,Dog,Doberman Pinsch/Labrador Retriever,2
+2014,Dog,Dachshund/Jack Russell Terrier,2
+2014,Dog,Chihuahua Shorthair/Toy Fox Terrier,2
+2014,Dog,English Shepherd Mix,2
+2014,Dog,Chihuahua Longhair/Pekingese,2
+2014,Dog,Dachshund/Chihuahua Longhair,2
+2014,Dog,Chihuahua Longhair/Pomeranian,2
+2014,Dog,Doberman Pinsch/Australian Cattle Dog,2
+2014,Dog,Chinese Sharpei/Great Dane,2
+2014,Dog,Dogo Argentino/Labrador Retriever,2
+2014,Dog,Cardigan Welsh Corgi/Miniature Pinscher,2
+2014,Dog,English Springer Spaniel Mix,2
+2014,Dog,Canaan Dog Mix,2
+2014,Dog,French Bulldog/Chihuahua Shorthair,2
+2014,Dog,Chow Chow/Basset Hound,2
+2014,Dog,Dachshund/Harrier,2
+2014,Dog,Chihuahua Shorthair/Basenji,2
+2014,Dog,Catahoula/Chinese Sharpei,2
+2014,Dog,Collie Rough/Chinese Sharpei,2
+2014,Dog,Doberman Pinsch/German Shepherd,2
+2014,Dog,Collie Smooth/Boxer,2
+2014,Dog,Dogo Argentino,2
+2014,Dog,Dachshund Wirehair/Border Terrier,2
+2014,Dog,Chihuahua Shorthair/German Shepherd,2
+2014,Dog,Dachshund Wirehair/Chihuahua Longhair,2
+2014,Dog,English Springer Spaniel,2
+2014,Dog,Bull Terrier Miniature Mix,2
+2014,Dog,Finnish Spitz/Chow Chow,2
+2014,Dog,Catahoula/Boxer,2
+2014,Dog,Cavalier Span,2
+2014,Dog,German Shepherd/Australian Shepherd,2
+2014,Dog,German Pinscher Mix,2
+2014,Dog,Chihuahua Shorthair/Pomeranian,2
+2014,Dog,Dachshund/Belgian Malinois,2
+2014,Dog,Boston Terrier/Pembroke Welsh Corgi,2
+2014,Dog,Border Collie/Basenji,2
+2014,Dog,Bluetick Hound Mix,2
+2014,Dog,Australian Kelpie/Labrador Retriever,2
+2014,Dog,Border Collie/Dachshund,2
+2014,Dog,Australian Kelpie/Rat Terrier,2
+2014,Dog,Boxer/Pointer,2
+2014,Dog,Australian Shepherd/Boxer,2
+2014,Dog,Alaskan Malamute,2
+2014,Dog,Australian Cattle Dog/German Shepherd,2
+2014,Dog,Border Collie/Boxer,2
+2014,Dog,Australian Shepherd/Pit Bull,2
+2014,Dog,Border Terrier/Dachshund,2
+2014,Dog,Australian Terrier Mix,2
+2014,Dog,Boxer/American Bulldog,2
+2014,Dog,Basenji/Chihuahua Longhair,2
+2014,Dog,Australian Kelpie/American Pit Bull Terrier,2
+2014,Dog,Basset Hound/Beagle,2
+2014,Dog,Boerboel Mix,2
+2014,Dog,Beagle/Boxer,2
+2014,Dog,Border Collie/Australian Cattle Dog,2
+2014,Dog,American Pit Bull Terrier/American Pit Bull Terrier,2
+2014,Dog,Border Collie/Beagle,2
+2014,Dog,Belgian Sheepdog Mix,2
+2014,Dog,Border Collie/Chow Chow,2
+2014,Dog,Belgian Tervuren Mix,2
+2014,Dog,American Staffordshire Terrier/American Bulldog,2
+2014,Dog,Bernese Mountain Dog,2
+2014,Dog,Australian Cattle Dog/Boxer,2
+2014,Dog,Australian Kelpie/Australian Shepherd,2
+2014,Dog,Alaskan Malamute/Labrador Retriever,2
+2014,Dog,Blue Lacy,2
+2014,Dog,Boxer/Boston Terrier,2
+2014,Dog,Alaskan Husky/Australian Shepherd,2
+2014,Dog,Boxer/Rhod Ridgeback,2
+2014,Dog,Akita,2
+2014,Dog,Boykin Span Mix,2
+2014,Dog,Blue Lacy/Pit Bull,2
+2014,Dog,Black/Tan Hound/Black Mouth Cur,2
+2014,Dog,Patterdale Terr/Chihuahua Shorthair,1
+2014,Dog,Pit Bull/Plott Hound,1
+2014,Dog,Swiss Hound/Pit Bull,1
+2014,Dog,Yorkshire Terrier/Pomeranian,1
+2014,Dog,West Highland/Chihuahua Shorthair,1
+2014,Dog,Saluki/Doberman Pinsch,1
+2014,Dog,Standard Poodle/Labrador Retriever,1
+2014,Dog,Saluki/Labrador Retriever,1
+2014,Dog,Toy Poodle/Miniature Schnauzer,1
+2014,Dog,Samoyed,1
+2014,Dog,Pembroke Welsh Corgi/Pit Bull,1
+2014,Dog,Pit Bull/Rottweiler,1
+2014,Dog,Queensland Heeler/Basset Hound,1
+2014,Dog,Plott Hound/Boxer,1
+2014,Dog,Redbone Hound/Redbone Hound,1
+2014,Dog,Rat Terrier/Basenji,1
+2014,Dog,Standard Schnauzer/Soft Coated Wheaten Terrier,1
+2014,Dog,Schnauzer Giant/Labrador Retriever,1
+2014,Dog,Pembroke Welsh Corgi/Australian Cattle Dog,1
+2014,Dog,Queensland Heeler/Parson Russell Terrier,1
+2014,Dog,Treeing Walker Coonhound/Australian Cattle Dog,1
+2014,Dog,Scottish Terrier/Miniature Poodle,1
+2014,Dog,Vizsla/Labrador Retriever,1
+2014,Dog,Sealyham Terr Mix,1
+2014,Dog,Welsh Terrier/Wire Hair Fox Terrier,1
+2014,Dog,Pit Bull/Siberian Husky,1
+2014,Dog,Whippet/Rat Terrier,1
+2014,Dog,Pit Bull/Blue Lacy,1
+2014,Dog,Pit Bull/Mastiff,1
+2014,Dog,Shetland Sheepdog/Brittany,1
+2014,Dog,Redbone Hound/Labrador Retriever,1
+2014,Dog,Shetland Sheepdog/Cardigan Welsh Corgi,1
+2014,Dog,Staffordshire/Labrador Retriever,1
+2014,Dog,Shetland Sheepdog/Chihuahua Longhair,1
+2014,Dog,Pointer/Pit Bull,1
+2014,Dog,Shetland Sheepdog/Dachshund Longhair,1
+2014,Dog,Standard Schnauzer/Toy Poodle,1
+2014,Dog,Yorkshire Terrier/Bruss Griffon,1
+2014,Dog,Pekingese/Lhasa Apso,1
+2014,Dog,Pomeranian/Chihuahua Longhair,1
+2014,Dog,Rhod Ridgeback/Bullmastiff,1
+2014,Dog,Rat Terrier/Boston Terrier,1
+2014,Dog,Rhod Ridgeback/Harrier,1
+2014,Dog,Rat Terrier/Cardigan Welsh Corgi,1
+2014,Dog,Pit Bull/Alaskan Husky,1
+2014,Dog,Shiba Inu/Siberian Husky,1
+2014,Dog,Vizsla/Boxer,1
+2014,Dog,Pit Bull/Boston Terrier,1
+2014,Dog,Rottweiler/Basset Hound,1
+2014,Dog,Rat Terrier/Chihuahua Longhair,1
+2014,Dog,Welsh Springer Spaniel Mix,1
+2014,Dog,Shih Tzu/Cocker Spaniel,1
+2014,Dog,Rat Terrier/Australian Cattle Dog,1
+2014,Dog,Shih Tzu/Dachshund,1
+2014,Dog,Pekingese/Catahoula,1
+2014,Dog,Shih Tzu/Havanese,1
+2014,Dog,Wire Hair Fox Terrier,1
+2014,Dog,Pit Bull/Pharaoh Hound,1
+2014,Dog,Wire Hair Fox Terrier/Golden Retriever,1
+2014,Dog,Pomeranian/Jack Russell Terrier,1
+2014,Dog,Queensland Heeler/Shetland Sheepdog,1
+2014,Dog,Shih Tzu/Norfolk Terrier,1
+2014,Dog,Redbone Hound/Anatol Shepherd,1
+2014,Dog,Shih Tzu/Pekingese,1
+2014,Dog,Staffordshire/Australian Cattle Dog,1
+2014,Dog,Pit Bull/Bulldog,1
+2014,Dog,Pekingese/Pug,1
+2014,Dog,Pomeranian/Schipperke,1
+2014,Dog,Pointer/Boxer,1
+2014,Dog,Plott Hound/Bull Terrier,1
+2014,Dog,Standard Schnauzer,1
+2014,Dog,Siberian Husky/Beagle,1
+2014,Dog,Standard Schnauzer/Border Terrier,1
+2014,Dog,Siberian Husky/Border Collie,1
+2014,Dog,Standard Schnauzer/Standard Poodle,1
+2014,Dog,Siberian Husky/Cardigan Welsh Corgi,1
+2014,Dog,Swedish Vallhund/Miniature Poodle,1
+2014,Dog,Siberian Husky/Catahoula,1
+2014,Dog,Tibetan Spaniel,1
+2014,Dog,Siberian Husky/Chinese Sharpei,1
+2014,Dog,Pointer/Brittany,1
+2014,Dog,Plott Hound/Carolina Dog,1
+2014,Dog,Pit Bull/Rhod Ridgeback,1
+2014,Dog,Siberian Husky/Great Pyrenees,1
+2014,Dog,Toy Poodle/Bichon Frise,1
+2014,Dog,Pekingese/Chihuahua Shorthair,1
+2014,Dog,Toy Poodle/Yorkshire Terrier,1
+2014,Dog,Queensland Heeler/Dachshund,1
+2014,Dog,Pembroke Welsh Corgi/Brittany,1
+2014,Dog,Siberian Husky/Rottweiler,1
+2014,Dog,Treeing Walker Coonhound/German Shepherd,1
+2014,Dog,Silky Terrier,1
+2014,Dog,Pit Bull/American Bulldog,1
+2014,Dog,Pomeranian/Shetland Sheepdog,1
+2014,Dog,Vizsla/Beagle,1
+2014,Dog,Picardy Sheepdog,1
+2014,Dog,Pointer/Queensland Heeler,1
+2014,Dog,Skye Terrier/Miniature Poodle,1
+2014,Dog,Vizsla/Rhod Ridgeback,1
+2014,Dog,Presa Canario,1
+2014,Dog,Rottweiler/Boxer,1
+2014,Dog,Smooth Fox Terrier/Jack Russell Terrier,1
+2014,Dog,Weimaraner/Pit Bull,1
+2014,Dog,Queensland Heeler/Pointer,1
+2014,Dog,Pointer/Ibizan Hound,1
+2014,Dog,Plott Hound/Mastiff,1
+2014,Dog,Pug/Staffordshire,1
+2014,Dog,Soft Coated Wheaten Terrier/Border Terrier,1
+2014,Dog,West Highland/Cairn Terrier,1
+2014,Dog,Soft Coated Wheaten Terrier/Chihuahua Shorthair,1
+2014,Dog,Pit Bull/Jack Russell Terrier,1
+2014,Dog,Rat Terrier/Pembroke Welsh Corgi,1
+2014,Dog,Pembroke Welsh Corgi/Chihuahua Shorthair,1
+2014,Dog,Soft Coated Wheaten Terrier/Standard Poodle,1
+2014,Dog,Whippet/Shetland Sheepdog,1
+2014,Dog,Rat Terrier/Pointer,1
+2014,Dog,Plott Hound/Blue Lacy,1
+2014,Dog,St. Bernard Rough Coat Mix,1
+2014,Dog,Queensland Heeler/Border Collie,1
+2014,Dog,St. Bernard Rough Coat/Border Collie,1
+2014,Dog,Wirehaired Pointing Griffon Mix,1
+2014,Dog,St. Bernard Rough Coat/Labrador Retriever,1
+2014,Dog,Pointer/Rhod Ridgeback,1
+2014,Dog,St. Bernard Rough Coat/Standard Schnauzer,1
+2014,Dog,Shih Tzu/Miniature Poodle,1
+2014,Dog,Shih Tzu/Miniature Schnauzer,1
+2014,Dog,Pit Bull/Border Collie,1
+2014,Dog,Yorkshire Terrier/Dachshund Wirehair,1
+2014,Dog,Shiba Inu/Chinese Sharpei,1
+2014,Dog,Shiba Inu/Dachshund,1
+2014,Dog,Rottweiler/Pit Bull,1
+2014,Dog,Yorkshire Terrier/Parson Russell Terrier,1
+2014,Dog,Saluki,1
+2014,Dog,Parson Russell Terrier/Beagle,1
+2014,Dog,Saluki Mix,1
+2014,Dog,Papillon/Yorkshire Terrier,1
+2014,Dog,Miniature Schnauzer/Labrador Retriever,1
+2014,Dog,Great Pyrenees/Queensland Heeler,1
+2014,Dog,Ibizan Hound/Pit Bull,1
+2014,Dog,Norfolk Terrier/Dachshund Wirehair,1
+2014,Dog,German Wirehaired Pointer,1
+2014,Dog,Miniature Pinscher/Pug,1
+2014,Dog,Great Dane/Australian Shepherd,1
+2014,Dog,Miniature Poodle/Yorkshire Terrier,1
+2014,Dog,Labrador Retriever/English Pointer,1
+2014,Dog,Miniature Schnauzer/Whippet,1
+2014,Dog,German Wirehaired Pointer Mix,1
+2014,Dog,Nova Scotia Duck Tolling Retriever Mix,1
+2014,Dog,Irish Wolfhound Mix,1
+2014,Dog,Great Pyrenees/German Shepherd,1
+2014,Dog,Irish Wolfhound/American Pit Bull Terrier,1
+2014,Dog,Miniature Poodle/Beagle,1
+2014,Dog,Labrador Retriever/German Shorthair Pointer,1
+2014,Dog,Labrador Retriever/Anatol Shepherd,1
+2014,Dog,Irish Wolfhound/Great Pyrenees,1
+2014,Dog,Miniature Schnauzer/Border Collie,1
+2014,Dog,German Shepherd/English Coonhound,1
+2014,Dog,Miniature Schnauzer/Queensland Heeler,1
+2014,Dog,Italian Greyhound/Beagle,1
+2014,Dog,Greyhound/Dalmatian,1
+2014,Dog,Labrador Retriever/Greyhound,1
+2014,Dog,Norwich Terrier/Cairn Terrier,1
+2014,Dog,Labrador Retriever/Irish Setter,1
+2014,Dog,Harrier/Catahoula,1
+2014,Dog,German Shepherd/Collie Smooth,1
+2014,Dog,Keeshond,1
+2014,Dog,Labrador Retriever/Labrador Retriever,1
+2014,Dog,Miniature Pinscher/Dachshund,1
+2014,Dog,Labrador Retriever/Mastiff,1
+2014,Dog,German Shepherd/Smooth Fox Terrier,1
+2014,Dog,Labrador Retriever/Newfoundland,1
+2014,Dog,Miniature Poodle/Cairn Terrier,1
+2014,Dog,Labrador Retriever/Pembroke Welsh Corgi,1
+2014,Dog,Miniature Poodle/Italian Greyhound,1
+2014,Dog,German Shepherd/Great Dane,1
+2014,Dog,Great Pyrenees/Siberian Husky,1
+2014,Dog,Jack Russell Terrier/American Staffordshire Terrier,1
+2014,Dog,Greater Swiss Mountain Dog,1
+2014,Dog,German Shepherd/Great Pyrenees,1
+2014,Dog,German Shepherd/Swedish Vallhund,1
+2014,Dog,Jack Russell Terrier/Beagle,1
+2014,Dog,German Shepherd/Bull Terrier,1
+2014,Dog,Labrador Retriever/Rhod Ridgeback,1
+2014,Dog,Miniature Schnauzer/Shih Tzu,1
+2014,Dog,Jack Russell Terrier/Cairn Terrier,1
+2014,Dog,Golden Retriever/Pit Bull,1
+2014,Dog,Labrador Retriever/Shiba Inu,1
+2014,Dog,Greyhound/Labrador Retriever,1
+2014,Dog,Jack Russell Terrier/Cardigan Welsh Corgi,1
+2014,Dog,Golden Retriever/Standard Poodle,1
+2014,Dog,Labrador Retriever/Spanish Water Dog,1
+2014,Dog,Norwich Terrier/Yorkshire Terrier,1
+2014,Dog,Labrador Retriever/Staffordshire,1
+2014,Dog,Old English Bulldog,1
+2014,Dog,Labrador Retriever/Standard Poodle,1
+2014,Dog,Papillon/Border Collie,1
+2014,Dog,Jack Russell Terrier/Cavalier Span,1
+2014,Dog,German Shepherd/Mastiff,1
+2014,Dog,Labrador Retriever/Treeing Walker Coonhound,1
+2014,Dog,Great Pyrenees/English Setter,1
+2014,Dog,Labrador Retriever/Vizsla,1
+2014,Dog,Great Pyrenees/Golden Retriever,1
+2014,Dog,Labrador Retriever/Weimaraner,1
+2014,Dog,Miniature Pinscher/Maltese,1
+2014,Dog,Landseer Mix,1
+2014,Dog,Miniature Pinscher/Smooth Fox Terrier,1
+2014,Dog,Great Pyrenees/Alaskan Husky,1
+2014,Dog,Great Pyrenees/Pit Bull,1
+2014,Dog,Great Pyrenees/Anatol Shepherd,1
+2014,Dog,Miniature Poodle/Bichon Frise,1
+2014,Dog,Jack Russell Terrier/Dachshund Wirehair,1
+2014,Dog,Labrador Retriever/American Foxhound,1
+2014,Dog,Lhasa Apso/Havanese,1
+2014,Dog,Miniature Poodle/Golden Retriever,1
+2014,Dog,Jack Russell Terrier/Italian Greyhound,1
+2014,Dog,Miniature Poodle/Labrador Retriever,1
+2014,Dog,Golden Retriever/Australian Shepherd,1
+2014,Dog,Golden Retriever/Cocker Spaniel,1
+2014,Dog,Jack Russell Terrier/Maltese,1
+2014,Dog,Miniature Poodle/West Highland,1
+2014,Dog,Jack Russell Terrier/Miniature Poodle,1
+2014,Dog,Golden Retriever/German Shepherd,1
+2014,Dog,Jack Russell Terrier/Miniature Schnauzer,1
+2014,Dog,Miniature Schnauzer/Australian Cattle Dog,1
+2014,Dog,Maltese/Border Terrier,1
+2014,Dog,Miniature Schnauzer/Chihuahua Longhair,1
+2014,Dog,Maltese/Chihuahua Shorthair,1
+2014,Dog,Miniature Schnauzer/Jack Russell Terrier,1
+2014,Dog,Maltese/Cocker Spaniel,1
+2014,Dog,Miniature Schnauzer/Lhasa Apso,1
+2014,Dog,Great Pyrenees/Australian Shepherd,1
+2014,Dog,Miniature Schnauzer/Pug,1
+2014,Dog,Jack Russell Terrier/Pug,1
+2014,Dog,Miniature Schnauzer/Scottish Terrier,1
+2014,Dog,Maltese/Shih Tzu,1
+2014,Dog,Miniature Schnauzer/Soft Coated Wheaten Terrier,1
+2014,Dog,Jack Russell Terrier/Rat Terrier,1
+2014,Dog,Miniature Schnauzer/Yorkshire Terrier,1
+2014,Dog,Maltese/Yorkshire,1
+2014,Dog,Greyhound/Airedale Terrier,1
+2014,Dog,Jack Russell Terrier/Shih Tzu,1
+2014,Dog,Norfolk Terrier,1
+2014,Dog,Golden Retriever/Border Collie,1
+2014,Dog,Norfolk Terrier/Bruss Griffon,1
+2014,Dog,Jack Russell Terrier/Yorkshire Terrier,1
+2014,Dog,Norfolk Terrier/Standard Poodle,1
+2014,Dog,Manchester Terrier/Chihuahua Longhair,1
+2014,Dog,Gordon Setter Mix,1
+2014,Dog,Manchester Terrier/Chihuahua Shorthair,1
+2014,Dog,Norwich Terrier/Pug,1
+2014,Dog,Manchester Terrier/Dachshund,1
+2014,Dog,Nova Scotia Duck Tolling Retriever,1
+2014,Dog,Japanese Chin,1
+2014,Dog,Nova Scotia Duck Tolling Retriever/Golden Retriever,1
+2014,Dog,Manchester Terrier/Labrador Retriever,1
+2014,Dog,Old English Bulldog Mix,1
+2014,Dog,Manchester Terrier/Toy Fox Terrier,1
+2014,Dog,Harrier/German Shepherd,1
+2014,Dog,Japanese Chin Mix,1
+2014,Dog,Papillon/Pomeranian,1
+2014,Dog,Great Pyrenees/Boxer,1
+2014,Dog,Harrier/Pit Bull,1
+2014,Dog,Mastiff/Boxer,1
+2014,Dog,German Shorthair Pointer/Australian Cattle Dog,1
+2014,Dog,Mastiff/Labrador Retriever,1
+2014,Dog,Chihuahua Shorthair/Cocker Spaniel,1
+2014,Dog,Chow Chow/Irish Setter,1
+2014,Dog,Catahoula/Jack Russell Terrier,1
+2014,Dog,Cocker Spaniel/Labrador Retriever,1
+2014,Dog,Cocker Spaniel/Chihuahua Shorthair,1
+2014,Dog,Chihuahua Shorthair/Australian Cattle Dog,1
+2014,Dog,Doberman Pinsch/Pit Bull,1
+2014,Dog,Cocker Spaniel/Pembroke Welsh Corgi,1
+2014,Dog,English Bulldog/Dachshund,1
+2014,Dog,Collie Rough,1
+2014,Dog,Flat Coat Retriever,1
+2014,Dog,Chihuahua Shorthair/Schipperke,1
+2014,Dog,Cocker Spaniel/Golden Retriever,1
+2014,Dog,Collie Rough/Australian Shepherd,1
+2014,Dog,Cardigan Welsh Corgi/Cairn Terrier,1
+2014,Dog,Cardigan Welsh Corgi/English Setter,1
+2014,Dog,Dogo Argentino/Chinese Sharpei,1
+2014,Dog,Collie Rough/German Shepherd,1
+2014,Dog,Chihuahua Shorthair/French Bulldog,1
+2014,Dog,Collie Rough/Pointer,1
+2014,Dog,English Coonhound/Italian Greyhound,1
+2014,Dog,Bulldog/Pit Bull,1
+2014,Dog,Feist/Chihuahua Shorthair,1
+2014,Dog,Collie Smooth/Beagle,1
+2014,Dog,Flat Coat Retriever/Labrador Retriever,1
+2014,Dog,Chihuahua Longhair/Pug,1
+2014,Dog,Cavalier Span/Jack Russell Terrier,1
+2014,Dog,Collie Smooth/Chow Chow,1
+2014,Dog,Chihuahua Shorthair/Cirneco,1
+2014,Dog,Collie Smooth/German Shepherd,1
+2014,Dog,Dandie Dinmont,1
+2014,Dog,Cardigan Welsh Corgi,1
+2014,Dog,Cardigan Welsh Corgi/Dachshund,1
+2014,Dog,Collie Smooth/Saluki,1
+2014,Dog,Chow Chow/Cardigan Welsh Corgi,1
+2014,Dog,Collie Smooth/Siberian Husky,1
+2014,Dog,Catahoula/Irish Wolfhound,1
+2014,Dog,Coton De Tulear,1
+2014,Dog,Dutch Shepherd/Boxer,1
+2014,Dog,Catahoula/Alaskan Husky,1
+2014,Dog,English Bulldog/American Bulldog,1
+2014,Dog,Catahoula/Australian Cattle Dog,1
+2014,Dog,English Cocker Spaniel Mix,1
+2014,Dog,Catahoula/Australian Shepherd,1
+2014,Dog,Bulldog/Boston Terrier,1
+2014,Dog,Dachshund Longhair/Australian Shepherd,1
+2014,Dog,English Springer Spaniel/Cardigan Welsh Corgi,1
+2014,Dog,Dachshund Longhair/Cairn Terrier,1
+2014,Dog,Catahoula/Staffordshire,1
+2014,Dog,Dachshund Longhair/Cardigan Welsh Corgi,1
+2014,Dog,Flat Coat Retriever/Chow Chow,1
+2014,Dog,Cairn Terrier/West Highland,1
+2014,Dog,Bullmastiff,1
+2014,Dog,Chihuahua Shorthair/Border Collie,1
+2014,Dog,German Pinscher/Whippet,1
+2014,Dog,Dachshund Longhair/Cocker Spaniel,1
+2014,Dog,Chihuahua Shorthair/Parson Russell Terrier,1
+2014,Dog,Dachshund Longhair/Pembroke Welsh Corgi,1
+2014,Dog,Chihuahua Shorthair/Chinese Sharpei,1
+2014,Dog,Dachshund Longhair/Toy Poodle,1
+2014,Dog,Dalmatian/Basset Hound,1
+2014,Dog,Catahoula/Beagle,1
+2014,Dog,Dalmatian/Pointer,1
+2014,Dog,Dachshund Wirehair,1
+2014,Dog,Chow Chow/American Eskimo,1
+2014,Dog,Catahoula/Black Mouth Cur,1
+2014,Dog,Chihuahua Shorthair/Welsh Terrier,1
+2014,Dog,Chinese Crested/Chihuahua Longhair,1
+2014,Dog,Chow Chow/Border Collie,1
+2014,Dog,Chihuahua Longhair/Rat Terrier,1
+2014,Dog,Doberman Pinsch/Vizsla,1
+2014,Dog,Catahoula/Border Collie,1
+2014,Dog,Cardigan Welsh Corgi/Cardigan Welsh Corgi,1
+2014,Dog,Dachshund Wirehair/Pbgv,1
+2014,Dog,Chow Chow/Chinese Sharpei,1
+2014,Dog,Dachshund Wirehair/Yorkshire Terrier,1
+2014,Dog,Chihuahua Shorthair/Finnish Spitz,1
+2014,Dog,Chihuahua Longhair/West Highland,1
+2014,Dog,Dutch Shepherd/Anatol Shepherd,1
+2014,Dog,Dachshund/Australian Kelpie,1
+2014,Dog,Dutch Shepherd/Mastiff,1
+2014,Dog,Chinese Sharpei/Boxer,1
+2014,Dog,Cairn Terrier/Affenpinscher,1
+2014,Dog,German Shepherd/Australian Kelpie,1
+2014,Dog,English Bulldog/Cairn Terrier,1
+2014,Dog,Chihuahua Shorthair/Smooth Fox Terrier,1
+2014,Dog,English Bulldog/Staffordshire,1
+2014,Dog,German Shepherd/Black Mouth Cur,1
+2014,Dog,Chihuahua Longhair/Dachshund Longhair,1
+2014,Dog,Cardigan Welsh Corgi/Jack Russell Terrier,1
+2014,Dog,Cairn Terrier/Miniature Schnauzer,1
+2014,Dog,Chinese Sharpei/Pit Bull,1
+2014,Dog,Bull Terrier/Australian Kelpie,1
+2014,Dog,Catahoula/Bulldog,1
+2014,Dog,Carolina Dog/Australian Cattle Dog,1
+2014,Dog,Dachshund/Dachshund,1
+2014,Dog,Cairn Terrier/Scottish Terrier,1
+2014,Dog,Dachshund/German Shepherd,1
+2014,Dog,Field Spaniel Mix,1
+2014,Dog,Dachshund/Greyhound,1
+2014,Dog,Carolina Dog/Labrador Retriever,1
+2014,Dog,Cardigan Welsh Corgi/Labrador Retriever,1
+2014,Dog,Catahoula/Treeing Walker Coonhound,1
+2014,Dog,Dachshund/Havanese,1
+2014,Dog,Carolina Dog/Pit Bull,1
+2014,Dog,Chihuahua Longhair/Papillon,1
+2014,Dog,Chihuahua Longhair/Jack Russell Terrier,1
+2014,Dog,Dachshund/Labrador Retriever,1
+2014,Dog,Cocker Spaniel/Beagle,1
+2014,Dog,Dachshund/Manchester Terrier,1
+2014,Dog,Cocker Spaniel/Dachshund,1
+2014,Dog,Dachshund/Miniature Poodle,1
+2014,Dog,Cairn Terrier/Shih Tzu,1
+2014,Dog,Cardigan Welsh Corgi/Australian Cattle Dog,1
+2014,Dog,German Shepherd/Alaskan Husky,1
+2014,Dog,Cardigan Welsh Corgi/Australian Shepherd,1
+2014,Dog,Cavalier Span/Toy Poodle,1
+2014,Dog,Cardigan Welsh Corgi/Beagle,1
+2014,Dog,Dachshund/Whippet,1
+2014,Dog,German Shepherd/Basenji,1
+2014,Dog,Dachshund/Cardigan Welsh Corgi,1
+2014,Dog,German Shepherd/Black/Tan Hound,1
+2014,Dog,Dachshund/Catahoula,1
+2014,Dog,Dachshund/Cavalier Span,1
+2014,Dog,Dachshund Longhair/Chihuahua Longhair,1
+2014,Dog,American Staffordshire Terrier/Plott Hound,1
+2014,Dog,Australian Cattle Dog/Boston Terrier,1
+2014,Dog,Border Collie/Pembroke Welsh Corgi,1
+2014,Dog,Basset Hound/Dachshund,1
+2014,Dog,Boxer/Cardigan Welsh Corgi,1
+2014,Dog,Basset Hound/English Pointer,1
+2014,Dog,Border Collie/English Springer Spaniel,1
+2014,Dog,Basset Hound/Labrador Retriever,1
+2014,Dog,American Pit Bull Terrier/Catahoula,1
+2014,Dog,Basset Hound/Pit Bull,1
+2014,Dog,Alaskan Malamute/German Shepherd,1
+2014,Dog,Basset Hound/Pointer,1
+2014,Dog,Boxer/Neapolitan Mastiff,1
+2014,Dog,Anatol Shepherd/Australian Cattle Dog,1
+2014,Dog,Border Collie/Catahoula,1
+2014,Dog,Akita/Pit Bull,1
+2014,Dog,Border Collie/Greyhound,1
+2014,Dog,Beagle/Australian Cattle Dog,1
+2014,Dog,Border Collie/Standard Schnauzer,1
+2014,Dog,Beagle/Australian Shepherd,1
+2014,Dog,Border Terrier/Rat Terrier,1
+2014,Dog,Beagle/Basset Hound,1
+2014,Dog,Boston Terrier/Labrador Retriever,1
+2014,Dog,Akita/Great Pyrenees,1
+2014,Dog,Boxer/Australian Cattle Dog,1
+2014,Dog,Beagle/Cavalier Span,1
+2014,Dog,Boxer/English Bulldog,1
+2014,Dog,Anatol Shepherd/Catahoula,1
+2014,Dog,Boxer/Redbone Hound,1
+2014,Dog,Beagle/Chinese Sharpei,1
+2014,Dog,Basset Hound/Beauceron,1
+2014,Dog,Akita/Border Collie,1
+2014,Dog,Australian Cattle Dog/Chow Chow,1
+2014,Dog,Anatol Shepherd/Great Pyrenees,1
+2014,Dog,Border Collie/Great Dane,1
+2014,Dog,American Pit Bull Terrier/Chinese Sharpei,1
+2014,Dog,Australian Cattle Dog/Black Mouth Cur,1
+2014,Dog,Akita/Australian Cattle Dog,1
+2014,Dog,Border Collie/Queensland Heeler,1
+2014,Dog,Beagle/Manchester Terrier,1
+2014,Dog,Alaskan Malamute/Akita,1
+2014,Dog,Beagle/Parson Russell Terrier,1
+2014,Dog,Border Terrier/Labrador Retriever,1
+2014,Dog,Beagle/Pit Bull,1
+2014,Dog,Border Terrier/Standard Schnauzer,1
+2014,Dog,Australian Cattle Dog/Pembroke Welsh Corgi,1
+2014,Dog,Boston Terrier/Australian Kelpie,1
+2014,Dog,Akita/Belgian Malinois,1
+2014,Dog,Basenji/Chihuahua Shorthair,1
+2014,Dog,American Pit Bull Terrier/American Bulldog,1
+2014,Dog,Basenji/Jack Russell Terrier,1
+2014,Dog,Beagle/Whippet,1
+2014,Dog,Boxer/Black Mouth Cur,1
+2014,Dog,Bearded Collie,1
+2014,Dog,Boxer/Chow Chow,1
+2014,Dog,Beauceron,1
+2014,Dog,Boxer/Jack Russell Terrier,1
+2014,Dog,Australian Shepherd/Alaskan Malamute,1
+2014,Dog,American Bulldog/Chinese Sharpei,1
+2014,Dog,American Bulldog/Blue Lacy,1
+2014,Dog,American Bulldog/American Staffordshire Terrier,1
+2014,Dog,Belgian Malinois/German Shepherd,1
+2014,Dog,Brittany,1
+2014,Dog,Belgian Sheepdog,1
+2014,Dog,Border Collie/Brittany,1
+2014,Dog,Australian Shepherd/Anatol Shepherd,1
+2014,Dog,Australian Shepherd/Siberian Husky,1
+2014,Dog,Australian Cattle Dog/Collie Rough,1
+2014,Dog,Border Collie/Dalmatian,1
+2014,Dog,Australian Shepherd/Australian Kelpie,1
+2014,Dog,American Eskimo,1
+2014,Dog,Australian Cattle Dog/Chinese Sharpei,1
+2014,Dog,Australian Cattle Dog/Rat Terrier,1
+2014,Dog,Brittany/Collie Rough,1
+2014,Dog,Border Collie/Jack Russell Terrier,1
+2014,Dog,Brittany/Labrador Retriever,1
+2014,Dog,Border Collie/Parson Russell Terrier,1
+2014,Dog,Airedale Terrier/Labrador Retriever,1
+2014,Dog,Border Collie/Pit Bull,1
+2014,Dog,American Staffordshire Terrier/Jack Russell Terrier,1
+2014,Dog,Border Collie/Shetland Sheepdog,1
+2014,Dog,Black Mouth Cur/Boxer,1
+2014,Dog,Australian Cattle Dog/Rhod Ridgeback,1
+2014,Dog,Black Mouth Cur/German Shepherd,1
+2014,Dog,Border Terrier/Cardigan Welsh Corgi,1
+2014,Dog,Black Mouth Cur/Labrador Retriever,1
+2014,Dog,Basenji/Australian Cattle Dog,1
+2014,Dog,Black Mouth Cur/Rhod Ridgeback,1
+2014,Dog,Border Terrier/Pug,1
+2014,Dog,Australian Cattle Dog/Australian Kelpie,1
+2014,Dog,Border Terrier/Soft Coated Wheaten Terrier,1
+2014,Dog,Brittany/Chihuahua Shorthair,1
+2014,Dog,Australian Cattle Dog/Treeing Walker Coonhound,1
+2014,Dog,Australian Shepherd/Beagle,1
+2014,Dog,American Pit Bull Terrier/Boxer,1
+2014,Dog,Australian Cattle Dog/Basenji,1
+2014,Dog,Australian Kelpie/Whippet,1
+2014,Dog,American Staffordshire Terrier/Rhod Ridgeback,1
+2014,Dog,Boston Terrier/Miniature Schnauzer,1
+2014,Dog,Australian Kelpie/Dachshund,1
+2014,Dog,Boston Terrier/Pug,1
+2014,Dog,Australian Kelpie/German Shepherd,1
+2014,Dog,Basenji/Chow Chow,1
+2014,Dog,Blue Lacy/Beagle,1
+2014,Dog,Boxer/American Staffordshire Terrier,1
+2014,Dog,Blue Lacy/Labrador Retriever,1
+2014,Dog,Boxer/Beagle,1
+2014,Dog,Australian Cattle Dog/German Shorthair Pointer,1
+2014,Dog,Basenji/Rhod Ridgeback,1
+2014,Dog,Australian Cattle Dog/Queensland Heeler,1
+2014,Dog,Australian Cattle Dog/Cairn Terrier,1
+2014,Dog,Australian Shepherd/Collie Rough,1
+2014,Dog,Boxer/Dogue De Bordeaux,1
+2014,Dog,Australian Shepherd/English Springer Spaniel,1
+2014,Dog,Boxer/Great Dane,1
+2014,Dog,American Bulldog/Pointer,1
+2014,Dog,American Foxhound/Pointer,1
+2014,Dog,American Bulldog/Boxer,1
+2014,Dog,Akita/German Shepherd,1
+2014,Dog,Border Collie/Akita,1
+2014,Dog,Boxer/Queensland Heeler,1
+2014,Dog,Border Collie/Alaskan Husky,1
+2014,Dog,Akita/Labrador Retriever,1
+2014,Dog,Australian Shepherd/Nova Scotia Duck Tolling Retriever,1
+2014,Dog,Boykin Span,1
+2014,Dog,Border Collie/Australian Shepherd,1
+2014,Dog,Boykin Span/Dachshund,1
+2014,Dog,Australian Kelpie/Beagle,1
+2014,Dog,Australian Cattle Dog/Cardigan Welsh Corgi,1
+2014,Dog,Australian Cattle Dog/Jack Russell Terrier,1
+2014,Dog,Australian Shepherd/Rottweiler,1
+2014,Dog,Bloodhound,1
+2014,Dog,Bruss Griffon,1
+2014,Dog,American Bulldog/Mastiff,1
+2014,Dog,Bruss Griffon/Cairn Terrier,1
+2014,Dog,Australian Cattle Dog/American Staffordshire Terrier,1
+2014,Dog,Australian Cattle Dog/Anatol Shepherd,1
+2014,Dog,Bruss Griffon/Yorkshire Terrier,1
+2014,Dog,Beagle/Queensland Heeler,1
+2014,Dog,Beagle/Rat Terrier,1
+2015,Cat,Domestic Shorthair Mix,6017
+2015,Cat,Domestic Medium Hair Mix,546
+2015,Cat,Domestic Longhair Mix,332
+2015,Cat,Siamese Mix,282
+2015,Cat,Domestic Shorthair,96
+2015,Cat,Domestic Medium Hair,37
+2015,Cat,Snowshoe Mix,34
+2015,Cat,Maine Coon Mix,22
+2015,Cat,Siamese,20
+2015,Cat,Russian Blue Mix,11
+2015,Cat,Manx Mix,11
+2015,Cat,Himalayan Mix,8
+2015,Cat,Domestic Longhair,7
+2015,Cat,American Shorthair Mix,7
+2015,Cat,Persian Mix,6
+2015,Cat,Ragdoll Mix,6
+2015,Cat,Balinese Mix,5
+2015,Cat,Siamese/Japanese Bobtail,3
+2015,Cat,British Shorthair Mix,2
+2015,Cat,Bombay Mix,2
+2015,Cat,Devon Rex Mix,2
+2015,Cat,Pixiebob Shorthair Mix,2
+2015,Cat,Bengal Mix,2
+2015,Cat,Maine Coon,2
+2015,Cat,Turkish Van Mix,2
+2015,Cat,Himalayan,2
+2015,Cat,Javanese Mix,2
+2015,Cat,Manx,1
+2015,Cat,Domestic Medium Hair/Siamese,1
+2015,Cat,Manx/Domestic Longhair,1
+2015,Cat,Manx/Siamese,1
+2015,Cat,American Wirehair Mix,1
+2015,Cat,Munchkin Longhair Mix,1
+2015,Cat,Turkish Angora Mix,1
+2015,Cat,Oriental Sh Mix,1
+2015,Cat,Abyssinian Mix,1
+2015,Cat,Persian,1
+2015,Cat,Siamese/Domestic Shorthair,1
+2015,Cat,Domestic Shorthair/Manx,1
+2015,Cat,Snowshoe,1
+2015,Cat,Havana Brown Mix,1
+2015,Cat,Sphynx,1
+2015,Cat,Cornish Rex Mix,1
+2015,Cat,Chartreux Mix,1
+2015,Cat,Bengal,1
+2015,Cat,Scottish Fold Mix,1
+2015,Dog,Pit Bull Mix,1336
+2015,Dog,Chihuahua Shorthair Mix,1163
+2015,Dog,Labrador Retriever Mix,937
+2015,Dog,German Shepherd Mix,406
+2015,Dog,Australian Cattle Dog Mix,228
+2015,Dog,Boxer Mix,180
+2015,Dog,Dachshund Mix,176
+2015,Dog,Miniature Poodle Mix,170
+2015,Dog,Border Collie Mix,160
+2015,Dog,Australian Shepherd Mix,116
+2015,Dog,Miniature Schnauzer Mix,102
+2015,Dog,Siberian Husky Mix,98
+2015,Dog,Catahoula Mix,96
+2015,Dog,Rat Terrier Mix,95
+2015,Dog,Yorkshire Terrier Mix,94
+2015,Dog,Chihuahua Longhair Mix,91
+2015,Dog,Staffordshire Mix,86
+2015,Dog,American Bulldog Mix,81
+2015,Dog,Rottweiler Mix,75
+2015,Dog,Shih Tzu Mix,74
+2015,Dog,Jack Russell Terrier Mix,74
+2015,Dog,Great Pyrenees Mix,70
+2015,Dog,Beagle Mix,69
+2015,Dog,Cairn Terrier Mix,65
+2015,Dog,Chihuahua Shorthair/Dachshund,64
+2015,Dog,Chihuahua Shorthair,63
+2015,Dog,German Shepherd,62
+2015,Dog,Pointer Mix,57
+2015,Dog,American Staffordshire Terrier Mix,57
+2015,Dog,Black Mouth Cur Mix,55
+2015,Dog,Pit Bull,53
+2015,Dog,Plott Hound Mix,51
+2015,Dog,German Shepherd/Labrador Retriever,51
+2015,Dog,Labrador Retriever,48
+2015,Dog,American Pit Bull Terrier Mix,46
+2015,Dog,Australian Kelpie Mix,46
+2015,Dog,Labrador Retriever/Pit Bull,44
+2015,Dog,Anatol Shepherd Mix,43
+2015,Dog,Miniature Pinscher Mix,42
+2015,Dog,Shih Tzu,40
+2015,Dog,Labrador Retriever/German Shepherd,38
+2015,Dog,Blue Lacy Mix,37
+2015,Dog,Dachshund/Chihuahua Shorthair,35
+2015,Dog,Golden Retriever Mix,34
+2015,Dog,Rottweiler,32
+2015,Dog,Cardigan Welsh Corgi Mix,32
+2015,Dog,Manchester Terrier Mix,31
+2015,Dog,Lhasa Apso Mix,31
+2015,Dog,Pug Mix,29
+2015,Dog,Basset Hound Mix,29
+2015,Dog,Queensland Heeler Mix,28
+2015,Dog,Toy Poodle Mix,28
+2015,Dog,Chow Chow Mix,28
+2015,Dog,Maltese Mix,28
+2015,Dog,Siberian Husky,27
+2015,Dog,Pomeranian Mix,27
+2015,Dog,Cocker Spaniel Mix,26
+2015,Dog,Flat Coat Retriever Mix,25
+2015,Dog,Boxer,24
+2015,Dog,Pit Bull/Labrador Retriever,23
+2015,Dog,Doberman Pinsch Mix,23
+2015,Dog,Dachshund,22
+2015,Dog,Carolina Dog Mix,22
+2015,Dog,Redbone Hound Mix,21
+2015,Dog,Bull Terrier Mix,21
+2015,Dog,Labrador Retriever/Border Collie,20
+2015,Dog,Labrador Retriever/Australian Cattle Dog,20
+2015,Dog,Australian Cattle Dog,18
+2015,Dog,Norfolk Terrier Mix,17
+2015,Dog,Chinese Sharpei Mix,17
+2015,Dog,Dachshund Longhair Mix,17
+2015,Dog,Labrador Retriever/Boxer,17
+2015,Dog,Dachshund Wirehair Mix,17
+2015,Dog,Labrador Retriever/Plott Hound,17
+2015,Dog,Mastiff Mix,16
+2015,Dog,Collie Smooth Mix,16
+2015,Dog,English Bulldog,16
+2015,Dog,Whippet Mix,15
+2015,Dog,Yorkshire Terrier,15
+2015,Dog,Pharaoh Hound Mix,15
+2015,Dog,Pug,15
+2015,Dog,Maltese/Miniature Poodle,15
+2015,Dog,Pekingese Mix,15
+2015,Dog,Labrador Retriever/Anatol Shepherd,15
+2015,Dog,Boxer/Labrador Retriever,15
+2015,Dog,Border Terrier Mix,15
+2015,Dog,Australian Cattle Dog/Labrador Retriever,15
+2015,Dog,Boston Terrier Mix,15
+2015,Dog,American Staffordshire Terrier,15
+2015,Dog,English Bulldog Mix,14
+2015,Dog,Rhod Ridgeback Mix,13
+2015,Dog,Norwich Terrier Mix,13
+2015,Dog,Pit Bull/Boxer,13
+2015,Dog,Chihuahua Shorthair/Rat Terrier,13
+2015,Dog,Labrador Retriever/Great Pyrenees,13
+2015,Dog,German Shorthair Pointer Mix,13
+2015,Dog,Bichon Frise Mix,13
+2015,Dog,Soft Coated Wheaten Terrier Mix,12
+2015,Dog,Chihuahua Shorthair/Cardigan Welsh Corgi,12
+2015,Dog,Harrier Mix,12
+2015,Dog,Bruss Griffon Mix,12
+2015,Dog,Boxer/Pit Bull,12
+2015,Dog,Australian Shepherd,12
+2015,Dog,Belgian Malinois Mix,12
+2015,Dog,Pembroke Welsh Corgi Mix,11
+2015,Dog,Miniature Schnauzer/Miniature Poodle,11
+2015,Dog,Rat Terrier/Chihuahua Shorthair,11
+2015,Dog,Shetland Sheepdog Mix,11
+2015,Dog,Dachshund Wirehair/Miniature Poodle,11
+2015,Dog,Great Dane Mix,11
+2015,Dog,Havanese Mix,11
+2015,Dog,Jack Russell Terrier/Chihuahua Shorthair,11
+2015,Dog,Black/Tan Hound Mix,11
+2015,Dog,Beagle,11
+2015,Dog,Rat Terrier,10
+2015,Dog,Standard Schnauzer Mix,10
+2015,Dog,Weimaraner Mix,10
+2015,Dog,Miniature Schnauzer,10
+2015,Dog,Doberman Pinsch,10
+2015,Dog,Labrador Retriever/Beagle,10
+2015,Dog,Labrador Retriever/Australian Shepherd,10
+2015,Dog,Great Pyrenees,10
+2015,Dog,Basset Hound,10
+2015,Dog,Pit Bull/Catahoula,9
+2015,Dog,Pointer/Labrador Retriever,9
+2015,Dog,Papillon Mix,9
+2015,Dog,Pug/Beagle,9
+2015,Dog,West Highland Mix,9
+2015,Dog,Jack Russell Terrier,9
+2015,Dog,Dachshund/Manchester Terrier,9
+2015,Dog,Dalmatian Mix,9
+2015,Dog,Golden Retriever,9
+2015,Dog,Great Pyrenees/Labrador Retriever,9
+2015,Dog,Chihuahua Shorthair/Boston Terrier,9
+2015,Dog,Chihuahua Shorthair/Jack Russell Terrier,9
+2015,Dog,Beauceron Mix,9
+2015,Dog,Border Collie/Labrador Retriever,9
+2015,Dog,Miniature Poodle/Miniature Schnauzer,8
+2015,Dog,Schnauzer Giant Mix,8
+2015,Dog,Rottweiler/German Shepherd,8
+2015,Dog,Miniature Poodle,8
+2015,Dog,Yorkshire Terrier/Chihuahua Shorthair,8
+2015,Dog,Shiba Inu Mix,8
+2015,Dog,Pug/Chihuahua Shorthair,8
+2015,Dog,Plott Hound/Labrador Retriever,8
+2015,Dog,St. Bernard Rough Coat Mix,8
+2015,Dog,Labrador Retriever/Chow Chow,8
+2015,Dog,Labrador Retriever/Catahoula,8
+2015,Dog,Cocker Spaniel/Labrador Retriever,8
+2015,Dog,Greyhound,8
+2015,Dog,Labrador Retriever/Chinese Sharpei,8
+2015,Dog,Cocker Spaniel,8
+2015,Dog,Labrador Retriever/Pointer,8
+2015,Dog,Basenji Mix,8
+2015,Dog,Cardigan Welsh Corgi/Chihuahua Shorthair,8
+2015,Dog,Australian Cattle Dog/German Shepherd,8
+2015,Dog,Boston Terrier,8
+2015,Dog,Alaskan Husky Mix,8
+2015,Dog,Anatol Shepherd,8
+2015,Dog,Border Collie,8
+2015,Dog,Mastiff/Chinese Sharpei,7
+2015,Dog,Siberian Husky/German Shepherd,7
+2015,Dog,Swedish Vallhund Mix,7
+2015,Dog,Toy Fox Terrier Mix,7
+2015,Dog,Smooth Fox Terrier Mix,7
+2015,Dog,Miniature Pinscher,7
+2015,Dog,Parson Russell Terrier Mix,7
+2015,Dog,Treeing Walker Coonhound Mix,7
+2015,Dog,Pomeranian/Chihuahua Longhair,7
+2015,Dog,Yorkshire Terrier/Rat Terrier,7
+2015,Dog,Italian Greyhound Mix,7
+2015,Dog,Greyhound Mix,7
+2015,Dog,Chihuahua Shorthair/Pug,7
+2015,Dog,Collie Rough Mix,7
+2015,Dog,English Coonhound Mix,7
+2015,Dog,Chihuahua Shorthair/Yorkshire Terrier,7
+2015,Dog,Dogo Argentino Mix,7
+2015,Dog,Toy Poodle,6
+2015,Dog,Wire Hair Fox Terrier Mix,6
+2015,Dog,Treeing Cur Mix,6
+2015,Dog,Pit Bull/Pointer,6
+2015,Dog,Standard Poodle/Labrador Retriever,6
+2015,Dog,Yorkshire Terrier/Miniature Schnauzer,6
+2015,Dog,Chihuahua Shorthair/Miniature Pinscher,6
+2015,Dog,Dachshund/Beagle,6
+2015,Dog,Flat Coat Retriever/Papillon,6
+2015,Dog,Chihuahua Shorthair/Pomeranian,6
+2015,Dog,Labrador Retriever/Golden Retriever,6
+2015,Dog,Finnish Spitz Mix,6
+2015,Dog,Chihuahua Shorthair/Pit Bull,6
+2015,Dog,Dutch Shepherd Mix,6
+2015,Dog,German Shepherd/Boxer,6
+2015,Dog,Australian Shepherd/Anatol Shepherd,6
+2015,Dog,Chihuahua Longhair,6
+2015,Dog,Cairn Terrier/Chihuahua Shorthair,6
+2015,Dog,Basset Hound/Labrador Retriever,6
+2015,Dog,Chesa Bay Retr Mix,6
+2015,Dog,Australian Cattle Dog/Pit Bull,6
+2015,Dog,American Bulldog,6
+2015,Dog,Beagle/Dachshund,6
+2015,Dog,Boston Terrier/Chihuahua Shorthair,6
+2015,Dog,Brittany Mix,6
+2015,Dog,Pit Bull/Australian Cattle Dog,5
+2015,Dog,Patterdale Terr Mix,5
+2015,Dog,Pit Bull/Chinese Sharpei,5
+2015,Dog,Miniature Poodle/Cocker Spaniel,5
+2015,Dog,Staffordshire,5
+2015,Dog,Yorkshire Terrier/Chihuahua Longhair,5
+2015,Dog,Miniature Pinscher/Chihuahua Shorthair,5
+2015,Dog,Rottweiler/Labrador Retriever,5
+2015,Dog,Vizsla Mix,5
+2015,Dog,Miniature Schnauzer/Yorkshire Terrier,5
+2015,Dog,Pomeranian,5
+2015,Dog,St. Bernard Smooth Coat Mix,5
+2015,Dog,Yorkshire Terrier/Miniature Poodle,5
+2015,Dog,Chihuahua Shorthair/Manchester Terrier,5
+2015,Dog,Collie Smooth/Labrador Retriever,5
+2015,Dog,Chihuahua Shorthair/Beagle,5
+2015,Dog,Chow Chow/Pit Bull,5
+2015,Dog,Chinese Sharpei,5
+2015,Dog,Lhasa Apso/Miniature Poodle,5
+2015,Dog,Great Dane,5
+2015,Dog,English Springer Spaniel Mix,5
+2015,Dog,Dachshund/Labrador Retriever,5
+2015,Dog,Harrier/Catahoula,5
+2015,Dog,Dachshund Wirehair/Chihuahua Shorthair,5
+2015,Dog,Field Spaniel Mix,5
+2015,Dog,Chihuahua Shorthair/Swedish Vallhund,5
+2015,Dog,German Shepherd/Chow Chow,5
+2015,Dog,German Shepherd/Rottweiler,5
+2015,Dog,Australian Shepherd/Chihuahua Shorthair,5
+2015,Dog,Cardigan Welsh Corgi/Australian Cattle Dog,5
+2015,Dog,Beagle/Vizsla,5
+2015,Dog,Beagle/Pug,5
+2015,Dog,Boerboel Mix,5
+2015,Dog,Catahoula/Labrador Retriever,5
+2015,Dog,Carolina Dog/Chihuahua Shorthair,5
+2015,Dog,Akita Mix,5
+2015,Dog,Australian Shepherd/Border Collie,5
+2015,Dog,Australian Shepherd/Labrador Retriever,5
+2015,Dog,Schipperke Mix,4
+2015,Dog,Vizsla,4
+2015,Dog,Tibetan Terrier Mix,4
+2015,Dog,Pit Bull/Plott Hound,4
+2015,Dog,Manchester Terrier/Dachshund,4
+2015,Dog,Pug/Labrador Retriever,4
+2015,Dog,Shih Tzu/Miniature Poodle,4
+2015,Dog,Rat Terrier/Boston Terrier,4
+2015,Dog,Norfolk Terrier/Chihuahua Shorthair,4
+2015,Dog,Miniature Poodle/Maltese,4
+2015,Dog,Rhod Ridgeback/Labrador Retriever,4
+2015,Dog,Yorkshire Terrier/Cairn Terrier,4
+2015,Dog,Landseer Mix,4
+2015,Dog,Chihuahua Shorthair/Italian Greyhound,4
+2015,Dog,Dachshund Wirehair/Toy Poodle,4
+2015,Dog,Maltese,4
+2015,Dog,Labrador Retriever/Rottweiler,4
+2015,Dog,Golden Retriever/Labrador Retriever,4
+2015,Dog,German Shepherd/Anatol Shepherd,4
+2015,Dog,Dogue De Bordeaux Mix,4
+2015,Dog,German Shepherd/Siberian Husky,4
+2015,Dog,Dachshund Longhair,4
+2015,Dog,Labrador Retriever/Rhod Ridgeback,4
+2015,Dog,Chihuahua Shorthair/Pembroke Welsh Corgi,4
+2015,Dog,Labrador Retriever/Siberian Husky,4
+2015,Dog,Jack Russell Terrier/Beagle,4
+2015,Dog,Lhasa Apso,4
+2015,Dog,Great Dane/Labrador Retriever,4
+2015,Dog,German Shepherd/Australian Cattle Dog,4
+2015,Dog,English Pointer Mix,4
+2015,Dog,German Wirehaired Pointer Mix,4
+2015,Dog,Catahoula/Australian Cattle Dog,4
+2015,Dog,Alaskan Husky,4
+2015,Dog,Cairn Terrier,4
+2015,Dog,Bernese Mountain Dog Mix,4
+2015,Dog,Border Collie/Australian Cattle Dog,4
+2015,Dog,Blue Lacy,4
+2015,Dog,Anatol Shepherd/Redbone Hound,4
+2015,Dog,Cardigan Welsh Corgi/Pointer,4
+2015,Dog,Border Collie/German Shepherd,4
+2015,Dog,Black Mouth Cur/Catahoula,4
+2015,Dog,Bloodhound,4
+2015,Dog,Tibetan Spaniel Mix,3
+2015,Dog,Neapolitan Mastiff Mix,3
+2015,Dog,Whippet/Labrador Retriever,3
+2015,Dog,Pbgv,3
+2015,Dog,Standard Poodle Mix,3
+2015,Dog,Pit Bull/Chow Chow,3
+2015,Dog,Papillon,3
+2015,Dog,Rat Terrier/Miniature Poodle,3
+2015,Dog,Silky Terrier Mix,3
+2015,Dog,Pbgv Mix,3
+2015,Dog,Picardy Sheepdog Mix,3
+2015,Dog,Scottish Terrier Mix,3
+2015,Dog,Maltese/Toy Poodle,3
+2015,Dog,Shih Tzu/Miniature Schnauzer,3
+2015,Dog,Pointer/Border Collie,3
+2015,Dog,Pit Bull/Boston Terrier,3
+2015,Dog,Weimaraner,3
+2015,Dog,Siberian Husky/Border Collie,3
+2015,Dog,Siberian Husky/Labrador Retriever,3
+2015,Dog,Wirehaired Pointing Griffon Mix,3
+2015,Dog,Irish Terrier Mix,3
+2015,Dog,German Shepherd/Alaskan Husky,3
+2015,Dog,Dachshund/Pug,3
+2015,Dog,Great Pyrenees/Catahoula,3
+2015,Dog,Labrador Retriever/Doberman Pinsch,3
+2015,Dog,Collie Smooth,3
+2015,Dog,Labrador Retriever/Redbone Hound,3
+2015,Dog,Labrador Retriever/Greyhound,3
+2015,Dog,Jack Russell Terrier/Rat Terrier,3
+2015,Dog,Labrador Retriever/Mastiff,3
+2015,Dog,Great Pyrenees/Anatol Shepherd,3
+2015,Dog,Labrador Retriever/Basset Hound,3
+2015,Dog,Labrador Retriever/Flat Coat Retriever,3
+2015,Dog,Chihuahua Shorthair/Basset Hound,3
+2015,Dog,Labrador Retriever/German Shorthair Pointer,3
+2015,Dog,German Shepherd/Pit Bull,3
+2015,Dog,German Shepherd/Australian Shepherd,3
+2015,Dog,Beagle/Labrador Retriever,3
+2015,Dog,Belgian Malinois,3
+2015,Dog,American Bulldog/Basset Hound,3
+2015,Dog,Bichon Frise,3
+2015,Dog,Beagle/Basset Hound,3
+2015,Dog,American Eskimo Mix,3
+2015,Dog,Catahoula/Chinese Sharpei,3
+2015,Dog,Airedale Terrier Mix,3
+2015,Dog,Alaskan Malamute,3
+2015,Dog,Australian Cattle Dog/Pointer,3
+2015,Dog,Boxer/Staffordshire,3
+2015,Dog,Australian Cattle Dog/Staffordshire,3
+2015,Dog,Cardigan Welsh Corgi,3
+2015,Dog,Bloodhound Mix,3
+2015,Dog,Catahoula,3
+2015,Dog,Australian Kelpie,3
+2015,Dog,Cavalier Span Mix,3
+2015,Dog,Anatol Shepherd/Border Collie,3
+2015,Dog,Australian Cattle Dog/Beagle,3
+2015,Dog,Blue Lacy/Australian Kelpie,3
+2015,Dog,Boxer/Anatol Shepherd,3
+2015,Dog,Blue Lacy/Pit Bull,3
+2015,Dog,Australian Cattle Dog/Border Collie,3
+2015,Dog,Bluetick Hound Mix,3
+2015,Dog,Bull Terrier,3
+2015,Dog,Australian Kelpie/Pit Bull,3
+2015,Dog,Cane Corso,3
+2015,Dog,Anatol Shepherd/Great Pyrenees,3
+2015,Dog,Beagle/German Shepherd,3
+2015,Dog,Anatol Shepherd/Mastiff,3
+2015,Dog,Beagle/Pointer,3
+2015,Dog,Border Collie/Great Pyrenees,3
+2015,Dog,Catahoula/Cardigan Welsh Corgi,3
+2015,Dog,American Pit Bull Terrier/Labrador Retriever,3
+2015,Dog,Bearded Collie Mix,3
+2015,Dog,Akita/Siberian Husky,3
+2015,Dog,Bedlington Terr Mix,3
+2015,Dog,Australian Cattle Dog/Akita,3
+2015,Dog,Australian Terrier Mix,3
+2015,Dog,Boxer/Australian Cattle Dog,3
+2015,Dog,Pit Bull/Basset Hound,2
+2015,Dog,Plott Hound,2
+2015,Dog,Parson Russell Terrier,2
+2015,Dog,Miniature Poodle/Dachshund,2
+2015,Dog,Pit Bull/Alaskan Husky,2
+2015,Dog,Shiba Inu,2
+2015,Dog,West Highland,2
+2015,Dog,Yorkshire Terrier/Border Terrier,2
+2015,Dog,Parson Russell Terrier/Beagle,2
+2015,Dog,Pit Bull/Bulldog,2
+2015,Dog,Pekingese,2
+2015,Dog,Shih Tzu/Cardigan Welsh Corgi,2
+2015,Dog,Old English Bulldog Mix,2
+2015,Dog,Pointer/Australian Cattle Dog,2
+2015,Dog,Saluki,2
+2015,Dog,Queensland Heeler/Chihuahua Shorthair,2
+2015,Dog,Miniature Poodle/Yorkshire Terrier,2
+2015,Dog,Pit Bull/Dachshund,2
+2015,Dog,Staffordshire/Boston Terrier,2
+2015,Dog,Yorkshire Terrier/Norfolk Terrier,2
+2015,Dog,Mexican Hairless Mix,2
+2015,Dog,Rat Terrier/Cardigan Welsh Corgi,2
+2015,Dog,Nova Scotia Duck Tolling Retriever Mix,2
+2015,Dog,Miniature Poodle/Chihuahua Shorthair,2
+2015,Dog,Tibetan Terrier/Lhasa Apso,2
+2015,Dog,Queensland Heeler,2
+2015,Dog,Rottweiler/Rhod Ridgeback,2
+2015,Dog,Silky Terrier/Yorkshire Terrier,2
+2015,Dog,Pomeranian/Chihuahua Shorthair,2
+2015,Dog,Pekingese/Jack Russell Terrier,2
+2015,Dog,Vizsla/Labrador Retriever,2
+2015,Dog,Miniature Poodle/Lhasa Apso,2
+2015,Dog,Weimaraner/Pit Bull,2
+2015,Dog,Newfoundland Mix,2
+2015,Dog,Podengo Pequeno Mix,2
+2015,Dog,St. Bernard Rough Coat/Boxer,2
+2015,Dog,Pharaoh Hound,2
+2015,Dog,Shih Tzu/Yorkshire Terrier,2
+2015,Dog,Manchester Terrier/Pembroke Welsh Corgi,2
+2015,Dog,Manchester Terrier/Norfolk Terrier,2
+2015,Dog,Mastiff/Boxer,2
+2015,Dog,Miniature Schnauzer/Cairn Terrier,2
+2015,Dog,Rottweiler/Chow Chow,2
+2015,Dog,Old English Bulldog,2
+2015,Dog,Labrador Retriever/Collie Smooth,2
+2015,Dog,Great Pyrenees/Pointer,2
+2015,Dog,English Shepherd,2
+2015,Dog,Irish Terrier/Border Terrier,2
+2015,Dog,Dachshund/Miniature Poodle,2
+2015,Dog,Chihuahua Shorthair/Cairn Terrier,2
+2015,Dog,Collie Rough/Labrador Retriever,2
+2015,Dog,Italian Greyhound/Chihuahua Shorthair,2
+2015,Dog,Chihuahua Shorthair/Whippet,2
+2015,Dog,Dachshund/Rat Terrier,2
+2015,Dog,Leonberger Mix,2
+2015,Dog,Dachshund/Yorkshire Terrier,2
+2015,Dog,Golden Retriever/Beagle,2
+2015,Dog,Chinese Crested Mix,2
+2015,Dog,Golden Retriever/Collie Rough,2
+2015,Dog,Jack Russell Terrier/Border Collie,2
+2015,Dog,Labrador Retriever/Great Dane,2
+2015,Dog,German Shepherd/Black Mouth Cur,2
+2015,Dog,Labrador Retriever/Miniature Poodle,2
+2015,Dog,Jack Russell Terrier/Dachshund,2
+2015,Dog,Great Pyrenees/Golden Retriever,2
+2015,Dog,German Shepherd/Border Collie,2
+2015,Dog,Labrador Retriever/Standard Poodle,2
+2015,Dog,Jack Russell Terrier/Shih Tzu,2
+2015,Dog,French Bulldog Mix,2
+2015,Dog,Japanese Chin Mix,2
+2015,Dog,German Shepherd/Akita,2
+2015,Dog,Jindo Mix,2
+2015,Dog,Labrador Retriever/Collie Rough,2
+2015,Dog,Keeshond Mix,2
+2015,Dog,Golden Retriever/Chow Chow,2
+2015,Dog,Dalmatian/Australian Cattle Dog,2
+2015,Dog,Golden Retriever/Dachshund,2
+2015,Dog,German Shepherd/Chinese Sharpei,2
+2015,Dog,Chow Chow,2
+2015,Dog,Chihuahua Shorthair/Smooth Fox Terrier,2
+2015,Dog,English Setter Mix,2
+2015,Dog,Dachshund Longhair/Miniature Schnauzer,2
+2015,Dog,Dachshund/Bull Terrier,2
+2015,Dog,Labrador Retriever/Australian Kelpie,2
+2015,Dog,Feist Mix,2
+2015,Dog,Cocker Spaniel/Chihuahua Shorthair,2
+2015,Dog,Finnish Spitz,2
+2015,Dog,Chihuahua Shorthair/Miniature Schnauzer,2
+2015,Dog,Dachshund/English Foxhound,2
+2015,Dog,Dachshund Wirehair/Cairn Terrier,2
+2015,Dog,Chow Chow/Australian Cattle Dog,2
+2015,Dog,Labrador Retriever/Black Mouth Cur,2
+2015,Dog,Coton De Tulear Mix,2
+2015,Dog,Labrador Retriever/Blue Lacy,2
+2015,Dog,Harrier,2
+2015,Dog,Dutch Shepherd/Labrador Retriever,2
+2015,Dog,Lhasa Apso/Cairn Terrier,2
+2015,Dog,Cocker Spaniel/Miniature Poodle,2
+2015,Dog,Dachshund/Pit Bull,2
+2015,Dog,Chinese Sharpei/American Bulldog,2
+2015,Dog,English Cocker Spaniel Mix,2
+2015,Dog,German Shepherd/Collie Rough,2
+2015,Dog,Border Collie/Dachshund,2
+2015,Dog,Border Terrier/Miniature Poodle,2
+2015,Dog,Carolina Dog/Australian Cattle Dog,2
+2015,Dog,Blue Lacy/Pointer,2
+2015,Dog,Cairn Terrier/Border Collie,2
+2015,Dog,Black Mouth Cur/German Shepherd,2
+2015,Dog,Bernese Mountain Dog,2
+2015,Dog,Boxer/American Staffordshire Terrier,2
+2015,Dog,Catahoula/Anatol Shepherd,2
+2015,Dog,Australian Kelpie/Beagle,2
+2015,Dog,Australian Cattle Dog/Jack Russell Terrier,2
+2015,Dog,Chihuahua Longhair/Cardigan Welsh Corgi,2
+2015,Dog,Canaan Dog Mix,2
+2015,Dog,Chihuahua Longhair/Dachshund,2
+2015,Dog,Beagle/Chihuahua Shorthair,2
+2015,Dog,Black Mouth Cur/Mastiff,2
+2015,Dog,Carolina Dog,2
+2015,Dog,Boxer/Border Collie,2
+2015,Dog,Border Terrier,2
+2015,Dog,Boxer/Chinese Sharpei,2
+2015,Dog,American Eskimo/Border Collie,2
+2015,Dog,Boxer/Great Dane,2
+2015,Dog,Australian Cattle Dog/Great Pyrenees,2
+2015,Dog,Basenji/Australian Cattle Dog,2
+2015,Dog,Beagle/Australian Cattle Dog,2
+2015,Dog,Boxer/Miniature Poodle,2
+2015,Dog,Border Collie/Boxer,2
+2015,Dog,Alaskan Husky/German Shepherd,2
+2015,Dog,Canaan Dog/Redbone Hound,2
+2015,Dog,Australian Cattle Dog/Pembroke Welsh Corgi,2
+2015,Dog,American Bulldog/Pit Bull,2
+2015,Dog,Brittany,2
+2015,Dog,Australian Cattle Dog/Chow Chow,2
+2015,Dog,Australian Cattle Dog/Boxer,2
+2015,Dog,Black Mouth Cur/Australian Cattle Dog,2
+2015,Dog,Brittany/Labrador Retriever,2
+2015,Dog,Border Collie/Pointer,2
+2015,Dog,Australian Cattle Dog/Bull Terrier,2
+2015,Dog,Australian Cattle Dog/Dachshund,2
+2015,Dog,Border Collie/Australian Shepherd,2
+2015,Dog,Beagle/Standard Poodle,2
+2015,Dog,Bull Terrier Miniature,2
+2015,Dog,American Foxhound Mix,2
+2015,Dog,Australian Cattle Dog/Cardigan Welsh Corgi,2
+2015,Dog,Border Terrier/Chihuahua Shorthair,2
+2015,Dog,Bull Terrier/Boxer,2
+2015,Dog,Black Mouth Cur/Basset Hound,2
+2015,Dog,Bulldog Mix,2
+2015,Dog,American Pit Bull Terrier,2
+2015,Dog,Bullmastiff,2
+2015,Dog,Boston Terrier/Dachshund,2
+2015,Dog,Australian Cattle Dog/Chinese Sharpei,2
+2015,Dog,Chihuahua Longhair/Maltese,2
+2015,Dog,Boxer/Beagle,2
+2015,Dog,Boxer/Black Mouth Cur,2
+2015,Dog,Black Mouth Cur/Blue Lacy,2
+2015,Dog,Manchester Terrier/Chihuahua Shorthair,1
+2015,Dog,Smooth Fox Terrier/Rat Terrier,1
+2015,Dog,Norwich Terrier/Cairn Terrier,1
+2015,Dog,Otterhound Mix,1
+2015,Dog,Plott Hound/Bull Terrier,1
+2015,Dog,Pomeranian/Shetland Sheepdog,1
+2015,Dog,Welsh Terrier,1
+2015,Dog,Mastiff/Rottweiler,1
+2015,Dog,Mastiff/German Shepherd,1
+2015,Dog,Yorkshire Terrier/Shih Tzu,1
+2015,Dog,Plott Hound/Australian Cattle Dog,1
+2015,Dog,Maltese/Lhasa Apso,1
+2015,Dog,Pembroke Welsh Corgi/Basset Hound,1
+2015,Dog,Miniature Poodle/Border Terrier,1
+2015,Dog,Vizsla/German Shepherd,1
+2015,Dog,Miniature Poodle/Cairn Terrier,1
+2015,Dog,Whippet/Jack Russell Terrier,1
+2015,Dog,Pharaoh Hound/Australian Cattle Dog,1
+2015,Dog,Pomeranian/American Eskimo,1
+2015,Dog,Pug/Border Terrier,1
+2015,Dog,Pit Bull/Pug,1
+2015,Dog,Pug/Boston Terrier,1
+2015,Dog,St. Bernard Rough Coat,1
+2015,Dog,Pharaoh Hound/Border Collie,1
+2015,Dog,Staffordshire/Boxer,1
+2015,Dog,Pug/French Bulldog,1
+2015,Dog,Norfolk Terrier,1
+2015,Dog,Mastiff/Cane Corso,1
+2015,Dog,Pointer,1
+2015,Dog,Pug/Pekingese,1
+2015,Dog,Pembroke Welsh Corgi/Dachshund,1
+2015,Dog,Pug/Pit Bull,1
+2015,Dog,Norfolk Terrier/Dachshund,1
+2015,Dog,Pug/Pomeranian,1
+2015,Dog,Norwich Terrier/Border Terrier,1
+2015,Dog,Pug/Schipperke,1
+2015,Dog,Wire Hair Fox Terrier,1
+2015,Dog,Pug/Staffordshire,1
+2015,Dog,Pembroke Welsh Corgi/Golden Retriever,1
+2015,Dog,Old English Sheepdog,1
+2015,Dog,Siberian Husky/Australian Cattle Dog,1
+2015,Dog,Maltese/Shih Tzu,1
+2015,Dog,Pembroke Welsh Corgi/Anatol Shepherd,1
+2015,Dog,Old English Sheepdog Mix,1
+2015,Dog,Skye Terrier Mix,1
+2015,Dog,Queensland Heeler/German Shepherd,1
+2015,Dog,Pit Bull/Weimaraner,1
+2015,Dog,Queensland Heeler/Great Dane,1
+2015,Dog,Miniature Pinscher/Whippet,1
+2015,Dog,Queensland Heeler/Pit Bull,1
+2015,Dog,Newfoundland/Border Collie,1
+2015,Dog,Queensland Heeler/Pointer,1
+2015,Dog,Staffordshire/Labrador Retriever,1
+2015,Dog,Miniature Poodle/English Cocker Spaniel,1
+2015,Dog,Standard Poodle/Whippet,1
+2015,Dog,Miniature Poodle/Havanese,1
+2015,Dog,Plott Hound/Pit Bull,1
+2015,Dog,Rat Terrier/Beagle,1
+2015,Dog,Toy Fox Terrier/Dachshund,1
+2015,Dog,Pit Bull/American Foxhound,1
+2015,Dog,Toy Poodle/Cocker Spaniel,1
+2015,Dog,Rat Terrier/Cairn Terrier,1
+2015,Dog,Pointer/American Pit Bull Terrier,1
+2015,Dog,Papillon/Australian Cattle Dog,1
+2015,Dog,Vizsla/Catahoula,1
+2015,Dog,Miniature Poodle/Labrador Retriever,1
+2015,Dog,Vizsla/Staffordshire,1
+2015,Dog,Rat Terrier/English Pointer,1
+2015,Dog,Pointer/Boxer,1
+2015,Dog,Rat Terrier/Jack Russell Terrier,1
+2015,Dog,Mastiff/Akita,1
+2015,Dog,Papillon/Chihuahua Shorthair,1
+2015,Dog,Whippet/Borzoi,1
+2015,Dog,Pit Bull/Beagle,1
+2015,Dog,Whippet/Treeing Cur,1
+2015,Dog,Redbone Hound,1
+2015,Dog,Wire Hair Fox Terrier/Chihuahua Shorthair,1
+2015,Dog,Pit Bull/Black Mouth Cur,1
+2015,Dog,Pointer/Pit Bull,1
+2015,Dog,Redbone Hound/Australian Cattle Dog,1
+2015,Dog,Yorkshire Terrier/Chinese Crested,1
+2015,Dog,Rhod Ridgeback,1
+2015,Dog,Siberian Husky/Anatol Shepherd,1
+2015,Dog,Papillon/Miniature Poodle,1
+2015,Dog,Siberian Husky/Australian Shepherd,1
+2015,Dog,Manchester Terrier/Australian Kelpie,1
+2015,Dog,Miniature Schnauzer/West Highland,1
+2015,Dog,Rhod Ridgeback/Mastiff,1
+2015,Dog,Siberian Husky/Pit Bull,1
+2015,Dog,Rhod Ridgeback/Pit Bull,1
+2015,Dog,Pit Bull/Queensland Heeler,1
+2015,Dog,Rhod Ridgeback/Plott Hound,1
+2015,Dog,Pit Bull/Rottweiler,1
+2015,Dog,Pit Bull/Bull Terrier,1
+2015,Dog,Soft Coated Wheaten Terrier,1
+2015,Dog,Miniature Poodle/Pomeranian,1
+2015,Dog,Spanish Mastiff Mix,1
+2015,Dog,Rottweiler/Australian Cattle Dog,1
+2015,Dog,Pembroke Welsh Corgi/Australian Shepherd,1
+2015,Dog,Rottweiler/Beagle,1
+2015,Dog,St. Bernard Smooth Coat,1
+2015,Dog,Maltese/Yorkshire Terrier,1
+2015,Dog,Plott Hound/Blue Lacy,1
+2015,Dog,Miniature Poodle/Shih Tzu,1
+2015,Dog,Plott Hound/Boxer,1
+2015,Dog,Pit Bull/Cardigan Welsh Corgi,1
+2015,Dog,Staffordshire/Bull Terrier,1
+2015,Dog,Pit Bull/Carolina Dog,1
+2015,Dog,Standard Poodle,1
+2015,Dog,Pekingese/Cavalier Span,1
+2015,Dog,Plott Hound/German Shepherd,1
+2015,Dog,Saluki Mix,1
+2015,Dog,Standard Schnauzer,1
+2015,Dog,Samoyed Mix,1
+2015,Dog,Manchester Terrier/Beagle,1
+2015,Dog,Pit Bull/Chihuahua Shorthair,1
+2015,Dog,Plott Hound/Whippet,1
+2015,Dog,Pekingese/Chihuahua Shorthair,1
+2015,Dog,Norfolk Terrier/Border Terrier,1
+2015,Dog,Scottish Terrier,1
+2015,Dog,Toy Fox Terrier/Yorkshire Terrier,1
+2015,Dog,Papillon/Skye Terrier,1
+2015,Dog,Norfolk Terrier/Cairn Terrier,1
+2015,Dog,Shetland Sheepdog,1
+2015,Dog,Toy Poodle/Maltese,1
+2015,Dog,Manchester Terrier/Labrador Retriever,1
+2015,Dog,Treeing Walker Coonhound,1
+2015,Dog,Shetland Sheepdog/Basenji,1
+2015,Dog,Unknown Mix,1
+2015,Dog,Shetland Sheepdog/Border Collie,1
+2015,Dog,Pointer/Australian Kelpie,1
+2015,Dog,Shetland Sheepdog/Cavalier Span,1
+2015,Dog,Vizsla/Dachshund,1
+2015,Dog,Shetland Sheepdog/Keeshond,1
+2015,Dog,Pointer/Blue Lacy,1
+2015,Dog,Shetland Sheepdog/Pomeranian,1
+2015,Dog,Pembroke Welsh Corgi/German Shepherd,1
+2015,Dog,Pekingese/Miniature Poodle,1
+2015,Dog,Weimaraner/Labrador Retriever,1
+2015,Dog,Pit Bull/Dalmatian,1
+2015,Dog,Welsh Springer Spaniel,1
+2015,Dog,Miniature Schnauzer/Border Terrier,1
+2015,Dog,Pointer/Bull Terrier,1
+2015,Dog,Pit Bull/Doberman Pinsch,1
+2015,Dog,West Highland/Cairn Terrier,1
+2015,Dog,Shih Tzu/Australian Shepherd,1
+2015,Dog,Whippet/Australian Cattle Dog,1
+2015,Dog,Pit Bull/Dogue De Bordeaux,1
+2015,Dog,Whippet/Chihuahua Shorthair,1
+2015,Dog,Shih Tzu/Cocker Spaniel,1
+2015,Dog,Pointer/Catahoula,1
+2015,Dog,Shih Tzu/Dachshund,1
+2015,Dog,Whippet/Whippet,1
+2015,Dog,Shih Tzu/Havanese,1
+2015,Dog,Pointer/Collie Smooth,1
+2015,Dog,Shih Tzu/Maltese,1
+2015,Dog,Miniature Poodle/American Eskimo,1
+2015,Dog,Pit Bull/English Bulldog,1
+2015,Dog,Nova Scotia Duck Tolling Retriever,1
+2015,Dog,Pit Bull/German Shepherd,1
+2015,Dog,Pointer/Staffordshire,1
+2015,Dog,Miniature Pinscher/Pomeranian,1
+2015,Dog,Miniature Poodle/Australian Cattle Dog,1
+2015,Dog,Miniature Schnauzer/Jack Russell Terrier,1
+2015,Dog,Yorkshire Terrier/Maltese,1
+2015,Dog,Pit Bull/Mastiff,1
+2015,Dog,Miniature Poodle/Bichon Frise,1
+2015,Dog,Siberian Husky/Alaskan Malamute,1
+2015,Dog,Rat Terrier/Pug,1
+2015,Dog,Port Water Dog Mix,1
+2015,Dog,Yorkshire Terrier/Toy Poodle,1
+2015,Dog,Presa Canario,1
+2015,Dog,Presa Canario Mix,1
+2015,Dog,German Shepherd/Greyhound,1
+2015,Dog,French Bulldog/Pug,1
+2015,Dog,Dachshund Stan Mix,1
+2015,Dog,Glen Of Imaal Mix,1
+2015,Dog,German Shepherd/Catahoula,1
+2015,Dog,Glen Of Imaal/Ibizan Hound,1
+2015,Dog,Lhasa Apso/Pbgv,1
+2015,Dog,Chihuahua Shorthair/Cavalier Span,1
+2015,Dog,Flat Coat Retriever/Golden Retriever,1
+2015,Dog,Cocker Spaniel/Standard Poodle,1
+2015,Dog,Labrador Retriever/Dachshund,1
+2015,Dog,Golden Retriever/Australian Cattle Dog,1
+2015,Dog,Labrador Retriever/Pembroke Welsh Corgi,1
+2015,Dog,Dachshund/Shetland Sheepdog,1
+2015,Dog,Dachshund/Miniature Pinscher,1
+2015,Dog,Golden Retriever/Border Collie,1
+2015,Dog,Maltese/Dalmatian,1
+2015,Dog,Golden Retriever/Brittany,1
+2015,Dog,Labrador Retriever/Alaskan Malamute,1
+2015,Dog,Dachshund/Shih Tzu,1
+2015,Dog,French Bulldog/Dachshund,1
+2015,Dog,Dachshund/Whippet,1
+2015,Dog,Chow Chow/Labrador Retriever,1
+2015,Dog,Cocker Spaniel/Toy Poodle,1
+2015,Dog,Chihuahua Shorthair/Welsh Terrier,1
+2015,Dog,Golden Retriever/Finnish Spitz,1
+2015,Dog,Cocker Spaniel/Australian Shepherd,1
+2015,Dog,Golden Retriever/German Shepherd,1
+2015,Dog,Labrador Retriever/Pug,1
+2015,Dog,Dalmatian,1
+2015,Dog,Labrador Retriever/Vizsla,1
+2015,Dog,Golden Retriever/Standard Poodle,1
+2015,Dog,German Shorthair Pointer,1
+2015,Dog,Golden Retriever/Whippet,1
+2015,Dog,German Shorthair Pointer/Brittany,1
+2015,Dog,Collie Rough,1
+2015,Dog,Chihuahua Shorthair/Dachshund Wirehair,1
+2015,Dog,Chihuahua Shorthair/Chinese Sharpei,1
+2015,Dog,Dachshund Wirehair,1
+2015,Dog,Great Dane/Australian Cattle Dog,1
+2015,Dog,Labrador Retriever/American Staffordshire Terrier,1
+2015,Dog,Great Dane/Boerboel,1
+2015,Dog,French Bulldog,1
+2015,Dog,Great Dane/Boxer,1
+2015,Dog,Labrador Retriever/Black/Tan Hound,1
+2015,Dog,Great Dane/German Shepherd,1
+2015,Dog,Labrador Retriever/Brittany,1
+2015,Dog,Dalmatian/Boxer,1
+2015,Dog,Dachshund Wirehair/Norfolk Terrier,1
+2015,Dog,Great Dane/Pit Bull,1
+2015,Dog,Dachshund/Basset Hound,1
+2015,Dog,Great Dane/Staffordshire,1
+2015,Dog,Chihuahua Shorthair/German Shepherd,1
+2015,Dog,Dalmatian/Labrador Retriever,1
+2015,Dog,Labrador Retriever/Jack Russell Terrier,1
+2015,Dog,Collie Rough/Golden Retriever,1
+2015,Dog,Labrador Retriever/Newfoundland,1
+2015,Dog,Chihuahua Shorthair/Queensland Heeler,1
+2015,Dog,German Shepherd/Doberman Pinsch,1
+2015,Dog,Great Pyrenees/Australian Cattle Dog,1
+2015,Dog,German Shepherd/Golden Retriever,1
+2015,Dog,Great Pyrenees/Australian Shepherd,1
+2015,Dog,Labrador Retriever/Staffordshire,1
+2015,Dog,Great Pyrenees/Border Collie,1
+2015,Dog,German Shepherd/Redbone Hound,1
+2015,Dog,Doberman Pinsch/Labrador Retriever,1
+2015,Dog,German Shepherd/Weimaraner,1
+2015,Dog,Collie Rough/Pembroke Welsh Corgi,1
+2015,Dog,Lhasa Apso/Dachshund,1
+2015,Dog,Chinese Sharpei/Airedale Terrier,1
+2015,Dog,Lhasa Apso/Yorkshire Terrier,1
+2015,Dog,Great Pyrenees/Pit Bull,1
+2015,Dog,Maltese/Border Terrier,1
+2015,Dog,Chihuahua Shorthair/Basenji,1
+2015,Dog,Dachshund Longhair/Pomeranian,1
+2015,Dog,Great Pyrenees/St. Bernard Rough Coat,1
+2015,Dog,Jindo/Labrador Retriever,1
+2015,Dog,Chinese Sharpei/American Staffordshire Terrier,1
+2015,Dog,Finnish Spitz/Dachshund,1
+2015,Dog,Chinese Sharpei/Australian Cattle Dog,1
+2015,Dog,Labrador Retriever/Alaskan Husky,1
+2015,Dog,Greyhound/Great Dane,1
+2015,Dog,Labrador Retriever/American Bulldog,1
+2015,Dog,Greyhound/Labrador Retriever,1
+2015,Dog,Flat Coat Retriever/Australian Cattle Dog,1
+2015,Dog,Chinese Sharpei/Basset Hound,1
+2015,Dog,Chow Chow/Australian Kelpie,1
+2015,Dog,English Bulldog/Beagle,1
+2015,Dog,Chow Chow/Chinese Sharpei,1
+2015,Dog,English Bulldog/Boxer,1
+2015,Dog,French Bulldog/English Bulldog,1
+2015,Dog,Harrier/Pointer,1
+2015,Dog,French Bulldog/Miniature Schnauzer,1
+2015,Dog,Havanese,1
+2015,Dog,German Pinscher Mix,1
+2015,Dog,English Bulldog/Pit Bull,1
+2015,Dog,Chow Chow/German Shepherd,1
+2015,Dog,Chinese Sharpei/Labrador Retriever,1
+2015,Dog,Dachshund Wirehair/Miniature Schnauzer,1
+2015,Dog,Chihuahua Shorthair/Schipperke,1
+2015,Dog,German Shepherd/Alaskan Malamute,1
+2015,Dog,Irish Wolfhound/Australian Shepherd,1
+2015,Dog,Chihuahua Shorthair/Pekingese,1
+2015,Dog,Irish Wolfhound/Great Dane,1
+2015,Dog,Chow Chow/Siberian Husky,1
+2015,Dog,Italian Greyhound,1
+2015,Dog,German Shepherd/Black/Tan Hound,1
+2015,Dog,English Coonhound/Border Collie,1
+2015,Dog,Dachshund/Chinese Sharpei,1
+2015,Dog,English Foxhound,1
+2015,Dog,Labrador Retriever/Harrier,1
+2015,Dog,English Foxhound Mix,1
+2015,Dog,Labrador Retriever/Labrador Retriever,1
+2015,Dog,Dachshund Longhair/Cardigan Welsh Corgi,1
+2015,Dog,Dachshund/Greyhound,1
+2015,Dog,Jack Russell Terrier/Basenji,1
+2015,Dog,Labrador Retriever/Patterdale Terr,1
+2015,Dog,Jack Russell Terrier/Basset Hound,1
+2015,Dog,Chihuahua Shorthair/Affenpinscher,1
+2015,Dog,Dachshund Longhair/Chihuahua Longhair,1
+2015,Dog,German Shepherd/German Shepherd,1
+2015,Dog,Dachshund Longhair/Chihuahua Shorthair,1
+2015,Dog,Labrador Retriever/Queensland Heeler,1
+2015,Dog,Jack Russell Terrier/Boston Terrier,1
+2015,Dog,German Shepherd/Great Dane,1
+2015,Dog,Jack Russell Terrier/Cairn Terrier,1
+2015,Dog,Cocker Spaniel/Chihuahua Longhair,1
+2015,Dog,Jack Russell Terrier/Chihuahua Longhair,1
+2015,Dog,Chihuahua Shorthair/Wire Hair Fox Terrier,1
+2015,Dog,English Springer Spaniel,1
+2015,Dog,Labrador Retriever/Whippet,1
+2015,Dog,Dachshund Longhair/Miniature Poodle,1
+2015,Dog,Leonberger,1
+2015,Dog,Jack Russell Terrier/Dachshund Wirehair,1
+2015,Dog,Cocker Spaniel/Dachshund Longhair,1
+2015,Dog,Jack Russell Terrier/Labrador Retriever,1
+2015,Dog,Lhasa Apso/Border Terrier,1
+2015,Dog,Jack Russell Terrier/Manchester Terrier,1
+2015,Dog,Lhasa Apso/Cocker Spaniel,1
+2015,Dog,Jack Russell Terrier/Miniature Poodle,1
+2015,Dog,Dachshund/Parson Russell Terrier,1
+2015,Dog,Jack Russell Terrier/Papillon,1
+2015,Dog,Lhasa Apso/West Highland,1
+2015,Dog,Jack Russell Terrier/Pointer,1
+2015,Dog,Lowchen/Miniature Poodle,1
+2015,Dog,Jack Russell Terrier/Pug,1
+2015,Dog,Chihuahua Shorthair/Boxer,1
+2015,Dog,English Springer Spaniel/Beagle,1
+2015,Dog,Maltese/Dachshund,1
+2015,Dog,Chihuahua Shorthair/Shetland Sheepdog,1
+2015,Dog,German Wirehaired Pointer/Labrador Retriever,1
+2015,Dog,Jack Russell Terrier/Whippet,1
+2015,Dog,American Staffordshire Terrier/French Bulldog,1
+2015,Dog,Australian Cattle Dog/Collie Smooth,1
+2015,Dog,Chihuahua Longhair/Queensland Heeler,1
+2015,Dog,Black Mouth Cur/Siberian Husky,1
+2015,Dog,Cane Corso/Mastiff,1
+2015,Dog,Black/Tan Hound,1
+2015,Dog,Catahoula/Whippet,1
+2015,Dog,Anatol Shepherd/Australian Shepherd,1
+2015,Dog,Bull Terrier Miniature Mix,1
+2015,Dog,Black/Tan Hound/Siberian Husky,1
+2015,Dog,Beagle/Treeing Walker Coonhound,1
+2015,Dog,Australian Kelpie/Blue Lacy,1
+2015,Dog,Cardigan Welsh Corgi/German Shepherd,1
+2015,Dog,Australian Kelpie/Finnish Spitz,1
+2015,Dog,Black Mouth Cur,1
+2015,Dog,Australian Kelpie/Miniature Pinscher,1
+2015,Dog,American Bulldog/Boxer,1
+2015,Dog,American Bulldog/English Bulldog,1
+2015,Dog,Bruss Griffon/Chihuahua Longhair,1
+2015,Dog,Blue Lacy/Australian Cattle Dog,1
+2015,Dog,Bull Terrier/Pit Bull,1
+2015,Dog,Australian Kelpie/Rat Terrier,1
+2015,Dog,Beagle/Rat Terrier,1
+2015,Dog,Blue Lacy/Black Mouth Cur,1
+2015,Dog,Cairn Terrier/Yorkshire Terrier,1
+2015,Dog,Blue Lacy/Collie Smooth,1
+2015,Dog,Cardigan Welsh Corgi/Australian Shepherd,1
+2015,Dog,Australian Kelpie/Whippet,1
+2015,Dog,American Staffordshire Terrier/Australian Cattle Dog,1
+2015,Dog,Anatol Shepherd/Catahoula,1
+2015,Dog,Bichon Frise/Miniature Poodle,1
+2015,Dog,Blue Lacy/Weimaraner,1
+2015,Dog,Black Mouth Cur/American Staffordshire Terrier,1
+2015,Dog,American Bulldog/Great Pyrenees,1
+2015,Dog,Airedale Terrier/Irish Terrier,1
+2015,Dog,Bluetick Hound/Australian Kelpie,1
+2015,Dog,Chihuahua Longhair/Italian Greyhound,1
+2015,Dog,Bluetick Hound/Great Pyrenees,1
+2015,Dog,Alaskan Malamute Mix,1
+2015,Dog,Bluetick Hound/Treeing Walker Coonhound,1
+2015,Dog,Beagle/Harrier,1
+2015,Dog,Boerboel,1
+2015,Dog,Beagle/Pembroke Welsh Corgi,1
+2015,Dog,Anatol Shepherd/Labrador Retriever,1
+2015,Dog,Alaskan Malamute/Australian Kelpie,1
+2015,Dog,Australian Shepherd/Australian Cattle Dog,1
+2015,Dog,Bullmastiff/Black Mouth Cur,1
+2015,Dog,American Bulldog/Labrador Retriever,1
+2015,Dog,American Pit Bull Terrier/Pit Bull,1
+2015,Dog,Australian Shepherd/Boxer,1
+2015,Dog,Cairn Terrier/Miniature Poodle,1
+2015,Dog,American Bulldog/Mastiff,1
+2015,Dog,Bearded Collie,1
+2015,Dog,Australian Shepherd/Dachshund,1
+2015,Dog,Australian Cattle Dog/German Shorthair Pointer,1
+2015,Dog,Border Collie/Canaan Dog,1
+2015,Dog,Cardigan Welsh Corgi/Chihuahua Longhair,1
+2015,Dog,Border Collie/Catahoula,1
+2015,Dog,Belgian Tervuren/German Shepherd,1
+2015,Dog,Border Collie/Chow Chow,1
+2015,Dog,Carolina Dog/Labrador Retriever,1
+2015,Dog,Australian Shepherd/Dalmatian,1
+2015,Dog,Catahoula/American Bulldog,1
+2015,Dog,Border Collie/English Pointer,1
+2015,Dog,Catahoula/Beagle,1
+2015,Dog,Australian Shepherd/Feist,1
+2015,Dog,Catahoula/German Shepherd,1
+2015,Dog,Australian Shepherd/German Shepherd,1
+2015,Dog,Catahoula/Plott Hound,1
+2015,Dog,Border Collie/Greyhound,1
+2015,Dog,Cavalier Span/Papillon,1
+2015,Dog,Australian Shepherd/Jack Russell Terrier,1
+2015,Dog,Affenpinscher Mix,1
+2015,Dog,Border Collie/Mastiff,1
+2015,Dog,Chihuahua Longhair/Cocker Spaniel,1
+2015,Dog,Border Collie/Pit Bull,1
+2015,Dog,Chihuahua Longhair/Pekingese,1
+2015,Dog,Anatol Shepherd/Siberian Husky,1
+2015,Dog,Australian Kelpie/Alaskan Husky,1
+2015,Dog,Border Collie/Rottweiler,1
+2015,Dog,Australian Cattle Dog/Catahoula,1
+2015,Dog,Border Collie/Siberian Husky,1
+2015,Dog,Bruss Griffon/Dachshund,1
+2015,Dog,Border Collie/Whippet,1
+2015,Dog,Alaskan Malamute/Alaskan Husky,1
+2015,Dog,Australian Shepherd/Parson Russell Terrier,1
+2015,Dog,Beagle/Parson Russell Terrier,1
+2015,Dog,Australian Shepherd/Plott Hound,1
+2015,Dog,Bull Terrier/Jack Russell Terrier,1
+2015,Dog,Border Terrier/Bruss Griffon,1
+2015,Dog,Bulldog,1
+2015,Dog,Border Terrier/Chihuahua Longhair,1
+2015,Dog,Bulldog/Boston Terrier,1
+2015,Dog,Australian Shepherd/Rottweiler,1
+2015,Dog,Bullmastiff Mix,1
+2015,Dog,Border Terrier/Dachshund,1
+2015,Dog,Bullmastiff/Boxer,1
+2015,Dog,Alaskan Husky/Australian Shepherd,1
+2015,Dog,Beagle/Staffordshire,1
+2015,Dog,Border Terrier/Shih Tzu,1
+2015,Dog,Cairn Terrier/Border Terrier,1
+2015,Dog,Border Terrier/West Highland,1
+2015,Dog,Cairn Terrier/Dachshund Wirehair,1
+2015,Dog,American Eskimo,1
+2015,Dog,Cairn Terrier/Miniature Schnauzer,1
+2015,Dog,Alaskan Husky/Border Collie,1
+2015,Dog,Australian Cattle Dog/Dalmatian,1
+2015,Dog,Basenji/Chihuahua Shorthair,1
+2015,Dog,American Pit Bull Terrier/Pointer,1
+2015,Dog,Australian Cattle Dog/Alaskan Husky,1
+2015,Dog,Beauceron,1
+2015,Dog,Boston Terrier/Pug,1
+2015,Dog,Australian Cattle Dog/Golden Retriever,1
+2015,Dog,Australian Cattle Dog/American Foxhound,1
+2015,Dog,Cardigan Welsh Corgi/Beagle,1
+2015,Dog,Basset Hound/Beagle,1
+2015,Dog,Airedale Terrier/Labrador Retriever,1
+2015,Dog,Boxer/Akita,1
+2015,Dog,Airedale Terrier/Miniature Schnauzer,1
+2015,Dog,Boxer/American Pit Bull Terrier,1
+2015,Dog,American Staffordshire Terrier/American Bulldog,1
+2015,Dog,Basset Hound/English Cocker Spaniel,1
+2015,Dog,Bernese Mountain Dog/Rottweiler,1
+2015,Dog,Basset Hound/French Bulldog,1
+2015,Dog,Carolina Dog/Pit Bull,1
+2015,Dog,Basset Hound/Golden Retriever,1
+2015,Dog,Australian Cattle Dog/Plott Hound,1
+2015,Dog,Australian Cattle Dog/Australian Shepherd,1
+2015,Dog,Catahoula/American Pit Bull Terrier,1
+2015,Dog,Australian Cattle Dog/Basenji,1
+2015,Dog,Bichon Frise/Toy Poodle,1
+2015,Dog,American Eskimo/Australian Shepherd,1
+2015,Dog,Catahoula/Bulldog,1
+2015,Dog,Boxer/Bulldog,1
+2015,Dog,American Staffordshire Terrier/Labrador Retriever,1
+2015,Dog,Akita/Australian Cattle Dog,1
+2015,Dog,Catahoula/Great Dane,1
+2015,Dog,Boxer/English Bulldog,1
+2015,Dog,Catahoula/Pit Bull,1
+2015,Dog,Akita/Pit Bull,1
+2015,Dog,Catahoula/Rottweiler,1
+2015,Dog,Boxer/Greyhound,1
+2015,Dog,Australian Cattle Dog/Pug,1
+2015,Dog,Boxer/Harrier,1
+2015,Dog,Chesa Bay Retr,1
+2015,Dog,Beagle/Black Mouth Cur,1
+2015,Dog,Australian Cattle Dog/Vizsla,1
+2015,Dog,Boxer/Mastiff,1
+2015,Dog,Chihuahua Longhair/Cairn Terrier,1
+2015,Dog,Beagle/Boston Terrier,1
+2015,Dog,Chihuahua Longhair/Chihuahua Shorthair,1
+2015,Dog,Beagle/Boxer,1
+2015,Dog,Anatol Shepherd/Australian Cattle Dog,1
+2015,Dog,Beagle/Cardigan Welsh Corgi,1
+2015,Dog,Black Mouth Cur/Labrador Retriever,1
+2015,Dog,Boykin Span Mix,1
+2015,Dog,Chihuahua Longhair/Pomeranian,1
+2015,Dog,American Foxhound/Labrador Retriever,1
+2015,Dog,Chihuahua Longhair/West Highland,1
+2015,Dog,Beagle/Cocker Spaniel,1
+2015,Dog,Black Mouth Cur/Pit Bull,1
+2015,Dog,Brittany/Border Collie,1
+2015,Dog,Black Mouth Cur/Boxer,1
+2016,Cat,Domestic Shorthair Mix,5341
+2016,Cat,Domestic Medium Hair Mix,562
+2016,Cat,Domestic Longhair Mix,243
+2016,Cat,Siamese Mix,214
+2016,Cat,Domestic Shorthair,104
+2016,Cat,Domestic Medium Hair,40
+2016,Cat,Snowshoe Mix,25
+2016,Cat,Maine Coon Mix,18
+2016,Cat,Manx Mix,13
+2016,Cat,Siamese,10
+2016,Cat,Russian Blue Mix,7
+2016,Cat,Domestic Longhair,6
+2016,Cat,Himalayan Mix,5
+2016,Cat,Persian,3
+2016,Cat,Ragdoll Mix,2
+2016,Cat,Bengal Mix,2
+2016,Cat,Bombay Mix,2
+2016,Cat,Snowshoe,2
+2016,Cat,Domestic Medium Hair/Maine Coon,2
+2016,Cat,Turkish Angora Mix,2
+2016,Cat,Devon Rex Mix,1
+2016,Cat,Persian Mix,1
+2016,Cat,Domestic Longhair/Persian,1
+2016,Cat,Japanese Bobtail Mix,1
+2016,Cat,Domestic Shorthair/Abyssinian,1
+2016,Cat,Maine Coon,1
+2016,Cat,Angora Mix,1
+2016,Cat,Burmese,1
+2016,Cat,British Shorthair Mix,1
+2016,Cat,Cymric Mix,1
+2016,Cat,Ragdoll,1
+2016,Cat,Manx/Domestic Shorthair,1
+2016,Cat,Russian Blue,1
+2016,Cat,Tonkinese Mix,1
+2016,Cat,American Shorthair Mix,1
+2016,Cat,British Shorthair,1
+2016,Cat,Exotic Shorthair Mix,1
+2016,Cat,Ocicat Mix,1
+2016,Cat,American Curl Shorthair Mix,1
+2016,Cat,Oriental Sh Mix,1
+2016,Cat,Munchkin Shorthair Mix,1
+2016,Cat,Norwegian Forest Cat Mix,1
+2016,Dog,Pit Bull Mix,1499
+2016,Dog,Labrador Retriever Mix,1171
+2016,Dog,Chihuahua Shorthair Mix,1063
+2016,Dog,German Shepherd Mix,489
+2016,Dog,Australian Cattle Dog Mix,267
+2016,Dog,Dachshund Mix,188
+2016,Dog,Boxer Mix,142
+2016,Dog,Border Collie Mix,141
+2016,Dog,Miniature Poodle Mix,134
+2016,Dog,Rat Terrier Mix,122
+2016,Dog,Catahoula Mix,113
+2016,Dog,Jack Russell Terrier Mix,103
+2016,Dog,Pointer Mix,102
+2016,Dog,Great Pyrenees Mix,92
+2016,Dog,Beagle Mix,92
+2016,Dog,Siberian Husky Mix,89
+2016,Dog,Australian Shepherd Mix,86
+2016,Dog,Miniature Schnauzer Mix,84
+2016,Dog,Chihuahua Longhair Mix,82
+2016,Dog,Black Mouth Cur Mix,82
+2016,Dog,Yorkshire Terrier Mix,80
+2016,Dog,Cairn Terrier Mix,80
+2016,Dog,Plott Hound Mix,70
+2016,Dog,Rottweiler Mix,68
+2016,Dog,Staffordshire Mix,67
+2016,Dog,Shih Tzu Mix,66
+2016,Dog,Pit Bull,61
+2016,Dog,Queensland Heeler Mix,59
+2016,Dog,American Bulldog Mix,59
+2016,Dog,Labrador Retriever/Pit Bull,54
+2016,Dog,Anatol Shepherd Mix,52
+2016,Dog,Chihuahua Shorthair/Dachshund,51
+2016,Dog,German Shepherd,50
+2016,Dog,Chow Chow Mix,44
+2016,Dog,Maltese Mix,42
+2016,Dog,Australian Kelpie Mix,40
+2016,Dog,Labrador Retriever,39
+2016,Dog,American Staffordshire Terrier Mix,38
+2016,Dog,Chihuahua Shorthair,37
+2016,Dog,Golden Retriever Mix,35
+2016,Dog,Toy Poodle Mix,34
+2016,Dog,Pug Mix,33
+2016,Dog,Dachshund/Chihuahua Shorthair,32
+2016,Dog,Lhasa Apso Mix,31
+2016,Dog,Miniature Pinscher Mix,30
+2016,Dog,Pomeranian Mix,29
+2016,Dog,Siberian Husky,28
+2016,Dog,Pit Bull/Labrador Retriever,28
+2016,Dog,Blue Lacy Mix,28
+2016,Dog,Rhod Ridgeback Mix,25
+2016,Dog,Dachshund Wirehair Mix,25
+2016,Dog,Doberman Pinsch Mix,25
+2016,Dog,Border Terrier Mix,25
+2016,Dog,Rottweiler,24
+2016,Dog,Labrador Retriever/German Shepherd,24
+2016,Dog,Great Dane Mix,24
+2016,Dog,Basset Hound Mix,23
+2016,Dog,American Pit Bull Terrier Mix,23
+2016,Dog,Pekingese Mix,22
+2016,Dog,Collie Smooth Mix,22
+2016,Dog,German Shepherd/Labrador Retriever,22
+2016,Dog,Manchester Terrier Mix,21
+2016,Dog,Boxer,21
+2016,Dog,Dachshund Longhair Mix,21
+2016,Dog,Mastiff Mix,20
+2016,Dog,Cocker Spaniel Mix,19
+2016,Dog,Australian Cattle Dog,19
+2016,Dog,Cardigan Welsh Corgi Mix,19
+2016,Dog,Beagle,19
+2016,Dog,Shih Tzu,18
+2016,Dog,Chinese Sharpei Mix,18
+2016,Dog,Chihuahua Shorthair/Jack Russell Terrier,18
+2016,Dog,Wire Hair Fox Terrier Mix,17
+2016,Dog,Norfolk Terrier Mix,17
+2016,Dog,Labrador Retriever/Great Pyrenees,17
+2016,Dog,Black/Tan Hound Mix,16
+2016,Dog,Boston Terrier Mix,16
+2016,Dog,Miniature Schnauzer/Miniature Poodle,15
+2016,Dog,Miniature Poodle,15
+2016,Dog,Bulldog Mix,15
+2016,Dog,English Bulldog Mix,15
+2016,Dog,Basenji Mix,15
+2016,Dog,Dachshund,15
+2016,Dog,Bull Terrier Mix,15
+2016,Dog,Border Collie,14
+2016,Dog,Labrador Retriever/Rottweiler,13
+2016,Dog,Whippet Mix,13
+2016,Dog,Jack Russell Terrier,13
+2016,Dog,Jack Russell Terrier/Chihuahua Shorthair,13
+2016,Dog,Dalmatian Mix,13
+2016,Dog,Akita Mix,13
+2016,Dog,Chihuahua Shorthair/Rat Terrier,13
+2016,Dog,Norwich Terrier Mix,12
+2016,Dog,Redbone Hound Mix,12
+2016,Dog,Rat Terrier/Chihuahua Shorthair,12
+2016,Dog,Pit Bull/Boxer,12
+2016,Dog,Bichon Frise Mix,12
+2016,Dog,Parson Russell Terrier Mix,11
+2016,Dog,Pug/Beagle,11
+2016,Dog,Miniature Schnauzer,11
+2016,Dog,Labrador Retriever/Beagle,11
+2016,Dog,West Highland Mix,11
+2016,Dog,Labrador Retriever/Australian Cattle Dog,11
+2016,Dog,Labrador Retriever/Border Collie,11
+2016,Dog,Carolina Dog Mix,11
+2016,Dog,English Bulldog,11
+2016,Dog,Pembroke Welsh Corgi Mix,10
+2016,Dog,Pug,10
+2016,Dog,Doberman Pinsch,10
+2016,Dog,Alaskan Husky Mix,10
+2016,Dog,Anatol Shepherd/Labrador Retriever,10
+2016,Dog,Cocker Spaniel,10
+2016,Dog,Harrier Mix,9
+2016,Dog,Standard Schnauzer Mix,9
+2016,Dog,Labrador Retriever/Dachshund,9
+2016,Dog,Labrador Retriever/Golden Retriever,9
+2016,Dog,Labrador Retriever/Chow Chow,9
+2016,Dog,Yorkshire Terrier,9
+2016,Dog,Golden Retriever,9
+2016,Dog,Dutch Shepherd Mix,9
+2016,Dog,Bloodhound Mix,9
+2016,Dog,Border Collie/Labrador Retriever,9
+2016,Dog,Boston Terrier,9
+2016,Dog,Great Pyrenees/Labrador Retriever,8
+2016,Dog,Labrador Retriever/Pointer,8
+2016,Dog,Pharaoh Hound Mix,8
+2016,Dog,Smooth Fox Terrier Mix,8
+2016,Dog,Catahoula/Plott Hound,8
+2016,Dog,American Foxhound Mix,8
+2016,Dog,Australian Cattle Dog/Boxer,8
+2016,Dog,German Shorthair Pointer Mix,8
+2016,Dog,Airedale Terrier Mix,8
+2016,Dog,Catahoula,8
+2016,Dog,Weimaraner Mix,7
+2016,Dog,Labrador Retriever/Boxer,7
+2016,Dog,Tibetan Terrier Mix,7
+2016,Dog,Shetland Sheepdog Mix,7
+2016,Dog,Shiba Inu Mix,7
+2016,Dog,Pomeranian,7
+2016,Dog,Yorkshire Terrier/Miniature Poodle,7
+2016,Dog,Beauceron Mix,7
+2016,Dog,Flat Coat Retriever Mix,7
+2016,Dog,German Shepherd/Chow Chow,7
+2016,Dog,Chihuahua Shorthair/Pug,7
+2016,Dog,Labrador Retriever/Standard Poodle,6
+2016,Dog,Havanese Mix,6
+2016,Dog,Pit Bull/Chihuahua Shorthair,6
+2016,Dog,Lhasa Apso/Miniature Poodle,6
+2016,Dog,Miniature Poodle/Miniature Schnauzer,6
+2016,Dog,Pug/Chihuahua Shorthair,6
+2016,Dog,Soft Coated Wheaten Terrier Mix,6
+2016,Dog,Queensland Heeler,6
+2016,Dog,Papillon Mix,6
+2016,Dog,Miniature Pinscher,6
+2016,Dog,Dogue De Bordeaux Mix,6
+2016,Dog,Border Collie/Bull Terrier,6
+2016,Dog,French Bulldog Mix,6
+2016,Dog,Basset Hound,6
+2016,Dog,Cocker Spaniel/Miniature Poodle,6
+2016,Dog,Feist Mix,6
+2016,Dog,Beagle/Labrador Retriever,6
+2016,Dog,American Eskimo,6
+2016,Dog,Glen Of Imaal Mix,6
+2016,Dog,Treeing Walker Coonhound Mix,5
+2016,Dog,Miniature Poodle/Bichon Frise,5
+2016,Dog,Pointer/Labrador Retriever,5
+2016,Dog,Schnauzer Giant Mix,5
+2016,Dog,Lhasa Apso,5
+2016,Dog,Rat Terrier,5
+2016,Dog,Vizsla Mix,5
+2016,Dog,Maltese/Miniature Poodle,5
+2016,Dog,Pointer/Pit Bull,5
+2016,Dog,Pit Bull/Catahoula,5
+2016,Dog,Miniature Poodle/Maltese,5
+2016,Dog,Toy Fox Terrier Mix,5
+2016,Dog,Labrador Retriever/Anatol Shepherd,5
+2016,Dog,English Pointer Mix,5
+2016,Dog,Beagle/German Shepherd,5
+2016,Dog,Alaskan Malamute Mix,5
+2016,Dog,Australian Cattle Dog/Labrador Retriever,5
+2016,Dog,Chihuahua Longhair/Pomeranian,5
+2016,Dog,Chow Chow/German Shepherd,5
+2016,Dog,Australian Cattle Dog/German Shepherd,5
+2016,Dog,Black Mouth Cur/Pit Bull,5
+2016,Dog,Dachshund/Beagle,5
+2016,Dog,American Bulldog/Pit Bull,5
+2016,Dog,Chihuahua Shorthair/Yorkshire Terrier,5
+2016,Dog,Collie Rough Mix,5
+2016,Dog,Belgian Malinois Mix,5
+2016,Dog,Bullmastiff Mix,5
+2016,Dog,English Shepherd Mix,5
+2016,Dog,Cairn Terrier,5
+2016,Dog,Boxer/Pit Bull,5
+2016,Dog,Australian Shepherd,5
+2016,Dog,German Shepherd/Siberian Husky,5
+2016,Dog,Pbgv Mix,4
+2016,Dog,Welsh Terrier Mix,4
+2016,Dog,Weimaraner,4
+2016,Dog,Manchester Terrier/Chihuahua Shorthair,4
+2016,Dog,Silky Terrier Mix,4
+2016,Dog,Swedish Vallhund Mix,4
+2016,Dog,Great Pyrenees,4
+2016,Dog,Tibetan Spaniel Mix,4
+2016,Dog,Siberian Husky/Australian Cattle Dog,4
+2016,Dog,Jack Russell Terrier/Australian Cattle Dog,4
+2016,Dog,Siberian Husky/German Shepherd,4
+2016,Dog,Shiba Inu,4
+2016,Dog,Scottish Terrier Mix,4
+2016,Dog,Lhasa Apso/Shih Tzu,4
+2016,Dog,Mexican Hairless Mix,4
+2016,Dog,Pit Bull/Australian Cattle Dog,4
+2016,Dog,Black Mouth Cur,4
+2016,Dog,Cavalier Span,4
+2016,Dog,Boxer/Labrador Retriever,4
+2016,Dog,Beagle/Chihuahua Shorthair,4
+2016,Dog,Bearded Collie Mix,4
+2016,Dog,Dachshund/Rat Terrier,4
+2016,Dog,Chihuahua Shorthair/Miniature Pinscher,4
+2016,Dog,Bull Terrier,4
+2016,Dog,German Shepherd/Australian Shepherd,4
+2016,Dog,Brittany Mix,4
+2016,Dog,Australian Terrier Mix,4
+2016,Dog,Bernese Mountain Dog Mix,4
+2016,Dog,Australian Shepherd/Cardigan Welsh Corgi,4
+2016,Dog,Border Collie/Great Pyrenees,4
+2016,Dog,Bruss Griffon Mix,4
+2016,Dog,Great Pyrenees/Anatol Shepherd,3
+2016,Dog,Labrador Retriever/Whippet,3
+2016,Dog,St. Bernard Smooth Coat Mix,3
+2016,Dog,Pointer,3
+2016,Dog,Wire Hair Fox Terrier/Dachshund,3
+2016,Dog,Great Dane,3
+2016,Dog,Labrador Retriever/Queensland Heeler,3
+2016,Dog,Maltese,3
+2016,Dog,Labrador Retriever/Australian Shepherd,3
+2016,Dog,Labrador Retriever/Chinese Sharpei,3
+2016,Dog,Pit Bull/Bulldog,3
+2016,Dog,Jack Russell Terrier/Dachshund,3
+2016,Dog,Shih Tzu/Toy Poodle,3
+2016,Dog,Miniature Pinscher/Pug,3
+2016,Dog,Norwich Terrier/Yorkshire Terrier,3
+2016,Dog,Labrador Retriever/Great Dane,3
+2016,Dog,St. Bernard Rough Coat/Boxer,3
+2016,Dog,Irish Wolfhound Mix,3
+2016,Dog,Standard Poodle Mix,3
+2016,Dog,Rhod Ridgeback/German Shepherd,3
+2016,Dog,Labrador Retriever/Vizsla,3
+2016,Dog,Miniature Poodle/Dachshund,3
+2016,Dog,Landseer Mix,3
+2016,Dog,Rottweiler/Siberian Husky,3
+2016,Dog,Greyhound Mix,3
+2016,Dog,Labrador Retriever/Greyhound,3
+2016,Dog,Yorkshire Terrier/Chihuahua Shorthair,3
+2016,Dog,Shiba Inu/Australian Kelpie,3
+2016,Dog,Labrador Retriever/Miniature Poodle,3
+2016,Dog,Beagle/Basset Hound,3
+2016,Dog,Basset Hound/Labrador Retriever,3
+2016,Dog,Australian Shepherd/Labrador Retriever,3
+2016,Dog,Blue Lacy,3
+2016,Dog,Feist/Beagle,3
+2016,Dog,Cairn Terrier/Miniature Schnauzer,3
+2016,Dog,Chihuahua Longhair,3
+2016,Dog,Cairn Terrier/Yorkshire Terrier,3
+2016,Dog,Black/Tan Hound,3
+2016,Dog,Canaan Dog Mix,3
+2016,Dog,Catahoula/English Coonhound,3
+2016,Dog,Australian Cattle Dog/Australian Shepherd,3
+2016,Dog,Field Spaniel Mix,3
+2016,Dog,Chinese Sharpei/Labrador Retriever,3
+2016,Dog,Akita,3
+2016,Dog,Boxer/Chinese Sharpei,3
+2016,Dog,Border Collie/German Shepherd,3
+2016,Dog,English Coonhound,3
+2016,Dog,Basset Hound/Beagle,3
+2016,Dog,English Coonhound Mix,3
+2016,Dog,Chihuahua Shorthair/Beagle,3
+2016,Dog,Bluetick Hound Mix,3
+2016,Dog,Basset Hound/Pit Bull,3
+2016,Dog,Australian Cattle Dog/Border Collie,3
+2016,Dog,Cairn Terrier/Chihuahua Shorthair,3
+2016,Dog,Pit Bull/Pointer,2
+2016,Dog,Pit Bull/Chinese Sharpei,2
+2016,Dog,Great Pyrenees/German Shepherd,2
+2016,Dog,Rottweiler/Labrador Retriever,2
+2016,Dog,Staffordshire/Boxer,2
+2016,Dog,Labrador Retriever/Catahoula,2
+2016,Dog,Redbone Hound/Dachshund,2
+2016,Dog,Schipperke Mix,2
+2016,Dog,West Highland/Toy Fox Terrier,2
+2016,Dog,Miniature Poodle/Lhasa Apso,2
+2016,Dog,Golden Retriever/Chow Chow,2
+2016,Dog,Maltese/Yorkshire Terrier,2
+2016,Dog,Rat Terrier/Beagle,2
+2016,Dog,Labrador Retriever/Jack Russell Terrier,2
+2016,Dog,Labrador Retriever/Standard Schnauzer,2
+2016,Dog,Labrador Retriever/Labrador Retriever,2
+2016,Dog,Yorkshire Terrier/Lhasa Apso,2
+2016,Dog,Golden Retriever/Pembroke Welsh Corgi,2
+2016,Dog,West Highland,2
+2016,Dog,Labrador Retriever/Chesa Bay Retr,2
+2016,Dog,Great Pyrenees/Golden Retriever,2
+2016,Dog,Pit Bull/German Shepherd,2
+2016,Dog,Yorkshire Terrier/Havanese,2
+2016,Dog,Shih Tzu/Bruss Griffon,2
+2016,Dog,Great Dane/Boxer,2
+2016,Dog,Shih Tzu/Chihuahua Shorthair,2
+2016,Dog,Standard Poodle,2
+2016,Dog,Plott Hound/Labrador Retriever,2
+2016,Dog,Labrador Retriever/Australian Kelpie,2
+2016,Dog,Newfoundland Mix,2
+2016,Dog,Pekingese,2
+2016,Dog,Great Pyrenees/Plott Hound,2
+2016,Dog,Pointer/Boxer,2
+2016,Dog,Siberian Husky/Alaskan Malamute,2
+2016,Dog,Picardy Sheepdog Mix,2
+2016,Dog,Labrador Retriever/Plott Hound,2
+2016,Dog,Redbone Hound/Labrador Retriever,2
+2016,Dog,Siberian Husky/Border Collie,2
+2016,Dog,Labrador Retriever/Basset Hound,2
+2016,Dog,Italian Greyhound Mix,2
+2016,Dog,Lowchen/Yorkshire Terrier,2
+2016,Dog,Siberian Husky/Labrador Retriever,2
+2016,Dog,Pit Bull/Rhod Ridgeback,2
+2016,Dog,Jack Russell Terrier/Beagle,2
+2016,Dog,Miniature Poodle/Chihuahua Shorthair,2
+2016,Dog,Old English Bulldog Mix,2
+2016,Dog,Golden Retriever/Great Pyrenees,2
+2016,Dog,Smooth Fox Terrier/Cardigan Welsh Corgi,2
+2016,Dog,Rottweiler/German Shepherd,2
+2016,Dog,Jack Russell Terrier/Miniature Poodle,2
+2016,Dog,Pit Bull/Black Mouth Cur,2
+2016,Dog,Pit Bull/Blue Lacy,2
+2016,Dog,Collie Rough/Anatol Shepherd,2
+2016,Dog,Australian Cattle Dog/Staffordshire,2
+2016,Dog,Australian Cattle Dog/Jack Russell Terrier,2
+2016,Dog,Border Terrier/Chihuahua Shorthair,2
+2016,Dog,German Shepherd/Pit Bull,2
+2016,Dog,Boston Terrier/Pit Bull,2
+2016,Dog,Dachshund Wirehair/Chihuahua Shorthair,2
+2016,Dog,Boxer/Australian Cattle Dog,2
+2016,Dog,Doberman Pinsch/German Shepherd,2
+2016,Dog,Boxer/Staffordshire,2
+2016,Dog,Flat Coat Retriever/Labrador Retriever,2
+2016,Dog,Anatol Shepherd/Border Collie,2
+2016,Dog,Chinese Sharpei/Pit Bull,2
+2016,Dog,Bull Terrier Miniature Mix,2
+2016,Dog,Dachshund Longhair,2
+2016,Dog,American Eskimo Mix,2
+2016,Dog,Dachshund/Labrador Retriever,2
+2016,Dog,Cairn Terrier/Italian Greyhound,2
+2016,Dog,Dalmatian/Labrador Retriever,2
+2016,Dog,Cairn Terrier/Miniature Poodle,2
+2016,Dog,Australian Cattle Dog/Siberian Husky,2
+2016,Dog,American Foxhound,2
+2016,Dog,Finnish Spitz,2
+2016,Dog,Akbash Mix,2
+2016,Dog,German Shepherd/Australian Cattle Dog,2
+2016,Dog,Carolina Dog,2
+2016,Dog,Chinese Crested Mix,2
+2016,Dog,American Pit Bull Terrier,2
+2016,Dog,Chow Chow/Pit Bull,2
+2016,Dog,Carolina Dog/Pit Bull,2
+2016,Dog,Collie Smooth,2
+2016,Dog,Beagle/Australian Cattle Dog,2
+2016,Dog,Dachshund Wirehair/Border Terrier,2
+2016,Dog,Catahoula/Chinese Sharpei,2
+2016,Dog,Dachshund Wirehair/Rat Terrier,2
+2016,Dog,Catahoula/Pit Bull,2
+2016,Dog,Dachshund/Pit Bull,2
+2016,Dog,Cavalier Span Mix,2
+2016,Dog,American Staffordshire Terrier,2
+2016,Dog,Chihuahua Longhair/Jack Russell Terrier,2
+2016,Dog,Black/Tan Hound/Labrador Retriever,2
+2016,Dog,Beagle/Dachshund,2
+2016,Dog,Australian Cattle Dog/Pointer,2
+2016,Dog,Chihuahua Shorthair/Australian Cattle Dog,2
+2016,Dog,English Springer Spaniel,2
+2016,Dog,Chihuahua Shorthair/Boston Terrier,2
+2016,Dog,Australian Kelpie,2
+2016,Dog,Beagle/Jack Russell Terrier,2
+2016,Dog,Border Collie/Akita,2
+2016,Dog,Chihuahua Shorthair/Italian Greyhound,2
+2016,Dog,German Shepherd/Alaskan Husky,2
+2016,Dog,Chihuahua Shorthair/Miniature Poodle,2
+2016,Dog,German Shepherd/Great Pyrenees,2
+2016,Dog,Chihuahua Shorthair/Pembroke Welsh Corgi,2
+2016,Dog,Chihuahua Shorthair/Pomeranian,2
+2016,Dog,Parson Russell Terrier,1
+2016,Dog,Miniature Schnauzer/Shih Tzu,1
+2016,Dog,Whippet/Chihuahua Shorthair,1
+2016,Dog,Lakeland Terrier Mix,1
+2016,Dog,St. Bernard Rough Coat,1
+2016,Dog,Golden Retriever/Collie Rough,1
+2016,Dog,Vizsla/Pointer,1
+2016,Dog,Pit Bull/Carolina Dog,1
+2016,Dog,Hovawart,1
+2016,Dog,Leonberger/German Shepherd,1
+2016,Dog,Silky Terrier/Yorkshire Terrier,1
+2016,Dog,Irish Setter Mix,1
+2016,Dog,Staffordshire/Bull Terrier,1
+2016,Dog,Irish Terrier Mix,1
+2016,Dog,Toy Poodle/Maltese,1
+2016,Dog,Pit Bull/Dachshund,1
+2016,Dog,Pembroke Welsh Corgi/Chihuahua Longhair,1
+2016,Dog,Pit Bull/Dalmatian,1
+2016,Dog,Yorkshire Terrier/Chihuahua Longhair,1
+2016,Dog,Lhasa Apso/Cocker Spaniel,1
+2016,Dog,Shih Tzu/Miniature Schnauzer,1
+2016,Dog,Pit Bull/Jindo,1
+2016,Dog,Jack Russell Terrier/Shih Tzu,1
+2016,Dog,Great Pyrenees/Pit Bull,1
+2016,Dog,Smooth Fox Terrier/Chihuahua Shorthair,1
+2016,Dog,Italian Greyhound,1
+2016,Dog,Great Pyrenees/Chow Chow,1
+2016,Dog,Pit Bull/Rat Terrier,1
+2016,Dog,Standard Schnauzer,1
+2016,Dog,Lhasa Apso/Toy Poodle,1
+2016,Dog,Toy Poodle,1
+2016,Dog,Pit Bull/Rottweiler,1
+2016,Dog,Treeing Walker Coonhound/Dachshund,1
+2016,Dog,Pit Bull/Weimaraner,1
+2016,Dog,Weimaraner/Pit Bull,1
+2016,Dog,Plott Hound,1
+2016,Dog,Pembroke Welsh Corgi/German Shepherd,1
+2016,Dog,Grand Basset Griffon Vendeen Mix,1
+2016,Dog,Wirehaired Pointing Griffon Mix,1
+2016,Dog,Plott Hound/Boxer,1
+2016,Dog,Yorkshire Terrier/Maltese,1
+2016,Dog,Plott Hound/Dutch Shepherd,1
+2016,Dog,Shih Tzu/Maltese,1
+2016,Dog,Lowchen Mix,1
+2016,Dog,Miniature Schnauzer/Maltese,1
+2016,Dog,Plott Hound/Rottweiler,1
+2016,Dog,Miniature Schnauzer/Toy Poodle,1
+2016,Dog,Podengo Pequeno Mix,1
+2016,Dog,Silky Terrier,1
+2016,Dog,Greyhound/Labrador Retriever,1
+2016,Dog,Smooth Fox Terrier/Basenji,1
+2016,Dog,Greyhound/Saluki,1
+2016,Dog,Golden Retriever/German Shepherd,1
+2016,Dog,Pointer/Basset Hound,1
+2016,Dog,Jack Russell Terrier/Unknown,1
+2016,Dog,Pointer/Border Collie,1
+2016,Dog,Staffordshire/Beagle,1
+2016,Dog,Labrador Retriever/Blue Lacy,1
+2016,Dog,Japanese Chin,1
+2016,Dog,Pointer/Collie Smooth,1
+2016,Dog,Standard Schnauzer/German Shepherd,1
+2016,Dog,Golden Retriever/Bearded Collie,1
+2016,Dog,Jindo,1
+2016,Dog,Labrador Retriever/Boston Terrier,1
+2016,Dog,Toy Poodle/Bichon Frise,1
+2016,Dog,Great Pyrenees/Pointer,1
+2016,Dog,Treeing Tennesse Brindle,1
+2016,Dog,Jack Russell Terrier/Basenji,1
+2016,Dog,Vizsla,1
+2016,Dog,Pomeranian/Chihuahua Longhair,1
+2016,Dog,Pembroke Welsh Corgi,1
+2016,Dog,Pomeranian/Chihuahua Shorthair,1
+2016,Dog,Welsh Terrier,1
+2016,Dog,Presa Canario,1
+2016,Dog,West Highland/Maltese,1
+2016,Dog,Presa Canario Mix,1
+2016,Dog,Labrador Retriever/St. Bernard Rough Coat,1
+2016,Dog,Manchester Terrier/Dachshund,1
+2016,Dog,Golden Retriever/Standard Poodle,1
+2016,Dog,Mastiff,1
+2016,Dog,Great Pyrenees/Collie Rough,1
+2016,Dog,Harrier/Labrador Retriever,1
+2016,Dog,Pit Bull/Basset Hound,1
+2016,Dog,Pug/Border Terrier,1
+2016,Dog,Yorkshire Terrier/Miniature Schnauzer,1
+2016,Dog,Mastiff/Anatol Shepherd,1
+2016,Dog,Shih Tzu/Dachshund,1
+2016,Dog,Pug/Cocker Spaniel,1
+2016,Dog,Shih Tzu/Miniature Poodle,1
+2016,Dog,Pug/French Bulldog,1
+2016,Dog,Shih Tzu/Pit Bull,1
+2016,Dog,Pug/Miniature Pinscher,1
+2016,Dog,Labrador Retriever/Mastiff,1
+2016,Dog,Pug/Pekingese,1
+2016,Dog,Miniature Schnauzer/Standard Poodle,1
+2016,Dog,Mastiff/Bloodhound,1
+2016,Dog,Miniature Schnauzer/Yorkshire Terrier,1
+2016,Dog,Mastiff/Boxer,1
+2016,Dog,Labrador Retriever/Pharaoh Hound,1
+2016,Dog,Queensland Heeler/Australian Cattle Dog,1
+2016,Dog,Norfolk Terrier/Lhasa Apso,1
+2016,Dog,Queensland Heeler/Chihuahua Shorthair,1
+2016,Dog,Norwegian Elkhound Mix,1
+2016,Dog,Queensland Heeler/Dachshund,1
+2016,Dog,Norwich Terrier,1
+2016,Dog,Queensland Heeler/Great Pyrenees,1
+2016,Dog,Soft Coated Wheaten Terrier,1
+2016,Dog,Mastiff/Labrador Retriever,1
+2016,Dog,Soft Coated Wheaten Terrier/Miniature Poodle,1
+2016,Dog,Mastiff/Pit Bull,1
+2016,Dog,St. Bernard Rough Coat Mix,1
+2016,Dog,Mastiff/Rottweiler,1
+2016,Dog,Nova Scotia Duck Tolling Retriever,1
+2016,Dog,Labrador Retriever/Chihuahua Shorthair,1
+2016,Dog,Staffordshire/Basset Hound,1
+2016,Dog,Jack Russell Terrier/Cairn Terrier,1
+2016,Dog,Old English Bulldog,1
+2016,Dog,Havanese,1
+2016,Dog,Staffordshire/Bulldog,1
+2016,Dog,Miniature Pinscher/Chihuahua Shorthair,1
+2016,Dog,Papillon,1
+2016,Dog,Rhod Ridgeback,1
+2016,Dog,Japanese Chin Mix,1
+2016,Dog,Miniature Pinscher/Dachshund,1
+2016,Dog,Sussex Span Mix,1
+2016,Dog,Rhod Ridgeback/Boxer,1
+2016,Dog,Labrador Retriever/Rhod Ridgeback,1
+2016,Dog,Rhod Ridgeback/Chow Chow,1
+2016,Dog,Labrador Retriever/Saluki,1
+2016,Dog,Greyhound,1
+2016,Dog,Labrador Retriever/Siberian Husky,1
+2016,Dog,Rhod Ridgeback/Pointer,1
+2016,Dog,Toy Poodle/Dachshund,1
+2016,Dog,Labrador Retriever/Dalmatian,1
+2016,Dog,Treeing Cur Mix,1
+2016,Dog,Golden Retriever/Labrador Retriever,1
+2016,Dog,Pekingese/Maltese,1
+2016,Dog,Labrador Retriever/Doberman Pinsch,1
+2016,Dog,Treeing Walker Coonhound/German Shepherd,1
+2016,Dog,Miniature Poodle/Cairn Terrier,1
+2016,Dog,Pekingese/Pomeranian,1
+2016,Dog,Miniature Poodle/Chihuahua Longhair,1
+2016,Dog,Pekingese/Tibetan Terrier,1
+2016,Dog,Saluki Mix,1
+2016,Dog,Weimaraner/Labrador Retriever,1
+2016,Dog,Samoyed Mix,1
+2016,Dog,Weimaraner/Plott Hound,1
+2016,Dog,Jack Russell Terrier/Italian Greyhound,1
+2016,Dog,Labrador Retriever/Smooth Fox Terrier,1
+2016,Dog,Miniature Poodle/Cocker Spaniel,1
+2016,Dog,Yorkshire Terrier/Toy Poodle,1
+2016,Dog,Scottish Terrier,1
+2016,Dog,West Highland/Miniature Poodle,1
+2016,Dog,Jack Russell Terrier/Maltese,1
+2016,Dog,Whippet,1
+2016,Dog,Scottish Terrier/Basset Hound,1
+2016,Dog,Whippet/Anatol Shepherd,1
+2016,Dog,Havanese/Miniature Poodle,1
+2016,Dog,Jindo Mix,1
+2016,Dog,Shetland Sheepdog/Border Collie,1
+2016,Dog,Wire Hair Fox Terrier/Miniature Schnauzer,1
+2016,Dog,Jack Russell Terrier/Pit Bull,1
+2016,Dog,Gordon Setter Mix,1
+2016,Dog,Jack Russell Terrier/Pug,1
+2016,Dog,Yorkshire Terrier/Australian Terrier,1
+2016,Dog,Jack Russell Terrier/Rat Terrier,1
+2016,Dog,Jindo/Shiba Inu,1
+2016,Dog,Jack Russell Terrier/Shetland Sheepdog,1
+2016,Dog,Pit Bull/Beagle,1
+2016,Dog,Golden Retriever/Australian Cattle Dog,1
+2016,Dog,Keeshond Mix,1
+2016,Dog,Shih Tzu/Border Terrier,1
+2016,Dog,Yorkshire Terrier/Soft Coated Wheaten Terrier,1
+2016,Dog,Miniature Schnauzer/Cairn Terrier,1
+2016,Dog,Miniature Schnauzer/Chihuahua Longhair,1
+2016,Dog,Pembroke Welsh Corgi/Chihuahua Shorthair,1
+2016,Dog,Bloodhound,1
+2016,Dog,Bichon Frise/Miniature Poodle,1
+2016,Dog,Cane Corso,1
+2016,Dog,Cardigan Welsh Corgi/American Eskimo,1
+2016,Dog,Black Mouth Cur/Staffordshire,1
+2016,Dog,Cardigan Welsh Corgi/Jack Russell Terrier,1
+2016,Dog,English Springer Spaniel/Labrador Retriever,1
+2016,Dog,Border Collie/Pomeranian,1
+2016,Dog,Cocker Spaniel/Shetland Sheepdog,1
+2016,Dog,Boston Terrier/Pug,1
+2016,Dog,Black Mouth Cur/German Shepherd,1
+2016,Dog,Carolina Dog/Border Collie,1
+2016,Dog,Bulldog/Labrador Retriever,1
+2016,Dog,Australian Shepherd/Cocker Spaniel,1
+2016,Dog,Blue Lacy/Cardigan Welsh Corgi,1
+2016,Dog,Australian Cattle Dog/Basenji,1
+2016,Dog,Basset Hound/Chinese Sharpei,1
+2016,Dog,American Bulldog,1
+2016,Dog,German Shepherd/Collie Smooth,1
+2016,Dog,Catahoula/Australian Cattle Dog,1
+2016,Dog,Collie Rough/German Shepherd,1
+2016,Dog,Catahoula/Cardigan Welsh Corgi,1
+2016,Dog,Bruss Griffon/Dachshund,1
+2016,Dog,Boxer/American Bulldog,1
+2016,Dog,Basenji/Labrador Retriever,1
+2016,Dog,Beagle/Australian Kelpie,1
+2016,Dog,Dachshund/Pomeranian,1
+2016,Dog,Catahoula/Labrador Retriever,1
+2016,Dog,Bullmastiff,1
+2016,Dog,Border Collie/Queensland Heeler,1
+2016,Dog,Australian Cattle Dog/Queensland Heeler,1
+2016,Dog,Australian Cattle Dog/Beagle,1
+2016,Dog,Border Terrier/Yorkshire Terrier,1
+2016,Dog,Catahoula/Pointer,1
+2016,Dog,Field Spaniel/Cocker Spaniel,1
+2016,Dog,Catahoula/Staffordshire,1
+2016,Dog,German Pinscher Mix,1
+2016,Dog,Catahoula/Whippet,1
+2016,Dog,German Shepherd/Boxer,1
+2016,Dog,Beagle/Boxer,1
+2016,Dog,Cocker Spaniel/Dachshund,1
+2016,Dog,Boxer/Beagle,1
+2016,Dog,Border Collie/Pointer,1
+2016,Dog,Cavalier Span/Border Collie,1
+2016,Dog,Collie Rough/Keeshond,1
+2016,Dog,Cavalier Span/Chihuahua Longhair,1
+2016,Dog,Coton De Tulear Mix,1
+2016,Dog,Cavalier Span/Pug,1
+2016,Dog,American Pit Bull Terrier/Pit Bull,1
+2016,Dog,Beagle/Cairn Terrier,1
+2016,Dog,Border Terrier/Dachshund Wirehair,1
+2016,Dog,Beagle/Cardigan Welsh Corgi,1
+2016,Dog,Dachshund/Border Collie,1
+2016,Dog,Chihuahua Longhair/Border Terrier,1
+2016,Dog,Bull Terrier/Pit Bull,1
+2016,Dog,Chihuahua Longhair/Cairn Terrier,1
+2016,Dog,Anatol Shepherd/German Shepherd,1
+2016,Dog,Chihuahua Longhair/Cardigan Welsh Corgi,1
+2016,Dog,Dalmatian/Pit Bull,1
+2016,Dog,Chihuahua Longhair/Cavalier Span,1
+2016,Dog,Anatol Shepherd/Kangal,1
+2016,Dog,Chihuahua Longhair/Dachshund,1
+2016,Dog,Australian Cattle Dog/Pit Bull,1
+2016,Dog,Chihuahua Longhair/Dachshund Longhair,1
+2016,Dog,English Bulldog/Boxer,1
+2016,Dog,Boxer/Catahoula,1
+2016,Dog,English Coonhound/Australian Cattle Dog,1
+2016,Dog,Beagle/Catahoula,1
+2016,Dog,Basset Hound/Border Collie,1
+2016,Dog,Chihuahua Longhair/Yorkshire Terrier,1
+2016,Dog,Affenpinscher Mix,1
+2016,Dog,American Bulldog/Boxer,1
+2016,Dog,Finnish Spitz Mix,1
+2016,Dog,Australian Shepherd/Standard Poodle,1
+2016,Dog,French Bulldog,1
+2016,Dog,Boxer/English Bulldog,1
+2016,Dog,Akita/Border Collie,1
+2016,Dog,American Pit Bull Terrier/Catahoula,1
+2016,Dog,German Shepherd/Beagle,1
+2016,Dog,Boxer/Great Dane,1
+2016,Dog,Border Collie/Chow Chow,1
+2016,Dog,Chihuahua Shorthair/Cairn Terrier,1
+2016,Dog,Basset Hound/Pointer,1
+2016,Dog,Chihuahua Shorthair/Cardigan Welsh Corgi,1
+2016,Dog,Australian Cattle Dog/Chihuahua Shorthair,1
+2016,Dog,Chihuahua Shorthair/Cocker Spaniel,1
+2016,Dog,Australian Cattle Dog/Chinese Crested,1
+2016,Dog,Boxer/Great Pyrenees,1
+2016,Dog,Collie Rough/Australian Shepherd,1
+2016,Dog,Chihuahua Shorthair/Dachshund Wirehair,1
+2016,Dog,Collie Rough/Irish Setter,1
+2016,Dog,Chihuahua Shorthair/Finnish Spitz,1
+2016,Dog,Basenji/Chihuahua Shorthair,1
+2016,Dog,Chihuahua Shorthair/French Bulldog,1
+2016,Dog,Collie Smooth/Miniature Poodle,1
+2016,Dog,Anatol Shepherd/Black Mouth Cur,1
+2016,Dog,Bichon Frise/Toy Poodle,1
+2016,Dog,Australian Cattle Dog/Bull Terrier,1
+2016,Dog,Australian Cattle Dog/Dachshund,1
+2016,Dog,Chihuahua Shorthair/Labrador Retriever,1
+2016,Dog,Dachshund Wirehair,1
+2016,Dog,Chihuahua Shorthair/Mexican Hairless,1
+2016,Dog,Basenji/Jack Russell Terrier,1
+2016,Dog,Beagle/Parson Russell Terrier,1
+2016,Dog,Dachshund Wirehair/Miniature Schnauzer,1
+2016,Dog,Boxer/Mastiff,1
+2016,Dog,Australian Cattle Dog/German Shorthair Pointer,1
+2016,Dog,Chihuahua Shorthair/Pekingese,1
+2016,Dog,Dachshund/Chihuahua Longhair,1
+2016,Dog,Basenji,1
+2016,Dog,Dachshund/Jack Russell Terrier,1
+2016,Dog,Chihuahua Shorthair/Pit Bull,1
+2016,Dog,Bulldog,1
+2016,Dog,Australian Kelpie/Dachshund,1
+2016,Dog,Dachshund/Pug,1
+2016,Dog,Boxer/Plott Hound,1
+2016,Dog,Dachshund/Swedish Vallhund,1
+2016,Dog,German Shepherd/Rottweiler,1
+2016,Dog,Bulldog/Pit Bull,1
+2016,Dog,American Staffordshire Terrier/Boxer,1
+2016,Dog,Black/Tan Hound/Great Dane,1
+2016,Dog,Border Collie/Parson Russell Terrier,1
+2016,Dog,Doberman Pinsch/Black/Tan Hound,1
+2016,Dog,Chihuahua Shorthair/Shiba Inu,1
+2016,Dog,Doberman Pinsch/Rottweiler,1
+2016,Dog,Chihuahua Shorthair/Shih Tzu,1
+2016,Dog,Dutch Shepherd,1
+2016,Dog,Chihuahua Shorthair/Swedish Vallhund,1
+2016,Dog,Basset Hound/Australian Shepherd,1
+2016,Dog,Beagle/Rat Terrier,1
+2016,Dog,English Bulldog/Australian Cattle Dog,1
+2016,Dog,American Staffordshire Terrier/Pit Bull,1
+2016,Dog,English Cocker Spaniel Mix,1
+2016,Dog,Chinese Crested/Papillon,1
+2016,Dog,Blue Lacy/Weimaraner,1
+2016,Dog,Chinese Sharpei,1
+2016,Dog,English Coonhound/Beagle,1
+2016,Dog,Australian Cattle Dog/Cairn Terrier,1
+2016,Dog,Bluetick Hound/Australian Cattle Dog,1
+2016,Dog,Chinese Sharpei/Beagle,1
+2016,Dog,English Springer Spaniel Mix,1
+2016,Dog,Chinese Sharpei/Chow Chow,1
+2016,Dog,Boerboel Mix,1
+2016,Dog,Australian Cattle Dog/Cardigan Welsh Corgi,1
+2016,Dog,Anatol Shepherd,1
+2016,Dog,Boykin Span Mix,1
+2016,Dog,Australian Shepherd/Chow Chow,1
+2016,Dog,Chinese Sharpei/Pointer,1
+2016,Dog,Flat Coat Retriever,1
+2016,Dog,Chinese Sharpei/Rat Terrier,1
+2016,Dog,Boston Terrier/Chihuahua Shorthair,1
+2016,Dog,Chow Chow,1
+2016,Dog,Border Collie/Alaskan Husky,1
+2016,Dog,Belgian Malinois,1
+2016,Dog,Border Collie/Australian Cattle Dog,1
+2016,Dog,Australian Cattle Dog/Catahoula,1
+2016,Dog,Boston Terrier/Dachshund,1
+2016,Dog,Chow Chow/Labrador Retriever,1
+2016,Dog,Border Collie/Catahoula,1
+2016,Dog,Boykin Span/Cocker Spaniel,1
+2016,Dog,German Shepherd/Border Collie,1
+2016,Dog,Chow Chow/Pomeranian,1
+2016,Dog,German Shepherd/Bull Terrier,1
+2016,Dog,Chow Chow/Siberian Husky,1
+2016,Dog,German Shepherd/Collie Rough,1
+2016,Dog,Belgian Tervuren/German Shepherd,1
+2016,Dog,Cardigan Welsh Corgi,1
+2016,Dog,Bernese Mountain Dog,1
+2016,Dog,Cocker Spaniel/Basset Hound,1
+2016,Dog,German Shepherd/Plott Hound,1
+2016,Dog,Beagle/Plott Hound,1
+2016,Dog,Australian Kelpie/German Shepherd,1
+2016,Dog,Beagle/Pug,1
+2016,Dog,German Wirehaired Pointer Mix,1
+2016,Dog,Chihuahua Shorthair/Rhod Ridgeback,1
+2016,Dog,Border Collie/Pembroke Welsh Corgi,1
+2016,Dog,Chihuahua Shorthair/Rottweiler,1
+2016,Dog,Cairn Terrier/Dachshund Wirehair,1
+2017,Cat,Domestic Shorthair Mix,5097
+2017,Cat,Domestic Medium Hair Mix,489
+2017,Cat,Domestic Longhair Mix,227
+2017,Cat,Siamese Mix,208
+2017,Cat,American Shorthair Mix,197
+2017,Cat,Domestic Shorthair,81
+2017,Cat,Domestic Medium Hair,22
+2017,Cat,Maine Coon Mix,17
+2017,Cat,Snowshoe Mix,16
+2017,Cat,Domestic Longhair,12
+2017,Cat,Russian Blue Mix,11
+2017,Cat,American Curl Shorthair Mix,10
+2017,Cat,Siamese,9
+2017,Cat,Manx Mix,8
+2017,Cat,Persian Mix,6
+2017,Cat,Himalayan Mix,5
+2017,Cat,Bengal Mix,4
+2017,Cat,Maine Coon,4
+2017,Cat,Persian,3
+2017,Cat,Bengal/Domestic Shorthair,2
+2017,Cat,Birman Mix,2
+2017,Cat,Japanese Bobtail Mix,2
+2017,Cat,Ragdoll Mix,2
+2017,Cat,Cornish Rex Mix,2
+2017,Cat,Turkish Angora Mix,2
+2017,Cat,Himalayan,2
+2017,Cat,Balinese Mix,1
+2017,Cat,Domestic Longhair/Domestic Longhair,1
+2017,Cat,Domestic Medium Hair/Manx,1
+2017,Cat,Norwegian Forest Cat Mix,1
+2017,Cat,Sphynx,1
+2017,Cat,Oriental Sh Mix,1
+2017,Cat,Scottish Fold Mix,1
+2017,Cat,Domestic Shorthair/Domestic Shorthair,1
+2017,Cat,Domestic Medium Hair/Siamese,1
+2017,Cat,Domestic Shorthair/Maine Coon,1
+2017,Cat,Snowshoe/Ragdoll,1
+2017,Cat,Abyssinian Mix,1
+2017,Cat,Tonkinese Mix,1
+2017,Cat,Russian Blue,1
+2017,Cat,Munchkin Longhair Mix,1
+2017,Cat,Cymric Mix,1
+2017,Dog,Pit Bull Mix,1439
+2017,Dog,Labrador Retriever Mix,1341
+2017,Dog,Chihuahua Shorthair Mix,1041
+2017,Dog,German Shepherd Mix,485
+2017,Dog,Australian Cattle Dog Mix,226
+2017,Dog,Boxer Mix,162
+2017,Dog,Dachshund Mix,160
+2017,Dog,Border Collie Mix,141
+2017,Dog,Miniature Poodle Mix,140
+2017,Dog,Yorkshire Terrier Mix,130
+2017,Dog,Staffordshire Mix,120
+2017,Dog,Siberian Husky Mix,118
+2017,Dog,Catahoula Mix,109
+2017,Dog,Beagle Mix,99
+2017,Dog,Rat Terrier Mix,96
+2017,Dog,Great Pyrenees Mix,96
+2017,Dog,Miniature Schnauzer Mix,95
+2017,Dog,Australian Shepherd Mix,94
+2017,Dog,Chihuahua Longhair Mix,93
+2017,Dog,Cairn Terrier Mix,93
+2017,Dog,Jack Russell Terrier Mix,91
+2017,Dog,Anatol Shepherd Mix,83
+2017,Dog,Pointer Mix,80
+2017,Dog,Rottweiler Mix,78
+2017,Dog,Shih Tzu Mix,65
+2017,Dog,American Bulldog Mix,61
+2017,Dog,Labrador Retriever,59
+2017,Dog,Plott Hound Mix,56
+2017,Dog,Pit Bull,53
+2017,Dog,German Shepherd,52
+2017,Dog,Australian Kelpie Mix,50
+2017,Dog,Black Mouth Cur Mix,47
+2017,Dog,Labrador Retriever/Pit Bull,41
+2017,Dog,Basset Hound Mix,41
+2017,Dog,Border Terrier Mix,39
+2017,Dog,Maltese Mix,38
+2017,Dog,Dachshund/Chihuahua Shorthair,37
+2017,Dog,American Staffordshire Terrier Mix,35
+2017,Dog,Mastiff Mix,34
+2017,Dog,Chihuahua Shorthair,31
+2017,Dog,Siberian Husky,30
+2017,Dog,American Pit Bull Terrier Mix,30
+2017,Dog,Chihuahua Shorthair/Dachshund,30
+2017,Dog,Golden Retriever Mix,29
+2017,Dog,Doberman Pinsch Mix,29
+2017,Dog,Chow Chow Mix,28
+2017,Dog,Pomeranian Mix,27
+2017,Dog,Pug Mix,26
+2017,Dog,Great Dane Mix,25
+2017,Dog,Dachshund Longhair Mix,25
+2017,Dog,German Shepherd/Labrador Retriever,25
+2017,Dog,Miniature Pinscher Mix,24
+2017,Dog,Beagle,24
+2017,Dog,Boston Terrier Mix,24
+2017,Dog,Alaskan Husky Mix,24
+2017,Dog,English Bulldog Mix,22
+2017,Dog,Dachshund Wirehair Mix,22
+2017,Dog,Black/Tan Hound Mix,22
+2017,Dog,Pit Bull/Labrador Retriever,21
+2017,Dog,Chinese Sharpei Mix,21
+2017,Dog,Standard Schnauzer Mix,20
+2017,Dog,Rottweiler,20
+2017,Dog,Bull Terrier Mix,20
+2017,Dog,Harrier Mix,19
+2017,Dog,Rhod Ridgeback Mix,19
+2017,Dog,Labrador Retriever/Australian Cattle Dog,19
+2017,Dog,Cocker Spaniel Mix,19
+2017,Dog,Bichon Frise Mix,19
+2017,Dog,Blue Lacy Mix,19
+2017,Dog,Australian Shepherd,19
+2017,Dog,Labrador Retriever/German Shepherd,18
+2017,Dog,Queensland Heeler Mix,18
+2017,Dog,Toy Poodle Mix,18
+2017,Dog,Australian Cattle Dog,18
+2017,Dog,Great Pyrenees,17
+2017,Dog,Pekingese Mix,17
+2017,Dog,Collie Smooth Mix,17
+2017,Dog,Lhasa Apso Mix,16
+2017,Dog,Pekingese,16
+2017,Dog,Vizsla Mix,15
+2017,Dog,Shih Tzu,15
+2017,Dog,Weimaraner Mix,15
+2017,Dog,Boxer,15
+2017,Dog,Bernese Mountain Dog Mix,15
+2017,Dog,Manchester Terrier Mix,14
+2017,Dog,Labrador Retriever/Beagle,14
+2017,Dog,Dalmatian Mix,14
+2017,Dog,Redbone Hound Mix,13
+2017,Dog,Soft Coated Wheaten Terrier Mix,13
+2017,Dog,Norfolk Terrier Mix,13
+2017,Dog,Pembroke Welsh Corgi Mix,13
+2017,Dog,Belgian Malinois Mix,12
+2017,Dog,Doberman Pinsch,12
+2017,Dog,Cocker Spaniel,12
+2017,Dog,Miniature Schnauzer,11
+2017,Dog,Scottish Terrier Mix,11
+2017,Dog,Tibetan Spaniel Mix,11
+2017,Dog,Collie Rough Mix,11
+2017,Dog,Catahoula,11
+2017,Dog,Dachshund,11
+2017,Dog,Basenji Mix,11
+2017,Dog,Whippet Mix,10
+2017,Dog,Wire Hair Fox Terrier Mix,10
+2017,Dog,Labrador Retriever/Doberman Pinsch,10
+2017,Dog,Bulldog Mix,10
+2017,Dog,Border Collie,10
+2017,Dog,Siberian Husky/German Shepherd,9
+2017,Dog,Miniature Poodle,9
+2017,Dog,Jack Russell Terrier,9
+2017,Dog,Papillon Mix,9
+2017,Dog,Chihuahua Shorthair/Pug,9
+2017,Dog,Cardigan Welsh Corgi Mix,9
+2017,Dog,Boxer/Pit Bull,9
+2017,Dog,Shiba Inu Mix,8
+2017,Dog,West Highland Mix,8
+2017,Dog,Great Pyrenees/American Bulldog,8
+2017,Dog,Norwich Terrier Mix,8
+2017,Dog,Shetland Sheepdog Mix,8
+2017,Dog,Pointer/Labrador Retriever,8
+2017,Dog,Bluetick Hound Mix,8
+2017,Dog,Flat Coat Retriever Mix,8
+2017,Dog,Chihuahua Shorthair/Jack Russell Terrier,8
+2017,Dog,Carolina Dog Mix,8
+2017,Dog,Border Collie/Labrador Retriever,8
+2017,Dog,Cavalier Span Mix,8
+2017,Dog,Labrador Retriever/Pointer,7
+2017,Dog,Parson Russell Terrier Mix,7
+2017,Dog,Great Pyrenees/Border Collie,7
+2017,Dog,Pharaoh Hound Mix,7
+2017,Dog,Maltese/Miniature Poodle,7
+2017,Dog,Labrador Retriever/Boxer,7
+2017,Dog,Miniature Schnauzer/Miniature Poodle,7
+2017,Dog,Labrador Retriever/Catahoula,7
+2017,Dog,Labrador Retriever/Whippet,7
+2017,Dog,Pit Bull/Boxer,7
+2017,Dog,Toy Fox Terrier Mix,7
+2017,Dog,Pug/Chihuahua Shorthair,7
+2017,Dog,Pbgv Mix,7
+2017,Dog,Labrador Retriever/Border Collie,7
+2017,Dog,Miniature Pinscher,7
+2017,Dog,English Pointer Mix,7
+2017,Dog,Anatol Shepherd,7
+2017,Dog,Border Collie/German Shepherd,7
+2017,Dog,Alaskan Malamute Mix,7
+2017,Dog,Akita Mix,7
+2017,Dog,Jack Russell Terrier/Chihuahua Shorthair,6
+2017,Dog,Standard Poodle Mix,6
+2017,Dog,Rat Terrier/Chihuahua Shorthair,6
+2017,Dog,Labrador Retriever/Chow Chow,6
+2017,Dog,Yorkshire Terrier,6
+2017,Dog,Labrador Retriever/Great Pyrenees,6
+2017,Dog,Chihuahua Shorthair/Rat Terrier,6
+2017,Dog,Cairn Terrier,6
+2017,Dog,Basset Hound,6
+2017,Dog,Chinese Sharpei,6
+2017,Dog,Australian Terrier Mix,6
+2017,Dog,German Shepherd/Black Mouth Cur,6
+2017,Dog,Australian Cattle Dog/Labrador Retriever,6
+2017,Dog,Chinese Sharpei/Labrador Retriever,6
+2017,Dog,Bloodhound Mix,6
+2017,Dog,Bruss Griffon Mix,6
+2017,Dog,Bullmastiff Mix,6
+2017,Dog,Yorkshire Terrier/Miniature Schnauzer,5
+2017,Dog,Greyhound Mix,5
+2017,Dog,Labrador Retriever/Siberian Husky,5
+2017,Dog,Rat Terrier/Labrador Retriever,5
+2017,Dog,Pug,5
+2017,Dog,St. Bernard Rough Coat Mix,5
+2017,Dog,Labrador Retriever/Rottweiler,5
+2017,Dog,Rhod Ridgeback,5
+2017,Dog,Rottweiler/Labrador Retriever,5
+2017,Dog,Rat Terrier,5
+2017,Dog,German Shorthair Pointer Mix,5
+2017,Dog,German Shepherd/Chow Chow,5
+2017,Dog,American Bulldog,5
+2017,Dog,Basset Hound/Labrador Retriever,5
+2017,Dog,German Shepherd/Rottweiler,5
+2017,Dog,Beagle/Labrador Retriever,5
+2017,Dog,Australian Kelpie,5
+2017,Dog,Border Collie/Australian Cattle Dog,5
+2017,Dog,Dachshund/Labrador Retriever,5
+2017,Dog,Boxer/Labrador Retriever,5
+2017,Dog,Brittany Mix,5
+2017,Dog,Great Dane,4
+2017,Dog,Smooth Fox Terrier Mix,4
+2017,Dog,Pomeranian,4
+2017,Dog,Havanese Mix,4
+2017,Dog,Lhasa Apso/Miniature Poodle,4
+2017,Dog,Yorkshire Terrier/Chihuahua Shorthair,4
+2017,Dog,Wirehaired Pointing Griffon Mix,4
+2017,Dog,Miniature Poodle/Maltese,4
+2017,Dog,Siberian Husky/Labrador Retriever,4
+2017,Dog,Pembroke Welsh Corgi,4
+2017,Dog,St. Bernard Rough Coat/Boxer,4
+2017,Dog,Labrador Retriever/Plott Hound,4
+2017,Dog,Maltese/Toy Poodle,4
+2017,Dog,Jack Russell Terrier/Rat Terrier,4
+2017,Dog,Mastiff,4
+2017,Dog,Schnauzer Giant Mix,4
+2017,Dog,Great Pyrenees/Labrador Retriever,4
+2017,Dog,Pit Bull/Australian Cattle Dog,4
+2017,Dog,Finnish Spitz Mix,4
+2017,Dog,Dutch Shepherd Mix,4
+2017,Dog,American Bulldog/Pit Bull,4
+2017,Dog,Boston Terrier,4
+2017,Dog,English Bulldog,4
+2017,Dog,Basset Hound/Chinese Sharpei,4
+2017,Dog,French Bulldog,4
+2017,Dog,Black/Tan Hound,4
+2017,Dog,Catahoula/Labrador Retriever,4
+2017,Dog,Cavalier Span,4
+2017,Dog,Kuvasz Mix,3
+2017,Dog,Pit Bull/Pointer,3
+2017,Dog,Maltese,3
+2017,Dog,Labrador Retriever/Golden Retriever,3
+2017,Dog,Labrador Retriever/Dalmatian,3
+2017,Dog,Miniature Schnauzer/Dachshund Wirehair,3
+2017,Dog,Staffordshire/Labrador Retriever,3
+2017,Dog,Labrador Retriever/Queensland Heeler,3
+2017,Dog,Pit Bull/German Shepherd,3
+2017,Dog,Miniature Pinscher/Chihuahua Shorthair,3
+2017,Dog,Miniature Poodle/Cairn Terrier,3
+2017,Dog,Shih Tzu/Miniature Poodle,3
+2017,Dog,Samoyed Mix,3
+2017,Dog,Jack Russell Terrier/Pembroke Welsh Corgi,3
+2017,Dog,Irish Terrier Mix,3
+2017,Dog,Miniature Poodle/Shih Tzu,3
+2017,Dog,Pit Bull/Chinese Sharpei,3
+2017,Dog,Leonberger Mix,3
+2017,Dog,Standard Schnauzer/Miniature Poodle,3
+2017,Dog,Labrador Retriever/Jack Russell Terrier,3
+2017,Dog,Labrador Retriever/Australian Kelpie,3
+2017,Dog,Great Pyrenees/Anatol Shepherd,3
+2017,Dog,Treeing Cur Mix,3
+2017,Dog,Golden Retriever,3
+2017,Dog,Maltese/Yorkshire Terrier,3
+2017,Dog,Pit Bull/Catahoula,3
+2017,Dog,Labrador Retriever/Basset Hound,3
+2017,Dog,Labrador Retriever/Mastiff,3
+2017,Dog,Labrador Retriever/Greyhound,3
+2017,Dog,St. Bernard Smooth Coat Mix,3
+2017,Dog,Pharaoh Hound,3
+2017,Dog,Staffordshire,3
+2017,Dog,Miniature Schnauzer/Toy Poodle,3
+2017,Dog,Pekingese/Shih Tzu,3
+2017,Dog,Australian Shepherd/Border Collie,3
+2017,Dog,Cocker Spaniel/Miniature Poodle,3
+2017,Dog,Chinese Crested Mix,3
+2017,Dog,Border Collie/Great Pyrenees,3
+2017,Dog,Collie Rough/German Shepherd,3
+2017,Dog,Anatol Shepherd/Great Pyrenees,3
+2017,Dog,English Coonhound Mix,3
+2017,Dog,Beagle/German Shepherd,3
+2017,Dog,Chow Chow/German Shepherd,3
+2017,Dog,Bull Terrier,3
+2017,Dog,Collie Rough/Anatol Shepherd,3
+2017,Dog,Australian Cattle Dog/German Shepherd,3
+2017,Dog,Dachshund Longhair,3
+2017,Dog,Chihuahua Shorthair/Beagle,3
+2017,Dog,Australian Shepherd/Catahoula,3
+2017,Dog,Chihuahua Shorthair/Italian Greyhound,3
+2017,Dog,German Shepherd/Border Collie,3
+2017,Dog,Chihuahua Shorthair/Miniature Pinscher,3
+2017,Dog,German Shepherd/Pembroke Welsh Corgi,3
+2017,Dog,Toy Poodle,2
+2017,Dog,Shetland Sheepdog,2
+2017,Dog,Rottweiler/German Shepherd,2
+2017,Dog,Havanese,2
+2017,Dog,Redbone Hound/Rhod Ridgeback,2
+2017,Dog,Plott Hound/Labrador Retriever,2
+2017,Dog,Labrador Retriever/Labrador Retriever,2
+2017,Dog,Pointer,2
+2017,Dog,Old English Bulldog Mix,2
+2017,Dog,Patterdale Terr Mix,2
+2017,Dog,Standard Schnauzer/Standard Poodle,2
+2017,Dog,Pointer/Border Collie,2
+2017,Dog,Tibetan Terrier,2
+2017,Dog,Shih Tzu/Pit Bull,2
+2017,Dog,Rhod Ridgeback/Labrador Retriever,2
+2017,Dog,Miniature Poodle/Australian Cattle Dog,2
+2017,Dog,Welsh Springer Spaniel Mix,2
+2017,Dog,Golden Retriever/Labrador Retriever,2
+2017,Dog,Rottweiler/Pit Bull,2
+2017,Dog,Siberian Husky/American Pit Bull Terrier,2
+2017,Dog,Papillon/Shih Tzu,2
+2017,Dog,Miniature Poodle/Lhasa Apso,2
+2017,Dog,Landseer Mix,2
+2017,Dog,Pomeranian/Chihuahua Shorthair,2
+2017,Dog,Tibetan Spaniel,2
+2017,Dog,Great Pyrenees/Australian Cattle Dog,2
+2017,Dog,Tibetan Spaniel/Beagle,2
+2017,Dog,Miniature Poodle/Miniature Schnauzer,2
+2017,Dog,Italian Greyhound Mix,2
+2017,Dog,Pug/Chihuahua Longhair,2
+2017,Dog,Neapolitan Mastiff Mix,2
+2017,Dog,Labrador Retriever/Great Dane,2
+2017,Dog,Vizsla,2
+2017,Dog,Pembroke Welsh Corgi/Chihuahua Shorthair,2
+2017,Dog,Labrador Retriever/Dachshund,2
+2017,Dog,Irish Wolfhound Mix,2
+2017,Dog,West Highland,2
+2017,Dog,Manchester Terrier/Chihuahua Shorthair,2
+2017,Dog,Pit Bull/French Bulldog,2
+2017,Dog,Picardy Sheepdog Mix,2
+2017,Dog,Saluki,2
+2017,Dog,Standard Poodle,2
+2017,Dog,Jindo Mix,2
+2017,Dog,Rat Terrier/Dachshund,2
+2017,Dog,Yorkshire Terrier/Jack Russell Terrier,2
+2017,Dog,Standard Poodle/Labrador Retriever,2
+2017,Dog,Labrador Retriever/Chinese Sharpei,2
+2017,Dog,Pit Bull/Basset Hound,2
+2017,Dog,Basset Hound/Boxer,2
+2017,Dog,Black Mouth Cur,2
+2017,Dog,Dachshund/Beagle,2
+2017,Dog,Cairn Terrier/Yorkshire Terrier,2
+2017,Dog,German Shepherd/Australian Cattle Dog,2
+2017,Dog,Cane Corso Mix,2
+2017,Dog,Akita,2
+2017,Dog,Cane Corso/Blue Lacy,2
+2017,Dog,Dachshund/Rat Terrier,2
+2017,Dog,Cardigan Welsh Corgi,2
+2017,Dog,English Shepherd Mix,2
+2017,Dog,Cardigan Welsh Corgi/Australian Cattle Dog,2
+2017,Dog,Cocker Spaniel/Pembroke Welsh Corgi,2
+2017,Dog,Cardigan Welsh Corgi/Beagle,2
+2017,Dog,Australian Kelpie/Labrador Retriever,2
+2017,Dog,Beagle/Basset Hound,2
+2017,Dog,Bichon Frise,2
+2017,Dog,Catahoula/Harrier,2
+2017,Dog,Dachshund/Jack Russell Terrier,2
+2017,Dog,Beauceron Mix,2
+2017,Dog,Dalmatian/Pit Bull,2
+2017,Dog,Bedlington Terr Mix,2
+2017,Dog,English Foxhound Mix,2
+2017,Dog,German Shepherd/Siberian Husky,2
+2017,Dog,American Staffordshire Terrier,2
+2017,Dog,Chihuahua Longhair,2
+2017,Dog,Bulldog/Boston Terrier,2
+2017,Dog,American Eskimo Mix,2
+2017,Dog,Australian Kelpie/Catahoula,2
+2017,Dog,Chihuahua Longhair/Yorkshire Terrier,2
+2017,Dog,Brittany/Border Collie,2
+2017,Dog,Border Collie/Australian Shepherd,2
+2017,Dog,Alaskan Husky,2
+2017,Dog,Chihuahua Shorthair/Cardigan Welsh Corgi,2
+2017,Dog,Dachshund Longhair/Maltese,2
+2017,Dog,Anatol Shepherd/Labrador Retriever,2
+2017,Dog,Dachshund Wirehair,2
+2017,Dog,Boxer/Beagle,2
+2017,Dog,Border Collie/Whippet,2
+2017,Dog,Blue Lacy/Pit Bull,2
+2017,Dog,American Foxhound Mix,2
+2017,Dog,German Shepherd/Plott Hound,2
+2017,Dog,Akbash Mix,2
+2017,Dog,Beagle/Australian Cattle Dog,2
+2017,Dog,Bichon Frise/Miniature Poodle,2
+2017,Dog,Anatol Shepherd/Akita,2
+2017,Dog,Bulldog,2
+2017,Dog,Belgian Malinois/Treeing Cur,2
+2017,Dog,Australian Shepherd/Labrador Retriever,2
+2017,Dog,Chow Chow,2
+2017,Dog,Basenji/Chihuahua Shorthair,2
+2017,Dog,Anatol Shepherd/Pit Bull,2
+2017,Dog,German Shepherd/Alaskan Husky,2
+2017,Dog,Chow Chow/Labrador Retriever,2
+2017,Dog,German Shepherd/Australian Kelpie,2
+2017,Dog,Cocker Spaniel/Labrador Retriever,2
+2017,Dog,Cairn Terrier/Chihuahua Shorthair,2
+2017,Dog,Boxer/Staffordshire,2
+2017,Dog,Chihuahua Shorthair/Norfolk Terrier,2
+2017,Dog,German Shepherd/Redbone Hound,2
+2017,Dog,Australian Cattle Dog/Staffordshire,2
+2017,Dog,Chihuahua Shorthair/Yorkshire Terrier,2
+2017,Dog,German Shorthair Pointer,2
+2017,Dog,Cavalier Span/Chihuahua Shorthair,2
+2017,Dog,Chihuahua Longhair/Dachshund Wirehair,2
+2017,Dog,Weimaraner/Labrador Retriever,1
+2017,Dog,Pembroke Welsh Corgi/Labrador Retriever,1
+2017,Dog,Silky Terrier/Yorkshire Terrier,1
+2017,Dog,Pointer/Dalmatian,1
+2017,Dog,Pit Bull/Bulldog,1
+2017,Dog,Pointer/German Shorthair Pointer,1
+2017,Dog,Labrador Retriever/German Shorthair Pointer,1
+2017,Dog,Miniature Pinscher/Dachshund,1
+2017,Dog,Spinone Italiano Mix,1
+2017,Dog,Pointer/Pit Bull,1
+2017,Dog,Maltese/Standard Poodle,1
+2017,Dog,Pointer/Staffordshire,1
+2017,Dog,Treeing Walker Coonhound Mix,1
+2017,Dog,Miniature Pinscher/Yorkshire Terrier,1
+2017,Dog,Whippet/Catahoula,1
+2017,Dog,Jack Russell Terrier/Yorkshire Terrier,1
+2017,Dog,Siberian Husky/Chinese Sharpei,1
+2017,Dog,Pomeranian/Chihuahua Longhair,1
+2017,Dog,Smooth Fox Terrier/Jack Russell Terrier,1
+2017,Dog,Jindo,1
+2017,Dog,St. Bernard Rough Coat/Great Pyrenees,1
+2017,Dog,Pomeranian/Cocker Spaniel,1
+2017,Dog,Great Pyrenees/English Pointer,1
+2017,Dog,Presa Canario Mix,1
+2017,Dog,German Wirehaired Pointer/Labrador Retriever,1
+2017,Dog,Greyhound/Border Collie,1
+2017,Dog,Pit Bull/Dachshund,1
+2017,Dog,Keeshond Mix,1
+2017,Dog,Labrador Retriever/Finnish Spitz,1
+2017,Dog,Pug/Beagle,1
+2017,Dog,Pit Bull/Rat Terrier,1
+2017,Dog,Pug/Boxer,1
+2017,Dog,Plott Hound/Border Collie,1
+2017,Dog,Miniature Poodle/Cocker Spaniel,1
+2017,Dog,Yorkshire Terrier/Shih Tzu,1
+2017,Dog,Greyhound/Pointer,1
+2017,Dog,Golden Retriever/Australian Shepherd,1
+2017,Dog,Labrador Retriever/Miniature Poodle,1
+2017,Dog,Smooth Fox Terrier,1
+2017,Dog,Queensland Heeler/Australian Cattle Dog,1
+2017,Dog,Great Pyrenees/Chow Chow,1
+2017,Dog,Queensland Heeler/Labrador Retriever,1
+2017,Dog,Lhasa Apso/Pekingese,1
+2017,Dog,Queensland Heeler/Pit Bull,1
+2017,Dog,Labrador Retriever/Bullmastiff,1
+2017,Dog,Harrier,1
+2017,Dog,Staffordshire/Border Collie,1
+2017,Dog,Great Dane/Labrador Retriever,1
+2017,Dog,Great Pyrenees/Golden Retriever,1
+2017,Dog,Rat Terrier/American Pit Bull Terrier,1
+2017,Dog,Standard Schnauzer/German Shepherd,1
+2017,Dog,Rat Terrier/Border Collie,1
+2017,Dog,Pit Bull/Belgian Malinois,1
+2017,Dog,Rat Terrier/Cardigan Welsh Corgi,1
+2017,Dog,Pit Bull/Chihuahua Shorthair,1
+2017,Dog,Miniature Poodle/Yorkshire Terrier,1
+2017,Dog,Pit Bull/Dalmatian,1
+2017,Dog,Labrador Retriever/Akita,1
+2017,Dog,Treeing Walker Coonhound/Plott Hound,1
+2017,Dog,Labrador Retriever/American Bulldog,1
+2017,Dog,Weimaraner,1
+2017,Dog,Rat Terrier/Pekingese,1
+2017,Dog,Mastiff/American Pit Bull Terrier,1
+2017,Dog,Rat Terrier/Smooth Fox Terrier,1
+2017,Dog,West Highland/Miniature Poodle,1
+2017,Dog,Miniature Schnauzer/Cairn Terrier,1
+2017,Dog,Whippet/Plott Hound,1
+2017,Dog,Miniature Schnauzer/Chihuahua Shorthair,1
+2017,Dog,Plott Hound/Dachshund,1
+2017,Dog,Miniature Schnauzer/Cocker Spaniel,1
+2017,Dog,Golden Retriever/Chow Chow,1
+2017,Dog,Miniature Schnauzer/Dachshund,1
+2017,Dog,Yorkshire Terrier/Yorkshire Terrier,1
+2017,Dog,Rhod Ridgeback/Australian Cattle Dog,1
+2017,Dog,Lhasa Apso,1
+2017,Dog,Rhod Ridgeback/Boxer,1
+2017,Dog,Siberian Husky/Pit Bull,1
+2017,Dog,Miniature Schnauzer/Dachshund Longhair,1
+2017,Dog,Skye Terrier Mix,1
+2017,Dog,Labrador Retriever/Rhod Ridgeback,1
+2017,Dog,Lhasa Apso/Jack Russell Terrier,1
+2017,Dog,Miniature Schnauzer/Maltese,1
+2017,Dog,Smooth Fox Terrier/Labrador Retriever,1
+2017,Dog,Rottweiler/Australian Shepherd,1
+2017,Dog,Soft Coated Wheaten Terrier/Boxer,1
+2017,Dog,Rottweiler/Blue Lacy,1
+2017,Dog,St. Bernard Rough Coat,1
+2017,Dog,Rottweiler/English Bulldog,1
+2017,Dog,Lhasa Apso/Toy Poodle,1
+2017,Dog,Great Dane/Pointer,1
+2017,Dog,St. Bernard Smooth Coat,1
+2017,Dog,Labrador Retriever/Shiba Inu,1
+2017,Dog,Pembroke Welsh Corgi/Chinese Sharpei,1
+2017,Dog,Miniature Schnauzer/Yorkshire Terrier,1
+2017,Dog,Staffordshire/Beagle,1
+2017,Dog,Great Pyrenees/Australian Shepherd,1
+2017,Dog,Staffordshire/Boxer,1
+2017,Dog,Saluki Mix,1
+2017,Dog,Maltese/Border Collie,1
+2017,Dog,Samoyed,1
+2017,Dog,Standard Poodle/Jack Russell Terrier,1
+2017,Dog,Neapolitan Mastiff/Pit Bull,1
+2017,Dog,Great Pyrenees/Kuvasz,1
+2017,Dog,Schipperke Mix,1
+2017,Dog,Jack Russell Terrier/Australian Cattle Dog,1
+2017,Dog,Norfolk Terrier,1
+2017,Dog,Sussex Span Mix,1
+2017,Dog,Labrador Retriever/Smooth Fox Terrier,1
+2017,Dog,Jack Russell Terrier/Australian Shepherd,1
+2017,Dog,Labrador Retriever/St. Bernard Smooth Coat,1
+2017,Dog,Manchester Terrier/Australian Kelpie,1
+2017,Dog,Nova Scotia Duck Tolling Retriever Mix,1
+2017,Dog,Golden Retriever/Catahoula,1
+2017,Dog,Shiba Inu,1
+2017,Dog,Toy Poodle/Miniature Schnauzer,1
+2017,Dog,Old English Bulldog,1
+2017,Dog,Treeing Tennesse Brindle Mix,1
+2017,Dog,Shiba Inu/Australian Kelpie,1
+2017,Dog,Treeing Walker Coonhound/German Shepherd,1
+2017,Dog,Labrador Retriever/Vizsla,1
+2017,Dog,Manchester Terrier/Dachshund,1
+2017,Dog,Otterhound Mix,1
+2017,Dog,Vizsla/Labrador Retriever,1
+2017,Dog,Shih Tzu/Chihuahua Longhair,1
+2017,Dog,Greater Swiss Mountain Dog Mix,1
+2017,Dog,Shih Tzu/Chihuahua Shorthair,1
+2017,Dog,Welsh Springer Spaniel,1
+2017,Dog,Shih Tzu/Cocker Spaniel,1
+2017,Dog,Welsh Springer Spaniel/Labrador Retriever,1
+2017,Dog,Shih Tzu/Dachshund,1
+2017,Dog,Plott Hound,1
+2017,Dog,Shih Tzu/Maltese,1
+2017,Dog,Mastiff/Plott Hound,1
+2017,Dog,Havanese/Miniature Poodle,1
+2017,Dog,Whippet/Labrador Retriever,1
+2017,Dog,Papillon/Chihuahua Shorthair,1
+2017,Dog,Plott Hound/Beagle,1
+2017,Dog,Shih Tzu/Pug,1
+2017,Dog,Plott Hound/Boxer,1
+2017,Dog,Shih Tzu/Toy Poodle,1
+2017,Dog,Mexican Hairless,1
+2017,Dog,Shih Tzu/Yorkshire Terrier,1
+2017,Dog,Yorkshire Terrier/Miniature Poodle,1
+2017,Dog,Landseer,1
+2017,Dog,Yorkshire Terrier/Pomeranian,1
+2017,Dog,Ibizan Hound Mix,1
+2017,Dog,Yorkshire Terrier/Standard Poodle,1
+2017,Dog,Labrador Retriever/Black/Tan Hound,1
+2017,Dog,Jack Russell Terrier/Standard Schnauzer,1
+2017,Dog,Siberian Husky/Australian Cattle Dog,1
+2017,Dog,English Springer Spaniel Mix,1
+2017,Dog,Belgian Sheepdog Mix,1
+2017,Dog,Akita/Belgian Malinois,1
+2017,Dog,Australian Cattle Dog/Boxer,1
+2017,Dog,Dogo Argentino Mix,1
+2017,Dog,Blue Lacy,1
+2017,Dog,German Shepherd/Cardigan Welsh Corgi,1
+2017,Dog,American Staffordshire Terrier/Boxer,1
+2017,Dog,Dachshund Wirehair/Shih Tzu,1
+2017,Dog,Cardigan Welsh Corgi/Dachshund,1
+2017,Dog,Dachshund/Wire Hair Fox Terrier,1
+2017,Dog,Carolina Dog,1
+2017,Dog,English Coonhound/German Shepherd,1
+2017,Dog,Australian Cattle Dog/Collie Smooth,1
+2017,Dog,Airedale Terrier Mix,1
+2017,Dog,Australian Cattle Dog/Dalmatian,1
+2017,Dog,German Shepherd/Pit Bull,1
+2017,Dog,Blue Lacy/Beagle,1
+2017,Dog,Boxer/Bullmastiff,1
+2017,Dog,Catahoula/American Pit Bull Terrier,1
+2017,Dog,Dachshund/Blue Lacy,1
+2017,Dog,Catahoula/Australian Cattle Dog,1
+2017,Dog,Dachshund/Norfolk Terrier,1
+2017,Dog,Catahoula/Australian Shepherd,1
+2017,Dog,Australian Shepherd/Collie Smooth,1
+2017,Dog,Catahoula/Beagle,1
+2017,Dog,Dutch Shepherd/Labrador Retriever,1
+2017,Dog,Catahoula/Doberman Pinsch,1
+2017,Dog,Australian Cattle Dog/American Pit Bull Terrier,1
+2017,Dog,Blue Lacy/Labrador Retriever,1
+2017,Dog,Australian Shepherd/Nova Scotia Duck Tolling Retriever,1
+2017,Dog,Beagle/Mastiff,1
+2017,Dog,Cairn Terrier/Chihuahua Longhair,1
+2017,Dog,Catahoula/Plott Hound,1
+2017,Dog,German Shepherd/Great Pyrenees,1
+2017,Dog,Catahoula/Queensland Heeler,1
+2017,Dog,Basset Hound/Black/Tan Hound,1
+2017,Dog,Catahoula/Rottweiler,1
+2017,Dog,Dachshund Longhair/Golden Retriever,1
+2017,Dog,Catahoula/Siberian Husky,1
+2017,Dog,Australian Shepherd/Alaskan Malamute,1
+2017,Dog,Bluetick Hound,1
+2017,Dog,Dachshund/Australian Cattle Dog,1
+2017,Dog,Australian Cattle Dog/Great Pyrenees,1
+2017,Dog,Dachshund/Cardigan Welsh Corgi,1
+2017,Dog,American Staffordshire Terrier/Labrador Retriever,1
+2017,Dog,Boxer/Whippet,1
+2017,Dog,American Staffordshire Terrier/Pit Bull,1
+2017,Dog,Boykin Span Mix,1
+2017,Dog,Australian Cattle Dog/Jack Russell Terrier,1
+2017,Dog,Dalmatian/Labrador Retriever,1
+2017,Dog,Chihuahua Longhair/Cardigan Welsh Corgi,1
+2017,Dog,Doberman Pinsch/Labrador Retriever,1
+2017,Dog,Akita/Mastiff,1
+2017,Dog,Dogue De Bordeaux,1
+2017,Dog,German Wirehaired Pointer,1
+2017,Dog,Australian Shepherd/German Shepherd,1
+2017,Dog,Chihuahua Longhair/Norfolk Terrier,1
+2017,Dog,English Foxhound/Labrador Retriever,1
+2017,Dog,Chihuahua Longhair/Pomeranian,1
+2017,Dog,English Setter Mix,1
+2017,Dog,Beagle/Plott Hound,1
+2017,Dog,Field Spaniel/Cocker Spaniel,1
+2017,Dog,Alaskan Husky/German Shepherd,1
+2017,Dog,French Bulldog Mix,1
+2017,Dog,Australian Cattle Dog/Parson Russell Terrier,1
+2017,Dog,German Shepherd/Alaskan Malamute,1
+2017,Dog,Chihuahua Shorthair/Australian Cattle Dog,1
+2017,Dog,Black Mouth Cur/Boxer,1
+2017,Dog,Border Collie/Australian Kelpie,1
+2017,Dog,Cairn Terrier/Dachshund,1
+2017,Dog,Chihuahua Shorthair/Bichon Frise,1
+2017,Dog,American Bulldog/Boxer,1
+2017,Dog,Chihuahua Shorthair/Cairn Terrier,1
+2017,Dog,Canaan Dog Mix,1
+2017,Dog,Beagle/Queensland Heeler,1
+2017,Dog,German Shepherd/Whippet,1
+2017,Dog,Australian Cattle Dog/Pembroke Welsh Corgi,1
+2017,Dog,Dachshund Longhair/Cocker Spaniel,1
+2017,Dog,Chihuahua Shorthair/Dachshund Wirehair,1
+2017,Dog,Belgian Malinois/Australian Shepherd,1
+2017,Dog,Border Collie/Boxer,1
+2017,Dog,Boxer/German Shepherd,1
+2017,Dog,Australian Cattle Dog/Pit Bull,1
+2017,Dog,Dachshund Wirehair/Norfolk Terrier,1
+2017,Dog,Chihuahua Shorthair/Mexican Hairless,1
+2017,Dog,Dachshund Wirehair/West Highland,1
+2017,Dog,Akita/Siberian Husky,1
+2017,Dog,American Eskimo,1
+2017,Dog,Chihuahua Shorthair/Miniature Schnauzer,1
+2017,Dog,Dachshund/Boxer,1
+2017,Dog,Beagle/Whippet,1
+2017,Dog,Dachshund/Catahoula,1
+2017,Dog,Australian Cattle Dog/Rhod Ridgeback,1
+2017,Dog,American Eskimo/Alaskan Husky,1
+2017,Dog,Bearded Collie Mix,1
+2017,Dog,Dachshund/Miniature Pinscher,1
+2017,Dog,Chihuahua Shorthair/Schipperke,1
+2017,Dog,Dachshund/Pit Bull,1
+2017,Dog,Chihuahua Shorthair/Shih Tzu,1
+2017,Dog,Dachshund/Whippet,1
+2017,Dog,Border Collie/Mastiff,1
+2017,Dog,American Bulldog/Dalmatian,1
+2017,Dog,Border Collie/Staffordshire,1
+2017,Dog,American Bulldog/Mastiff,1
+2017,Dog,Australian Cattle Dog/Whippet,1
+2017,Dog,Australian Shepherd/Field Spaniel,1
+2017,Dog,Basset Hound/Pit Bull,1
+2017,Dog,Doberman Pinsch/Pit Bull,1
+2017,Dog,Chinese Sharpei/Border Collie,1
+2017,Dog,Dogo Argentino/Pit Bull,1
+2017,Dog,Alaskan Husky/Labrador Retriever,1
+2017,Dog,Beagle/Chinese Sharpei,1
+2017,Dog,Anatol Shepherd/Catahoula,1
+2017,Dog,Bichon Frise/Pekingese,1
+2017,Dog,Australian Kelpie/Australian Cattle Dog,1
+2017,Dog,Bichon Frise/Toy Poodle,1
+2017,Dog,Chow Chow/Australian Cattle Dog,1
+2017,Dog,Beagle/Dachshund,1
+2017,Dog,Border Terrier/Chihuahua Shorthair,1
+2017,Dog,English Foxhound/Smooth Fox Terrier,1
+2017,Dog,Border Terrier/Rat Terrier,1
+2017,Dog,English Pointer/Boxer,1
+2017,Dog,Chow Chow/Pekingese,1
+2017,Dog,Akita/Australian Cattle Dog,1
+2017,Dog,Chow Chow/Rottweiler,1
+2017,Dog,Field Spaniel Mix,1
+2017,Dog,Australian Kelpie/Border Collie,1
+2017,Dog,Bullmastiff,1
+2017,Dog,Australian Kelpie/Bull Terrier,1
+2017,Dog,Afghan Hound/Labrador Retriever,1
+2017,Dog,Border Terrier/Yorkshire Terrier,1
+2017,Dog,Australian Shepherd/Queensland Heeler,1
+2017,Dog,Basset Hound/Pointer,1
+2017,Dog,Australian Cattle Dog/Beagle,1
+2017,Dog,Anatol Shepherd/German Shorthair Pointer,1
+2017,Dog,Australian Cattle Dog/Boston Terrier,1
+2017,Dog,Boston Terrier/Chihuahua Shorthair,1
+2017,Dog,Basenji,1
+2017,Dog,Boston Terrier/Pug,1
+2017,Dog,German Shepherd/Boxer,1
+2017,Dog,Collie Rough/Chow Chow,1
+2017,Dog,German Shepherd/Catahoula,1
+2017,Dog,Bouv Flandres/Otterhound,1
+2017,Dog,German Shepherd/Golden Retriever,1
+2017,Dog,Belgian Malinois,1
+2017,Dog,German Shepherd/Ibizan Hound,1
+2017,Dog,Collie Smooth/Boxer,1
+2017,Dog,Cairn Terrier/Miniature Schnauzer,1
+2017,Dog,Collie Smooth/German Shepherd,1
+2017,Dog,Basset Hound/Great Pyrenees,1
+2017,Dog,Coton De Tulear Mix,1
+2017,Dog,Canaan Dog/English Springer Spaniel,1
+2017,Dog,Australian Kelpie/Pit Bull,1
+2017,Dog,German Shepherd/Vizsla,1
+2017,Dog,Basset Hound/Border Collie,1
+2017,Dog,Bloodhound,1
+2017,Dog,Boxer/Australian Cattle Dog,1
+2017,Dog,Dachshund Longhair/Chihuahua Shorthair,1
+2017,Dog,Basenji/Australian Cattle Dog,1
+2017,Dog,Chihuahua Longhair/Miniature Poodle,1
+2018,Cat,Domestic Shorthair Mix,565
+2018,Cat,Domestic Medium Hair Mix,75
+2018,Cat,Domestic Longhair Mix,39
+2018,Cat,Siamese Mix,13
+2018,Cat,Domestic Shorthair,6
+2018,Cat,Siamese,5
+2018,Cat,Maine Coon Mix,4
+2018,Cat,American Shorthair Mix,3
+2018,Cat,Snowshoe Mix,3
+2018,Cat,American Curl Shorthair,3
+2018,Cat,Domestic Medium Hair,2
+2018,Cat,Himalayan Mix,2
+2018,Cat,Manx Mix,1
+2018,Cat,Japanese Bobtail/American Curl Shorthair,1
+2018,Cat,Bengal Mix,1
+2018,Cat,Ragdoll Mix,1
+2018,Cat,American Curl Shorthair/Siamese,1
+2018,Cat,Russian Blue,1
+2018,Cat,Scottish Fold/Domestic Shorthair,1
+2018,Dog,Pit Bull Mix,297
+2018,Dog,Labrador Retriever Mix,278
+2018,Dog,Chihuahua Shorthair Mix,201
+2018,Dog,German Shepherd Mix,100
+2018,Dog,Australian Cattle Dog Mix,63
+2018,Dog,Border Collie Mix,31
+2018,Dog,Staffordshire Mix,31
+2018,Dog,Siberian Husky Mix,30
+2018,Dog,Dachshund Mix,29
+2018,Dog,Miniature Poodle Mix,27
+2018,Dog,Cairn Terrier Mix,26
+2018,Dog,Boxer Mix,25
+2018,Dog,Yorkshire Terrier Mix,24
+2018,Dog,German Shepherd,23
+2018,Dog,Jack Russell Terrier Mix,23
+2018,Dog,Great Pyrenees Mix,21
+2018,Dog,Pointer Mix,21
+2018,Dog,Rat Terrier Mix,21
+2018,Dog,Australian Shepherd Mix,19
+2018,Dog,Beagle Mix,19
+2018,Dog,Chihuahua Longhair Mix,18
+2018,Dog,Miniature Schnauzer Mix,18
+2018,Dog,Plott Hound Mix,17
+2018,Dog,Shih Tzu Mix,16
+2018,Dog,Labrador Retriever,15
+2018,Dog,Catahoula Mix,15
+2018,Dog,American Bulldog Mix,15
+2018,Dog,Anatol Shepherd Mix,13
+2018,Dog,Boston Terrier Mix,10
+2018,Dog,Border Terrier Mix,10
+2018,Dog,American Pit Bull Terrier Mix,10
+2018,Dog,Chihuahua Shorthair/Dachshund,9
+2018,Dog,Rottweiler Mix,9
+2018,Dog,Labrador Retriever/Pit Bull,9
+2018,Dog,Golden Retriever/Labrador Retriever,9
+2018,Dog,Norfolk Terrier Mix,8
+2018,Dog,Great Dane Mix,8
+2018,Dog,Black Mouth Cur Mix,8
+2018,Dog,Alaskan Husky Mix,8
+2018,Dog,Maltese Mix,8
+2018,Dog,Mastiff Mix,7
+2018,Dog,Black/Tan Hound Mix,7
+2018,Dog,Boxer,6
+2018,Dog,Dachshund Longhair Mix,6
+2018,Dog,Siberian Husky,6
+2018,Dog,Cocker Spaniel Mix,6
+2018,Dog,Labrador Retriever/German Shepherd,6
+2018,Dog,Dachshund/Chihuahua Shorthair,6
+2018,Dog,Labrador Retriever/Weimaraner,5
+2018,Dog,Greyhound Mix,5
+2018,Dog,Miniature Pinscher Mix,5
+2018,Dog,Dalmatian Mix,5
+2018,Dog,Border Terrier,5
+2018,Dog,Pit Bull/Labrador Retriever,5
+2018,Dog,German Shepherd/Pit Bull,5
+2018,Dog,Doberman Pinsch Mix,5
+2018,Dog,Maltese,5
+2018,Dog,Cardigan Welsh Corgi Mix,5
+2018,Dog,Chihuahua Shorthair,5
+2018,Dog,Pomeranian Mix,5
+2018,Dog,Pug Mix,5
+2018,Dog,Golden Retriever Mix,5
+2018,Dog,Miniature Schnauzer,4
+2018,Dog,Rottweiler,4
+2018,Dog,Pekingese Mix,4
+2018,Dog,Bull Terrier Mix,4
+2018,Dog,Miniature Poodle,4
+2018,Dog,Anatol Shepherd/Great Pyrenees,4
+2018,Dog,Norwich Terrier Mix,4
+2018,Dog,Jack Russell Terrier/Chihuahua Shorthair,4
+2018,Dog,Bichon Frise Mix,4
+2018,Dog,Labrador Retriever/Alaskan Husky,4
+2018,Dog,Black/Tan Hound,4
+2018,Dog,Labrador Retriever/Border Collie,4
+2018,Dog,Shih Tzu,4
+2018,Dog,Pit Bull/Australian Cattle Dog,3
+2018,Dog,Great Pyrenees,3
+2018,Dog,Queensland Heeler Mix,3
+2018,Dog,Basset Hound Mix,3
+2018,Dog,English Bulldog Mix,3
+2018,Dog,Alaskan Husky,3
+2018,Dog,Pointer/Labrador Retriever,3
+2018,Dog,Border Collie/German Shepherd,3
+2018,Dog,Redbone Hound Mix,3
+2018,Dog,Labrador Retriever/Boxer,3
+2018,Dog,Australian Cattle Dog/Labrador Retriever,3
+2018,Dog,Scottish Terrier Mix,3
+2018,Dog,Pit Bull,3
+2018,Dog,Siberian Husky/German Shepherd,3
+2018,Dog,German Shepherd/Black/Tan Hound,3
+2018,Dog,Blue Lacy Mix,3
+2018,Dog,Akita Mix,3
+2018,Dog,Whippet Mix,3
+2018,Dog,Black Mouth Cur/Labrador Retriever,3
+2018,Dog,Manchester Terrier Mix,3
+2018,Dog,German Shepherd/Labrador Retriever,3
+2018,Dog,Chinese Sharpei,3
+2018,Dog,Bulldog Mix,3
+2018,Dog,Chow Chow Mix,3
+2018,Dog,Beagle,3
+2018,Dog,Soft Coated Wheaten Terrier Mix,3
+2018,Dog,Labrador Retriever/Plott Hound,3
+2018,Dog,Toy Poodle Mix,3
+2018,Dog,Labrador Retriever/Siberian Husky,3
+2018,Dog,Lhasa Apso Mix,3
+2018,Dog,Border Collie,3
+2018,Dog,Tibetan Terrier Mix,2
+2018,Dog,Border Collie/Bernese Mountain Dog,2
+2018,Dog,Border Collie/Australian Shepherd,2
+2018,Dog,Australian Cattle Dog,2
+2018,Dog,Catahoula/Whippet,2
+2018,Dog,Chihuahua Shorthair/Catahoula,2
+2018,Dog,Bull Terrier Miniature Mix,2
+2018,Dog,Australian Cattle Dog/German Shepherd,2
+2018,Dog,Pembroke Welsh Corgi/Chihuahua Shorthair,2
+2018,Dog,Chihuahua Shorthair/Miniature Poodle,2
+2018,Dog,Pug/Chihuahua Shorthair,2
+2018,Dog,Chihuahua Shorthair/Pug,2
+2018,Dog,St. Bernard Rough Coat/Boxer,2
+2018,Dog,Chinese Sharpei Mix,2
+2018,Dog,Beagle/Dachshund,2
+2018,Dog,Collie Rough/Great Pyrenees,2
+2018,Dog,Border Collie/Australian Cattle Dog,2
+2018,Dog,Collie Smooth Mix,2
+2018,Dog,Miniature Schnauzer/Yorkshire Terrier,2
+2018,Dog,Collie Smooth/Boxer,2
+2018,Dog,Pharaoh Hound Mix,2
+2018,Dog,Australian Kelpie Mix,2
+2018,Dog,Pug,2
+2018,Dog,Dachshund/Labrador Retriever,2
+2018,Dog,Catahoula/Labrador Retriever,2
+2018,Dog,Dalmatian/Plott Hound,2
+2018,Dog,Soft Coated Wheaten Terrier,2
+2018,Dog,Australian Shepherd,2
+2018,Dog,Standard Schnauzer,2
+2018,Dog,English Bulldog,2
+2018,Dog,Vizsla,2
+2018,Dog,German Shepherd/Australian Cattle Dog,2
+2018,Dog,Maltese/Yorkshire Terrier,2
+2018,Dog,Border Collie/Whippet,2
+2018,Dog,Miniature Pinscher/Chihuahua Shorthair,2
+2018,Dog,German Shepherd/Nova Scotia Duck Tolling Retriever,2
+2018,Dog,Miniature Poodle/Lhasa Apso,2
+2018,Dog,German Shorthair Pointer Mix,2
+2018,Dog,Beagle/Pug,2
+2018,Dog,Glen Of Imaal Mix,2
+2018,Dog,Cairn Terrier,2
+2018,Dog,Golden Retriever,2
+2018,Dog,Pharaoh Hound,2
+2018,Dog,Great Pyrenees/Labrador Retriever,2
+2018,Dog,Cardigan Welsh Corgi,2
+2018,Dog,Irish Terrier Mix,2
+2018,Dog,Pointer,2
+2018,Dog,Jack Russell Terrier,2
+2018,Dog,Black Mouth Cur/German Shepherd,2
+2018,Dog,Labrador Retriever/Australian Cattle Dog,2
+2018,Dog,Cardigan Welsh Corgi/Labrador Retriever,2
+2018,Dog,Labrador Retriever/Australian Kelpie,2
+2018,Dog,Shih Tzu/Miniature Poodle,2
+2018,Dog,American Staffordshire Terrier Mix,2
+2018,Dog,Smooth Fox Terrier Mix,2
+2018,Dog,Boxer/Beagle,2
+2018,Dog,Chesa Bay Retr Mix,2
+2018,Dog,Labrador Retriever/Great Pyrenees,2
+2018,Dog,Staffordshire,2
+2018,Dog,Yorkshire Terrier/Miniature Poodle,2
+2018,Dog,Standard Schnauzer Mix,2
+2018,Dog,Boxer/Pit Bull,2
+2018,Dog,Toy Fox Terrier Mix,2
+2018,Dog,Labrador Retriever/Pointer,2
+2018,Dog,West Highland Mix,2
+2018,Dog,Labrador Retriever/Whippet,2
+2018,Dog,Beagle/Labrador Retriever,2
+2018,Dog,Australian Shepherd/Basset Hound,1
+2018,Dog,Cardigan Welsh Corgi/Australian Kelpie,1
+2018,Dog,Whippet/Labrador Retriever,1
+2018,Dog,Australian Shepherd/Great Pyrenees,1
+2018,Dog,Catahoula/Border Collie,1
+2018,Dog,Akita/Border Collie,1
+2018,Dog,Yorkshire Terrier/Shih Tzu,1
+2018,Dog,Australian Shepherd/Plott Hound,1
+2018,Dog,Pit Bull/Weimaraner,1
+2018,Dog,Great Pyrenees/Dalmatian,1
+2018,Dog,Cardigan Welsh Corgi/Miniature Schnauzer,1
+2018,Dog,Great Pyrenees/German Shepherd,1
+2018,Dog,German Shepherd/Chow Chow,1
+2018,Dog,Chihuahua Shorthair/Pomeranian,1
+2018,Dog,Staffordshire/Australian Cattle Dog,1
+2018,Dog,Australian Terrier Mix,1
+2018,Dog,Vizsla/Greyhound,1
+2018,Dog,Harrier Mix,1
+2018,Dog,Pit Bull/German Shepherd,1
+2018,Dog,Havanese Mix,1
+2018,Dog,Black Mouth Cur,1
+2018,Dog,Collie Smooth/Australian Kelpie,1
+2018,Dog,Pug/Beagle,1
+2018,Dog,Italian Greyhound Mix,1
+2018,Dog,Carolina Dog,1
+2018,Dog,Akbash Mix,1
+2018,Dog,Rottweiler/Staffordshire,1
+2018,Dog,Basenji Mix,1
+2018,Dog,Bloodhound/Labrador Retriever,1
+2018,Dog,Boston Terrier,1
+2018,Dog,Border Collie/Great Pyrenees,1
+2018,Dog,Keeshond/Finnish Spitz,1
+2018,Dog,Standard Schnauzer/German Shepherd,1
+2018,Dog,American Staffordshire Terrier,1
+2018,Dog,Treeing Tennesse Brindle Mix,1
+2018,Dog,Basset Hound/Dachshund,1
+2018,Dog,West Highland,1
+2018,Dog,Boston Terrier/Chihuahua Shorthair,1
+2018,Dog,Pit Bull/Bull Terrier,1
+2018,Dog,Dachshund,1
+2018,Dog,Pit Bull/Rat Terrier,1
+2018,Dog,Dachshund Longhair,1
+2018,Dog,Plott Hound/Labrador Retriever,1
+2018,Dog,Chihuahua Shorthair/Rat Terrier,1
+2018,Dog,Cardigan Welsh Corgi/American Staffordshire Terrier,1
+2018,Dog,American Staffordshire Terrier/Rottweiler,1
+2018,Dog,Chinese Sharpei/Rhod Ridgeback,1
+2018,Dog,Labrador Retriever/Cardigan Welsh Corgi,1
+2018,Dog,Chinese Sharpei/Rottweiler,1
+2018,Dog,Dachshund Longhair/Tibetan Spaniel,1
+2018,Dog,Rat Terrier/Dachshund,1
+2018,Dog,Australian Kelpie/Border Collie,1
+2018,Dog,Rhod Ridgeback,1
+2018,Dog,Labrador Retriever/Greyhound,1
+2018,Dog,Rottweiler/Plott Hound,1
+2018,Dog,Dachshund Wirehair Mix,1
+2018,Dog,Shetland Sheepdog,1
+2018,Dog,Dachshund Wirehair/Chihuahua Shorthair,1
+2018,Dog,American Foxhound Mix,1
+2018,Dog,Dachshund/Beagle,1
+2018,Dog,Chow Chow,1
+2018,Dog,Labrador Retriever/Queensland Heeler,1
+2018,Dog,German Shorthair Pointer,1
+2018,Dog,Labrador Retriever/Rat Terrier,1
+2018,Dog,German Wirehaired Pointer Mix,1
+2018,Dog,Brittany,1
+2018,Dog,Border Collie/Labrador Retriever,1
+2018,Dog,Labrador Retriever/Staffordshire,1
+2018,Dog,Tibetan Spaniel Mix,1
+2018,Dog,Labrador Retriever/Standard Poodle,1
+2018,Dog,Toy Poodle,1
+2018,Dog,Beagle/Australian Cattle Dog,1
+2018,Dog,Golden Retriever/Border Terrier,1
+2018,Dog,Dachshund/Cardigan Welsh Corgi,1
+2018,Dog,Weimaraner Mix,1
+2018,Dog,Landseer Mix,1
+2018,Dog,Chihuahua Longhair/Pomeranian,1
+2018,Dog,Bruss Griffon Mix,1
+2018,Dog,Great Dane,1
+2018,Dog,Lhasa Apso/Miniature Poodle,1
+2018,Dog,Pit Bull/Chow Chow,1
+2018,Dog,Beagle/Catahoula,1
+2018,Dog,Belgian Malinois Mix,1
+2018,Dog,Australian Kelpie/Bull Terrier,1
+2018,Dog,Pit Bull/Rottweiler,1
+2018,Dog,Maltese/Miniature Poodle,1
+2018,Dog,Alaskan Husky/German Shepherd,1
+2018,Dog,Chihuahua Shorthair/Shih Tzu,1
+2018,Dog,Australian Shepherd/Australian Cattle Dog,1
+2018,Dog,Dachshund/Rat Terrier,1
+2018,Dog,Pointer/Dalmatian,1
+2018,Dog,Manchester Terrier/Basenji,1
+2018,Dog,Pointer/Pit Bull,1
+2018,Dog,Yorkshire Terrier,1
+2018,Dog,Pomeranian/Beagle,1
+2018,Dog,Blue Lacy/Chinese Sharpei,1
+2018,Dog,German Shepherd/Australian Kelpie,1
+2018,Dog,Yorkshire Terrier/Chihuahua Longhair,1
+2018,Dog,German Shepherd/Black Mouth Cur,1
+2018,Dog,Chihuahua Longhair/Rat Terrier,1
+2018,Dog,Queensland Heeler/Cardigan Welsh Corgi,1
+2018,Dog,Dachshund/Whippet,1
+2018,Dog,Rat Terrier/Cardigan Welsh Corgi,1
+2018,Dog,Australian Kelpie/Pit Bull,1
+2018,Dog,Rat Terrier/Lhasa Apso,1
+2018,Dog,Beagle/Pit Bull,1
+2018,Dog,Redbone Hound/Rhod Ridgeback,1
+2018,Dog,Miniature Poodle/Jack Russell Terrier,1
+2018,Dog,Anatol Shepherd/German Shorthair Pointer,1
+2018,Dog,Border Collie/German Shorthair Pointer,1
+2018,Dog,Rottweiler/Australian Kelpie,1
+2018,Dog,Miniature Poodle/Maltese,1
+2018,Dog,Rottweiler/Siberian Husky,1
+2018,Dog,Miniature Poodle/Yorkshire Terrier,1
+2018,Dog,Catahoula/German Shepherd,1
+2018,Dog,Dandie Dinmont Mix,1
+2018,Dog,Shiba Inu Mix,1
+2018,Dog,Chihuahua Shorthair/Australian Terrier,1
+2018,Dog,American Bulldog/Pit Bull,1
+2018,Dog,Miniature Schnauzer/Wire Hair Fox Terrier,1
+2018,Dog,Black/Tan Hound/Beagle,1
+2018,Dog,Doberman Pinsch/Labrador Retriever,1
+2018,Dog,Siberian Husky/Australian Cattle Dog,1
+2018,Dog,Neapolitan Mastiff Mix,1
+2018,Dog,Silky Terrier Mix,1
+2018,Dog,Beagle/Whippet,1
+2018,Dog,German Shepherd/Pointer,1
+2018,Dog,Norfolk Terrier/Pug,1
+2018,Dog,Soft Coated Wheaten Terrier/Yorkshire Terrier,1
+2018,Dog,Bullmastiff Mix,1
+2018,Dog,St. Bernard Smooth Coat Mix,1
+2018,Dog,Papillon,1
+2018,Dog,American Eskimo Mix,1
+2018,Dog,Parson Russell Terrier/Chihuahua Shorthair,1
+2018,Dog,Standard Poodle/Labrador Retriever,1
+2018,Dog,Patterdale Terr Mix,1
+2018,Dog,Chihuahua Shorthair/Beagle,1
+2018,Dog,Pbgv Mix,1
+2018,Dog,Standard Schnauzer/Labrador Retriever,1
+2018,Dog,Dutch Shepherd/Plott Hound,1
+2018,Dog,Tibetan Spaniel/Chihuahua Longhair,1
+2018,Dog,Pekingese/Pomeranian,1
+2018,Dog,Airedale Terrier/Otterhound,1
+2018,Dog,Pembroke Welsh Corgi Mix,1
+2018,Dog,Chihuahua Longhair/Cairn Terrier,1
+2018,Dog,Chinese Sharpei/Labrador Retriever,1
+2018,Dog,Treeing Walker Coonhound Mix,1
+2018,Dog,Border Collie/Miniature Pinscher,1
+2018,Dog,Vizsla Mix,1
+2018,Dog,English Foxhound Mix,1
+2018,Dog,Vizsla/Labrador Retriever,1
+2018,Dog,Anatol Shepherd,1
+2018,Dog,Weimaraner/Labrador Retriever,1
+2018,Dog,Bearded Collie Mix,1
+2018,Dog,Australian Shepherd/Cardigan Welsh Corgi,1
+2018,Dog,Pit Bull/Alaskan Husky,1
+2018,Dog,Whippet/German Shepherd,1
+2018,Dog,Finnish Spitz Mix,1
+2018,Dog,Wire Hair Fox Terrier Mix,1
+2018,Dog,Pit Bull/Basset Hound,1
+2018,Dog,Pit Bull/Boston Terrier,1
+2018,Dog,Yorkshire Terrier/Bruss Griffon,1
+2018,Dog,Mastiff/Pit Bull,1
+2018,Dog,Yorkshire Terrier/Dachshund,1
+2018,Dog,Mexican Hairless Mix,1
+2018,Dog,Beagle/Miniature Pinscher,1
+2018,Dog,Alaskan Malamute Mix,1
+2018,Dog,Golden Retriever/Beagle,1
