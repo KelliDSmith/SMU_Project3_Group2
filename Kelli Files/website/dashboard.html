@@ -5,11 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Bellybutton Biodiversity</title>
+    <title>Dashboard</title>
 
     <!-- Bootstrap and Bootswatch CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/minty/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/sandstone/bootstrap.min.css">
 
     <!-- Javascript -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -25,99 +25,78 @@
 
 <body>
 
-  <div class="container">
+  <!-- Filter Buttons as Plan B -->
+  <!-- <div class="container-fluid">
       <div class="row">
         <div class="col-md-12 jumbotron text-center">
           <h1>Austin Animial Shelter Dashboard</h1>
           <p>Use the interactive charts below to explore the dataset</p>
+          <div class="btn-group" role="group" aria-label="Basic example" id="animalFilter">
+            <button type="button" class="btn btn-secondary" value="Dog">Dog</button>
+            <button type="button" class="btn btn-secondary" value="Cat">Cat</button>
+            <button type="button" class="btn btn-secondary">All</button>
+          </div>
+  
+          <div class="btn-group" role="group" aria-label="Basic example" id="yearFilter">
+            <button type="button" class="btn btn-secondary" value="2014">2014</button>
+            <button type="button" class="btn btn-secondary" value="2015">2015</button>
+            <button type="button" class="btn btn-secondary" value="2016">2016</button>
+            <button type="button" class="btn btn-secondary" value="2017">2017</button>
+            <button type="button" class="btn btn-secondary" value="2014">All Years</button>
+          </div>
         </div>
-      </div>
+      </div> -->
 
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-md-3">
-            <div class="container" style="max-width: 20rem;">
-              <div class="row">
-                <div class="col-md-12 well card border-primary mb-3" style="max-width: 20rem;">
-                  <h6 class="card-header">Animal Type:</h6>
-                  <select id="animalFilter">
-                    <option value="Dog">Dog</option>
-                    <option value="Cat">Cat</option>
-                  </select>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-md-12 well card border-primary mb-3" style="max-width: 20rem;">
-                  <h6 class="card-header">Year:</h6>
-                  <select id="yearFilter">
-                      <option value="2014">2014</option>
-                      <option value="2015">2015</option>
-                      <option value="2016">2016</option>
-                      <option value="2017">2017</option>
-                  </select>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class ="row">
-            <div class="col-md-9">
-              <div class="container">
-                <div class="row">
-                  <div class='col-md-12'
-
-                </div>
-              </div>
-            </div>
-          </div>
-
-        <!-- <div class="row">
-            <div class="col-md-3">
-                <div class="well card border-primary mb-3" style="max-width: 20rem;">
-                    <h6 class="card-header">Animal Type:</h6>
-                    <select id="animalFilter">
-                        <option value="Dog">Dog</option>
-                        <option value="Cat">Cat</option>
-                    </select>
-                </div>
-            </div>
+  <div class="container-fluid align-items-center">
+    <div class="row">
+      <div class="col-md-2">
+        <div class="container" style="max-width: 20rem;">
           <div class="row">
-            <div class="col-md-3">
-              <div class="well card border-primary mb-3" style="max-width: 20rem;">
-                <h6 class="card-header">Year:</h6>
-                <select id="yearFilter">
-                    <option value="2014">2014</option>
-                    <option value="2015">2015</option>
-                    <option value="2016">2016</option>
-                    <option value="2017">2017</option>
-                </select>
+            <div class="col-md-12 well card border-primary mb-3" style="max-width: 20rem;">
+              <h6 class="card-header">Animal Type:</h6>
+              <select id="animalFilter">
+                <option value="Dog">Dog</option>
+                <option value="Cat">Cat</option>
+              </select>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12 well card border-primary mb-3" style="max-width: 20rem;">
+              <h6 class="card-header">Year:</h6>
+              <select id="yearFilter">
+                  <option value="2014">2014</option>
+                  <option value="2015">2015</option>
+                  <option value="2016">2016</option>
+                  <option value="2017">2017</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class ="row">
+        <div class="col-md-10">
+          <div class="container-fluid">
+            <div class="row">
+              <div class='col-md-12'>
+                <center><h4>Count of Outcome Type Based on Intake Type</h4></center>
               </div>
             </div>
+            <div class="row">
+              <div class="col-md-4">
+                <div id="bar1"></div>
+              </div>
+              <div class="col-md-4">
+                <div id="bar2"></div>
+              </div>
+              <div class="col-md-4">
+                <div id="bar3"></div>
+              </div>
+            </div>
+          </div>
         </div>
-    </div>
-    <div class="container-fluid"></div>
-      <div class="row">
-          <div class="col-md-12">
-              <center><h3>Count of Outcome Type Based on Intake Type</h3></center>
-          </div>
-      </div>
-      <div class="row">
-          <div class="col-md-4">
-              <div id="bar1"></div>
-          </div>
-          <div class="col-md-4">
-              <div id="bar2"></div>
-          </div>
-          <div class="col-md-4">
-              <div id="bar3"></div>
-          </div>
-      </div>
-      <div>
-        <div class="col-md-12">
-          <h>fajds;lkfj asdlkjfa slkdjf a; a;lksdjf a;sldkfj a;lskjdf as;ldkjfas;ldkjf</h5>
       </div>
     </div>
-  </div> --> 
-
+  </div>
 </body>
 
 </html>

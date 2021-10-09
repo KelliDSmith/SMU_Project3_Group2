@@ -9,6 +9,12 @@ $(document).ready(function() {
         getData();
     });
 
+    // $("#animalFilter").on("change",function() {
+    //     getData();
+    // });
+    // $("#yearFilter").on("change",function() {
+    //     getData();
+    // });
 
 });
 
@@ -63,10 +69,7 @@ function kellicharts (data) {
         autosize: false,
         width: 500,
         height: 500,
-        // title: "Title Goes Here",
-        xaxis: {
-            title: `Owner Surrender (count: ${surrender_sum})`
-        },
+        title: `Owner Surrender (count: ${surrender_sum})`,
         yaxis: {
             range: [0, 70],
             tickfont: {
@@ -100,10 +103,7 @@ function kellicharts (data) {
         autosize: false,
         width: 500,
         height: 500,
-        // title: "Title Goes Here",
-        xaxis: {
-            title: `Public Assist (count: ${passist_sum})`
-        },
+        title: `Public Assist (count: ${passist_sum})`,
         yaxis: {
             range: [0, 70],
             tickfont: {
@@ -138,10 +138,7 @@ function kellicharts (data) {
         autosize: false,
         width: 500,
         height: 500,
-        // title: "Title Goes Here",
-        xaxis: {
-            title: `Stray (count: ${stray_sum})`
-        },
+        title: `Stray (count: ${stray_sum})`,
         yaxis: {
             range: [0, 70],
             tickfont: {
