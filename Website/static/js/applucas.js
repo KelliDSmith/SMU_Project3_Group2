@@ -2,16 +2,16 @@ $(document).ready(function() {
     // alert("Page Loaded");
     getData2();
     
-    // $("#animalFilter").on("change",function() {
-    //     getData();
-    // });
-    // $("#yearFilter").on("change",function() {
-    //     getData();
-    // });
+    $("#animalFilter").on("change",function() {
+        getData2();
+    });
+    $("#yearFilter").on("change",function() {
+        getData2();
+    });
 });
 
 function getData2() {
-    let url = "breed_data.json";
+    let url = "/data/breed_data.json";
 
     // AJAX
     $.ajax({
@@ -41,23 +41,27 @@ function lucuschart (data) {
     let curr_data = data.filter(x => x.animal_type === animal_type_filter & x.intake_year == year_filter);
 
     //find top 10 breeds
-    let top_ten = curr_data.slice(0,10);
+    let top_ten = curr_data.slice(0,5);
     let top_ten_sum = top_ten.map(x => x.count).reduce((a, b) => a + b, 0);
     console.log(top_ten);
 
     var data = [{
             values: top_ten.map(x => 100 * x.count/top_ten_sum),
             labels: top_ten.map(x => x.breed),
-            type: 'pie'
+            type: 'pie',
+            marker: {
+                colors: ["#DB2763","#B0DB43","#12EAEA","#BCE7FD","#C492B1"]
+              }
           }];
           
           var layout = {
+            title: `<b>Top 10 Breeds in Shelters</b>`,
             height: 600,
             width: 600
           };
           
           Plotly.newPlot('pie', data, layout);
-    };
+};
 
     // function lucuschart2 (data) {
     //     let animal_type_filter = $("#animalFilter").val();

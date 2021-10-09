@@ -19,7 +19,7 @@ $(document).ready(function() {
 });
 
 function getData() {
-    let url = "kellidata.json";
+    let url = "../data/kellidata.json";
 
     // AJAX
     $.ajax({
