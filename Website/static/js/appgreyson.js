@@ -86,16 +86,38 @@ function timeVisual(data,year,type) {
 
         months = ["January","February","March","April","May","June","July","August","September","October","November","December"]
         let layout = {
-            title: `<b>${type}'s in Shelters/Month in ${year}</b>`,
+            title: {
+                text:`<b>${type}'s in Shelters/Month in ${year}</b>`,
+                font: {
+                    size: 20
+                }
+            },
             xaxis: {
-                title: 'Months',
+                title: '<b>Months</b>',
+                titlefont: {
+                    size: 18,
+                    color: 'black'
+                },
+                tickangle: 20,
+                tickfont: {
+                    size: 18,
+                    color: 'black'
+                },
                 tickmode: 'array',
                 tickvals: intake_month_list,
                 ticktext: months
               },
               yaxis: {
-                title: '# of Animals'
-              },
+                title: '<b># of Animals</b>',
+                titlefont: {
+                    size: 18,
+                    color: 'black'
+                    },
+                },
+                tickfont: {
+                    size: 18,
+                    color: 'black'
+                },
               showlegend: false,
               hovermode:'closest'
               

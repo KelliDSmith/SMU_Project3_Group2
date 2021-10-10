@@ -51,84 +51,30 @@ function lucuschart (data) {
             type: 'pie',
             marker: {
                 colors: ["#86BBD8","#33658A","#2F4858","#F6AE2D","#A57548"]
-              }
+              },
+            textinfo: "percent",
+            textposition: "inside",
+            hoverinfo: 'label+percent',
+            automargin: true
           }];
           
           var layout = {
-            autosize: true
-            // title: `<b>Top 5 Breeds in Shelters</b>`,
+            autosize: true,
             // height: 400,
-            // width: 600
+            // width: 400,
+            annotations: {
+                font: {
+                    size: 20
+                }
+            },
+            margin: {"t": 20, "b": 20, "l": 0, "r": 0},
+            showlegend: true,
+            legend: {
+                font: {
+                    size: 20
+                },
+            }
           };
           
           Plotly.newPlot('pie', data, layout);
 };
-
-    // function lucuschart2 (data) {
-    //     let animal_type_filter = $("#animalFilter").val();
-    //     let year_filter = $("#yearFilter").val();
-    //     let curr_data = data.filter(x => x.animal_type === animal_type_filter & x.intake_year == year_filter);
-    
-    //     //find top 10 breeds
-    //     let top_ten = curr_data.slice(0,10);
-    //     console.log(top_ten);
-
-    //     // Radialize the colors
-    //     Highcharts.setOptions({
-    //         colors: Highcharts.map(Highcharts.getOptions().colors, function (color) {
-    //             return {
-    //                 radialGradient: {
-    //                     cx: 0.5,
-    //                     cy: 0.3,
-    //                     r: 0.7
-    //                     },
-    //                 stops: [
-    //                     [0, color],
-    //                     [1, Highcharts.color(color).brighten(-0.3).get('rgb')] // darken
-    //                     ]
-    //                 };
-    //         })
-    //     });
-
-    //     // Build the chart
-    //     Highcharts.chart('container', {
-    //         chart: {
-    //             plotBackgroundColor: null,
-    //             plotBorderWidth: null,
-    //             plotShadow: false,
-    //             type: 'pie'
-    //         },
-    //         title: {
-    //             text: 'Top 10 Breeds'
-    //         },
-    //         tooltip: {
-    //             pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
-    //         },
-    //         accessibility: {
-    //             point: {
-    //                 valueSuffix: '%'
-    //             }
-    //         },
-    //         plotOptions: {
-    //             pie: {
-    //                 allowPointSelect: true,
-    //                 cursor: 'pointer',
-    //                 dataLabels: {
-    //                     enabled: true,
-    //                     format: '<b>{point.name}</b>: {point.percentage:.1f} %',
-    //                     connectorColor: 'silver'
-    //                 }
-    //             }
-    //         },
-    //         series: [{
-    //             name: 'Share',
-    //             data: [
-    //                 { name: top_ten.breed[0], y: top_ten.count[0] },
-    //                 { name: top_ten.breed[1], y: top_ten.count[1] },
-    //                 { name: top_ten.breed[2], y: top_ten.count[2] },
-    //                 { name: top_ten.breed[3], y: top_ten.count[3] },
-    //                 { name: top_ten.breed[4], y: top_ten.count[4] },
-    //                 { name: top_ten.breed[5], y: top_ten.count[] },
-    //             ]
-    //         }]
-    // });

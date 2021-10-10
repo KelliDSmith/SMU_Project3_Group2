@@ -1,35 +1,1291 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Austin Animal Shelters</title>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Data Tables</title>
 
-    <!-- Bootstrap and Bootswatch CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/minty/bootstrap.min.css">
+        <!-- Bootstrap and Bootswatch CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/minty/bootstrap.min.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
-    <!-- Javascript -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js" integrity="sha384-LtrjvnR4Twt/qOuYxE721u19sVFLVSA4hf/rRt6PrZTmiPltdZcI7q7PXQBYTKyf" crossorigin="anonymous"></script>
+        <!-- Javascript -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js" integrity="sha384-LtrjvnR4Twt/qOuYxE721u19sVFLVSA4hf/rRt6PrZTmiPltdZcI7q7PXQBYTKyf" crossorigin="anonymous"></script>
 
-    <!-- Visualization Libs -->
-    <script src="https://d3js.org/d3.v7.min.js"></script>
-    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-    <script src="./static/js/appgreyson.js"></script>
-    <script src="./static/js/appkelli.js"></script>
-    <script src="./static/js/applucas.js"></script>
-</head>
+        <!-- Visualization Libs -->
+        <script src="https://d3js.org/d3.v7.min.js"></script>
+        <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+        <script src="./static/js/appgreyson.js"></script>
+        <script src="./static/js/appkelli.js"></script>
+        <script src="./static/js/applucas.js"></script>
+        <script src="./static/css/style.css"></script>
+        <script src="https://code.highcharts.com/highcharts.js"></script>
 
-body>
-    <div class="container">
-        <div class="row">
-          <div class="col-md-12 jumbotron text-center">
-            <h1>Austin Animal Shelter Data Table</h1>
-          </div>
+
+        <script>
+            function w3_open() {
+                document.getElementById("mySidebar").style.display = "block";
+                document.getElementById("myOverlay").style.display = "block";
+            }
+                function w3_close() {
+                document.getElementById("mySidebar").style.display = "none";
+                document.getElementById("myOverlay").style.display = "none";
+            }
+        </script>
+
+            
+        <style>
+
+            body {
+                background-color: #F0F0F0;
+            }       
+
+            .container {
+                max-width: 640px;
+                margin: 30px auto;
+                background: #fff;
+                border-radius: 8px;
+                padding: 20px;
+            }
+
+            .pageTitleSection {
+                padding-top: 50px;
+                padding-bottom: 50px;
+            }
+            
+            .pageTitle {
+                color: whitesmoke;
+                text-align: center;
+            }
+
+            h1 {
+                font-size: 50px;
+            }
+
+            #myBtn:hover {
+                background-color: #555; /* Add a dark-grey background on hover */
+            }
+
+            .nav_background {
+                background-color: #474e5d; 
+            }
+
+            #openNav{
+                background-color: #474e5d; 
+            }
+            
+            .gauge{
+                border-style: double;
+                border: 2px solid 474e5d;
+                border-radius: 8px;
+                padding: 5px;
+            }
+
+            .bubble{
+                border-style: double;
+                border: 2px solid 474e5d;
+                border-radius: 8px;
+                padding: 5px;
+                margin-left: 20px;
+            }
+    
+            .demo{
+                border-style: double;
+                border: 2px solid 474e5d;
+                border-radius: 8px;
+                padding: 5px;
+                margin-left: 20px;
+            } 
+
+            .card{
+                border-style: double;
+                border: 2px solid 474e5d;
+                border-radius: 8px;
+                padding: 5px;
+            } 
+
+            .bar{
+                border-style: double;
+                border: 2px solid 474e5d;
+                border-radius: 8px;
+                padding: 5px;
+            }
+            
+            #openNav{
+            background-color: 474e5d;
+            color:white;
+
+            }
+
+            #animalFilter {
+                position: absolute;
+                right: 30px;
+            }
+
+            #yearFilter {
+                position: absolute;
+                right: 30px;
+            }
+
+            .chartTitle {
+                text-align: left;
+                background-color: #2c313a;
+                color: whitesmoke;
+                margin-top: 15px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 10px;
+            }
+
+            .textArea {
+                padding-top: 10px;
+                padding-left: 30px;
+            }
+        </style>
+
+    </head>
+    
+    <body>
+
+        <!-- Header Section and Side Nav -->
+        <div class="w3-sidebar w3-bar-block w3-card w3-animate-left" style="display:none" id="mySidebar">
+            <button class="w3-bar-item w3-button w3-xlarge" onclick="w3_close()">&times;</button>
+            
+            <img src="pup_pic.png" alt="Pups" style="width:100%">
+            <a href="index.html" class="w3-bar-item w3-button w3-large w3-hover-black w3-border-bottom w3-border-top">Home</a>
+            <a href="dashboard.html" class="w3-bar-item w3-button w3-large w3-hover-black w3-border-bottom">Dashboard</a>
+            <a href="#" class="w3-bar-item w3-button w3-large w3-hover-black w3-border-bottom">Map</a>
+            <a href="#" class="w3-bar-item w3-button w3-large w3-hover-black w3-border-bottom">Data Table</a>
+            <a href="work_cited.html" class="w3-bar-item w3-button w3-large w3-hover-black w3-border-bottom">Source Data & Citations</a>
+            <a href="about.html" class="w3-bar-item w3-button w3-large w3-hover-black w3-border-bottom">Meet The Team</a>
         </div>
-    </div>
+          
+        <div id="main">
+          
+          <div class="nav_background">
+              <button id="openNav" class="w3-button  w3-xxlarge" onclick="w3_open()">&#9776;</button>
+                <div class="pageTitleSection" >
+                    <h1 class="pageTitle">Austin Animal Shelter Data Tables</h1>
+                    <h4 class="pageTitle">Below you will find the data used to create the visuals on the Dashboard</h4>
+                </div>
+          </div>
+
+        </div>
+
+        <!-- Filters -->
+        <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-2">
+                <h4 class="card-header">Animal Type:
+                <select id="animalFilter">
+                <option value="Dog">Dog</option>
+                <option value="Cat">Cat</option>
+                </select></h4>
+            </div>
+            <div class="col-md-2">
+                <h4 class="card-header">Year:
+                <select id="yearFilter">
+                    <option value="2014">2014</option>
+                    <option value="2015">2015</option>
+                    <option value="2016">2016</option>
+                    <option value="2017">2017</option>
+                </select></h4>
+            </div>
+            <div class="col-md-4"></div>
+        </div>
+
+        <!-- Kelli Data Table -->
+  <div class="container-fluid" style="background-color: white;">
+    <div class="row">
+        <div class="col-md-4">
+            <table border="1" class="table table-hover" id='myTable'>
+            <thead>
+              <tr style="text-align: right;">
+                <th></th>
+                <th>animal_type</th>
+                <th>intake_year</th>
+                <th>intake_type</th>
+                <th>outcome_type</th>
+                <th>count</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th>0</th>
+                <td>Cat</td>
+                <td>2014</td>
+                <td>Owner Surrender</td>
+                <td>Adoption</td>
+                <td>751</td>
+              </tr>
+              <tr>
+                <th>1</th>
+                <td>Cat</td>
+                <td>2014</td>
+                <td>Owner Surrender</td>
+                <td>Other</td>
+                <td>54</td>
+              </tr>
+              <tr>
+                <th>2</th>
+                <td>Cat</td>
+                <td>2014</td>
+                <td>Owner Surrender</td>
+                <td>Return to Owner</td>
+                <td>62</td>
+              </tr>
+              <tr>
+                <th>3</th>
+                <td>Cat</td>
+                <td>2014</td>
+                <td>Owner Surrender</td>
+                <td>Transfer</td>
+                <td>430</td>
+              </tr>
+              <tr>
+                <th>4</th>
+                <td>Cat</td>
+                <td>2014</td>
+                <td>Public Assist</td>
+                <td>Adoption</td>
+                <td>17</td>
+              </tr>
+              <tr>
+                <th>5</th>
+                <td>Cat</td>
+                <td>2014</td>
+                <td>Public Assist</td>
+                <td>Other</td>
+                <td>6</td>
+              </tr>
+              <tr>
+                <th>6</th>
+                <td>Cat</td>
+                <td>2014</td>
+                <td>Public Assist</td>
+                <td>Return to Owner</td>
+                <td>68</td>
+              </tr>
+              <tr>
+                <th>7</th>
+                <td>Cat</td>
+                <td>2014</td>
+                <td>Public Assist</td>
+                <td>Transfer</td>
+                <td>97</td>
+              </tr>
+              <tr>
+                <th>8</th>
+                <td>Cat</td>
+                <td>2014</td>
+                <td>Stray</td>
+                <td>Adoption</td>
+                <td>1771</td>
+              </tr>
+              <tr>
+                <th>9</th>
+                <td>Cat</td>
+                <td>2014</td>
+                <td>Stray</td>
+                <td>Other</td>
+                <td>431</td>
+              </tr>
+              <tr>
+                <th>10</th>
+                <td>Cat</td>
+                <td>2014</td>
+                <td>Stray</td>
+                <td>Return to Owner</td>
+                <td>205</td>
+              </tr>
+              <tr>
+                <th>11</th>
+                <td>Cat</td>
+                <td>2014</td>
+                <td>Stray</td>
+                <td>Transfer</td>
+                <td>3021</td>
+              </tr>
+              <tr>
+                <th>12</th>
+                <td>Cat</td>
+                <td>2015</td>
+                <td>Owner Surrender</td>
+                <td>Adoption</td>
+                <td>752</td>
+              </tr>
+              <tr>
+                <th>13</th>
+                <td>Cat</td>
+                <td>2015</td>
+                <td>Owner Surrender</td>
+                <td>Other</td>
+                <td>51</td>
+              </tr>
+              <tr>
+                <th>14</th>
+                <td>Cat</td>
+                <td>2015</td>
+                <td>Owner Surrender</td>
+                <td>Return to Owner</td>
+                <td>51</td>
+              </tr>
+              <tr>
+                <th>15</th>
+                <td>Cat</td>
+                <td>2015</td>
+                <td>Owner Surrender</td>
+                <td>Transfer</td>
+                <td>416</td>
+              </tr>
+              <tr>
+                <th>16</th>
+                <td>Cat</td>
+                <td>2015</td>
+                <td>Public Assist</td>
+                <td>Adoption</td>
+                <td>28</td>
+              </tr>
+              <tr>
+                <th>17</th>
+                <td>Cat</td>
+                <td>2015</td>
+                <td>Public Assist</td>
+                <td>Other</td>
+                <td>8</td>
+              </tr>
+              <tr>
+                <th>18</th>
+                <td>Cat</td>
+                <td>2015</td>
+                <td>Public Assist</td>
+                <td>Return to Owner</td>
+                <td>76</td>
+              </tr>
+              <tr>
+                <th>19</th>
+                <td>Cat</td>
+                <td>2015</td>
+                <td>Public Assist</td>
+                <td>Transfer</td>
+                <td>19</td>
+              </tr>
+              <tr>
+                <th>20</th>
+                <td>Cat</td>
+                <td>2015</td>
+                <td>Stray</td>
+                <td>Adoption</td>
+                <td>2214</td>
+              </tr>
+              <tr>
+                <th>21</th>
+                <td>Cat</td>
+                <td>2015</td>
+                <td>Stray</td>
+                <td>Other</td>
+                <td>493</td>
+              </tr>
+              <tr>
+                <th>22</th>
+                <td>Cat</td>
+                <td>2015</td>
+                <td>Stray</td>
+                <td>Return to Owner</td>
+                <td>215</td>
+              </tr>
+              <tr>
+                <th>23</th>
+                <td>Cat</td>
+                <td>2015</td>
+                <td>Stray</td>
+                <td>Transfer</td>
+                <td>3150</td>
+              </tr>
+              <tr>
+                <th>24</th>
+                <td>Cat</td>
+                <td>2016</td>
+                <td>Owner Surrender</td>
+                <td>Adoption</td>
+                <td>917</td>
+              </tr>
+              <tr>
+                <th>25</th>
+                <td>Cat</td>
+                <td>2016</td>
+                <td>Owner Surrender</td>
+                <td>Other</td>
+                <td>23</td>
+              </tr>
+              <tr>
+                <th>26</th>
+                <td>Cat</td>
+                <td>2016</td>
+                <td>Owner Surrender</td>
+                <td>Return to Owner</td>
+                <td>57</td>
+              </tr>
+              <tr>
+                <th>27</th>
+                <td>Cat</td>
+                <td>2016</td>
+                <td>Owner Surrender</td>
+                <td>Transfer</td>
+                <td>353</td>
+              </tr>
+              <tr>
+                <th>28</th>
+                <td>Cat</td>
+                <td>2016</td>
+                <td>Public Assist</td>
+                <td>Adoption</td>
+                <td>45</td>
+              </tr>
+              <tr>
+                <th>29</th>
+                <td>Cat</td>
+                <td>2016</td>
+                <td>Public Assist</td>
+                <td>Other</td>
+                <td>5</td>
+              </tr>
+              <tr>
+                <th>30</th>
+                <td>Cat</td>
+                <td>2016</td>
+                <td>Public Assist</td>
+                <td>Return to Owner</td>
+                <td>66</td>
+              </tr>
+              <tr>
+                <th>31</th>
+                <td>Cat</td>
+                <td>2016</td>
+                <td>Public Assist</td>
+                <td>Transfer</td>
+                <td>67</td>
+              </tr>
+              <tr>
+                <th>32</th>
+                <td>Cat</td>
+                <td>2016</td>
+                <td>Stray</td>
+                <td>Adoption</td>
+                <td>2149</td>
+              </tr>
+              <tr>
+                <th>33</th>
+                <td>Cat</td>
+                <td>2016</td>
+                <td>Stray</td>
+                <td>Other</td>
+                <td>319</td>
+              </tr>
+              <tr>
+                <th>34</th>
+                <td>Cat</td>
+                <td>2016</td>
+                <td>Stray</td>
+                <td>Return to Owner</td>
+                <td>191</td>
+              </tr>
+              <tr>
+                <th>35</th>
+                <td>Cat</td>
+                <td>2016</td>
+                <td>Stray</td>
+                <td>Transfer</td>
+                <td>2426</td>
+              </tr>
+              <tr>
+                <th>36</th>
+                <td>Cat</td>
+                <td>2017</td>
+                <td>Owner Surrender</td>
+                <td>Adoption</td>
+                <td>969</td>
+              </tr>
+              <tr>
+                <th>37</th>
+                <td>Cat</td>
+                <td>2017</td>
+                <td>Owner Surrender</td>
+                <td>Other</td>
+                <td>43</td>
+              </tr>
+              <tr>
+                <th>38</th>
+                <td>Cat</td>
+                <td>2017</td>
+                <td>Owner Surrender</td>
+                <td>Return to Owner</td>
+                <td>55</td>
+              </tr>
+              <tr>
+                <th>39</th>
+                <td>Cat</td>
+                <td>2017</td>
+                <td>Owner Surrender</td>
+                <td>Transfer</td>
+                <td>258</td>
+              </tr>
+              <tr>
+                <th>40</th>
+                <td>Cat</td>
+                <td>2017</td>
+                <td>Public Assist</td>
+                <td>Adoption</td>
+                <td>28</td>
+              </tr>
+              <tr>
+                <th>41</th>
+                <td>Cat</td>
+                <td>2017</td>
+                <td>Public Assist</td>
+                <td>Other</td>
+                <td>5</td>
+              </tr>
+              <tr>
+                <th>42</th>
+                <td>Cat</td>
+                <td>2017</td>
+                <td>Public Assist</td>
+                <td>Return to Owner</td>
+                <td>55</td>
+              </tr>
+              <tr>
+                <th>43</th>
+                <td>Cat</td>
+                <td>2017</td>
+                <td>Public Assist</td>
+                <td>Transfer</td>
+                <td>21</td>
+              </tr>
+              <tr>
+                <th>44</th>
+                <td>Cat</td>
+                <td>2017</td>
+                <td>Stray</td>
+                <td>Adoption</td>
+                <td>2175</td>
+              </tr>
+              <tr>
+                <th>45</th>
+                <td>Cat</td>
+                <td>2017</td>
+                <td>Stray</td>
+                <td>Other</td>
+                <td>301</td>
+              </tr>
+              <tr>
+                <th>46</th>
+                <td>Cat</td>
+                <td>2017</td>
+                <td>Stray</td>
+                <td>Return to Owner</td>
+                <td>262</td>
+              </tr>
+              <tr>
+                <th>47</th>
+                <td>Cat</td>
+                <td>2017</td>
+                <td>Stray</td>
+                <td>Transfer</td>
+                <td>2278</td>
+              </tr>
+              <tr>
+                <th>48</th>
+                <td>Dog</td>
+                <td>2014</td>
+                <td>Owner Surrender</td>
+                <td>Adoption</td>
+                <td>1040</td>
+              </tr>
+              <tr>
+                <th>49</th>
+                <td>Dog</td>
+                <td>2014</td>
+                <td>Owner Surrender</td>
+                <td>Other</td>
+                <td>200</td>
+              </tr>
+              <tr>
+                <th>50</th>
+                <td>Dog</td>
+                <td>2014</td>
+                <td>Owner Surrender</td>
+                <td>Return to Owner</td>
+                <td>140</td>
+              </tr>
+              <tr>
+                <th>51</th>
+                <td>Dog</td>
+                <td>2014</td>
+                <td>Owner Surrender</td>
+                <td>Transfer</td>
+                <td>638</td>
+              </tr>
+              <tr>
+                <th>52</th>
+                <td>Dog</td>
+                <td>2014</td>
+                <td>Public Assist</td>
+                <td>Adoption</td>
+                <td>118</td>
+              </tr>
+              <tr>
+                <th>53</th>
+                <td>Dog</td>
+                <td>2014</td>
+                <td>Public Assist</td>
+                <td>Other</td>
+                <td>44</td>
+              </tr>
+              <tr>
+                <th>54</th>
+                <td>Dog</td>
+                <td>2014</td>
+                <td>Public Assist</td>
+                <td>Return to Owner</td>
+                <td>691</td>
+              </tr>
+              <tr>
+                <th>55</th>
+                <td>Dog</td>
+                <td>2014</td>
+                <td>Public Assist</td>
+                <td>Transfer</td>
+                <td>71</td>
+              </tr>
+              <tr>
+                <th>56</th>
+                <td>Dog</td>
+                <td>2014</td>
+                <td>Stray</td>
+                <td>Adoption</td>
+                <td>3365</td>
+              </tr>
+              <tr>
+                <th>57</th>
+                <td>Dog</td>
+                <td>2014</td>
+                <td>Stray</td>
+                <td>Other</td>
+                <td>323</td>
+              </tr>
+              <tr>
+                <th>58</th>
+                <td>Dog</td>
+                <td>2014</td>
+                <td>Stray</td>
+                <td>Return to Owner</td>
+                <td>2122</td>
+              </tr>
+              <tr>
+                <th>59</th>
+                <td>Dog</td>
+                <td>2014</td>
+                <td>Stray</td>
+                <td>Transfer</td>
+                <td>1727</td>
+              </tr>
+              <tr>
+                <th>60</th>
+                <td>Dog</td>
+                <td>2015</td>
+                <td>Owner Surrender</td>
+                <td>Adoption</td>
+                <td>1023</td>
+              </tr>
+              <tr>
+                <th>61</th>
+                <td>Dog</td>
+                <td>2015</td>
+                <td>Owner Surrender</td>
+                <td>Other</td>
+                <td>139</td>
+              </tr>
+              <tr>
+                <th>62</th>
+                <td>Dog</td>
+                <td>2015</td>
+                <td>Owner Surrender</td>
+                <td>Return to Owner</td>
+                <td>131</td>
+              </tr>
+              <tr>
+                <th>63</th>
+                <td>Dog</td>
+                <td>2015</td>
+                <td>Owner Surrender</td>
+                <td>Transfer</td>
+                <td>613</td>
+              </tr>
+              <tr>
+                <th>64</th>
+                <td>Dog</td>
+                <td>2015</td>
+                <td>Public Assist</td>
+                <td>Adoption</td>
+                <td>104</td>
+              </tr>
+              <tr>
+                <th>65</th>
+                <td>Dog</td>
+                <td>2015</td>
+                <td>Public Assist</td>
+                <td>Other</td>
+                <td>43</td>
+              </tr>
+              <tr>
+                <th>66</th>
+                <td>Dog</td>
+                <td>2015</td>
+                <td>Public Assist</td>
+                <td>Return to Owner</td>
+                <td>672</td>
+              </tr>
+              <tr>
+                <th>67</th>
+                <td>Dog</td>
+                <td>2015</td>
+                <td>Public Assist</td>
+                <td>Transfer</td>
+                <td>90</td>
+              </tr>
+              <tr>
+                <th>68</th>
+                <td>Dog</td>
+                <td>2015</td>
+                <td>Stray</td>
+                <td>Adoption</td>
+                <td>3348</td>
+              </tr>
+              <tr>
+                <th>69</th>
+                <td>Dog</td>
+                <td>2015</td>
+                <td>Stray</td>
+                <td>Other</td>
+                <td>233</td>
+              </tr>
+              <tr>
+                <th>70</th>
+                <td>Dog</td>
+                <td>2015</td>
+                <td>Stray</td>
+                <td>Return to Owner</td>
+                <td>2338</td>
+              </tr>
+              <tr>
+                <th>71</th>
+                <td>Dog</td>
+                <td>2015</td>
+                <td>Stray</td>
+                <td>Transfer</td>
+                <td>1520</td>
+              </tr>
+              <tr>
+                <th>72</th>
+                <td>Dog</td>
+                <td>2016</td>
+                <td>Owner Surrender</td>
+                <td>Adoption</td>
+                <td>1174</td>
+              </tr>
+              <tr>
+                <th>73</th>
+                <td>Dog</td>
+                <td>2016</td>
+                <td>Owner Surrender</td>
+                <td>Other</td>
+                <td>84</td>
+              </tr>
+              <tr>
+                <th>74</th>
+                <td>Dog</td>
+                <td>2016</td>
+                <td>Owner Surrender</td>
+                <td>Return to Owner</td>
+                <td>134</td>
+              </tr>
+              <tr>
+                <th>75</th>
+                <td>Dog</td>
+                <td>2016</td>
+                <td>Owner Surrender</td>
+                <td>Transfer</td>
+                <td>536</td>
+              </tr>
+              <tr>
+                <th>76</th>
+                <td>Dog</td>
+                <td>2016</td>
+                <td>Public Assist</td>
+                <td>Adoption</td>
+                <td>82</td>
+              </tr>
+              <tr>
+                <th>77</th>
+                <td>Dog</td>
+                <td>2016</td>
+                <td>Public Assist</td>
+                <td>Other</td>
+                <td>35</td>
+              </tr>
+              <tr>
+                <th>78</th>
+                <td>Dog</td>
+                <td>2016</td>
+                <td>Public Assist</td>
+                <td>Return to Owner</td>
+                <td>692</td>
+              </tr>
+              <tr>
+                <th>79</th>
+                <td>Dog</td>
+                <td>2016</td>
+                <td>Public Assist</td>
+                <td>Transfer</td>
+                <td>59</td>
+              </tr>
+              <tr>
+                <th>80</th>
+                <td>Dog</td>
+                <td>2016</td>
+                <td>Stray</td>
+                <td>Adoption</td>
+                <td>3589</td>
+              </tr>
+              <tr>
+                <th>81</th>
+                <td>Dog</td>
+                <td>2016</td>
+                <td>Stray</td>
+                <td>Other</td>
+                <td>103</td>
+              </tr>
+              <tr>
+                <th>82</th>
+                <td>Dog</td>
+                <td>2016</td>
+                <td>Stray</td>
+                <td>Return to Owner</td>
+                <td>2145</td>
+              </tr>
+              <tr>
+                <th>83</th>
+                <td>Dog</td>
+                <td>2016</td>
+                <td>Stray</td>
+                <td>Transfer</td>
+                <td>1249</td>
+              </tr>
+              <tr>
+                <th>84</th>
+                <td>Dog</td>
+                <td>2017</td>
+                <td>Owner Surrender</td>
+                <td>Adoption</td>
+                <td>1327</td>
+              </tr>
+              <tr>
+                <th>85</th>
+                <td>Dog</td>
+                <td>2017</td>
+                <td>Owner Surrender</td>
+                <td>Other</td>
+                <td>33</td>
+              </tr>
+              <tr>
+                <th>86</th>
+                <td>Dog</td>
+                <td>2017</td>
+                <td>Owner Surrender</td>
+                <td>Return to Owner</td>
+                <td>130</td>
+              </tr>
+              <tr>
+                <th>87</th>
+                <td>Dog</td>
+                <td>2017</td>
+                <td>Owner Surrender</td>
+                <td>Transfer</td>
+                <td>616</td>
+              </tr>
+              <tr>
+                <th>88</th>
+                <td>Dog</td>
+                <td>2017</td>
+                <td>Public Assist</td>
+                <td>Adoption</td>
+                <td>85</td>
+              </tr>
+              <tr>
+                <th>89</th>
+                <td>Dog</td>
+                <td>2017</td>
+                <td>Public Assist</td>
+                <td>Other</td>
+                <td>13</td>
+              </tr>
+              <tr>
+                <th>90</th>
+                <td>Dog</td>
+                <td>2017</td>
+                <td>Public Assist</td>
+                <td>Return to Owner</td>
+                <td>717</td>
+              </tr>
+              <tr>
+                <th>91</th>
+                <td>Dog</td>
+                <td>2017</td>
+                <td>Public Assist</td>
+                <td>Transfer</td>
+                <td>210</td>
+              </tr>
+              <tr>
+                <th>92</th>
+                <td>Dog</td>
+                <td>2017</td>
+                <td>Stray</td>
+                <td>Adoption</td>
+                <td>3199</td>
+              </tr>
+              <tr>
+                <th>93</th>
+                <td>Dog</td>
+                <td>2017</td>
+                <td>Stray</td>
+                <td>Other</td>
+                <td>76</td>
+              </tr>
+              <tr>
+                <th>94</th>
+                <td>Dog</td>
+                <td>2017</td>
+                <td>Stray</td>
+                <td>Return to Owner</td>
+                <td>2114</td>
+              </tr>
+              <tr>
+                <th>95</th>
+                <td>Dog</td>
+                <td>2017</td>
+                <td>Stray</td>
+                <td>Transfer</td>
+                <td>1326</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="col-md-4">
+        <!-- Lucus Data Table -->
+          <table border="1" class="table table-hover" id='myTable'>
+            <thead>
+              <tr style="text-align: right;">
+                <th></th>
+                <th>intake_year</th>
+                <th>animal_type</th>
+                <th>breed</th>
+                <th>count</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th>488</th>
+                <td>2014</td>
+                <td>Cat</td>
+                <td>Domestic Shorthair Mix</td>
+                <td>5443</td>
+              </tr>
+              <tr>
+                <th>489</th>
+                <td>2014</td>
+                <td>Cat</td>
+                <td>Domestic Medium Hair Mix</td>
+                <td>513</td>
+              </tr>
+              <tr>
+                <th>490</th>
+                <td>2014</td>
+                <td>Cat</td>
+                <td>Domestic Longhair Mix</td>
+                <td>334</td>
+              </tr>
+              <tr>
+                <th>491</th>
+                <td>2014</td>
+                <td>Cat</td>
+                <td>Siamese Mix</td>
+                <td>230</td>
+              </tr>
+              <tr>
+                <th>492</th>
+                <td>2014</td>
+                <td>Cat</td>
+                <td>Domestic Shorthair</td>
+                <td>80</td>
+              </tr>
+
+              <tr>
+                <th>539</th>
+                <td>2014</td>
+                <td>Dog</td>
+                <td>Pit Bull Mix</td>
+                <td>1374</td>
+              </tr>
+              <tr>
+                <th>540</th>
+                <td>2014</td>
+                <td>Dog</td>
+                <td>Chihuahua Shorthair Mix</td>
+                <td>1084</td>
+              </tr>
+              <tr>
+                <th>541</th>
+                <td>2014</td>
+                <td>Dog</td>
+                <td>Labrador Retriever Mix</td>
+                <td>815</td>
+              </tr>
+              <tr>
+                <th>542</th>
+                <td>2014</td>
+                <td>Dog</td>
+                <td>German Shepherd Mix</td>
+                <td>372</td>
+              </tr>
+              <tr>
+                <th>543</th>
+                <td>2014</td>
+                <td>Dog</td>
+                <td>Australian Cattle Dog Mix</td>
+                <td>245</td>
+              </tr>
+              <tr>
+                <th>1606</th>
+                <td>2015</td>
+                <td>Cat</td>
+                <td>Domestic Shorthair Mix</td>
+                <td>6017</td>
+              </tr>
+              <tr>
+                <th>1607</th>
+                <td>2015</td>
+                <td>Cat</td>
+                <td>Domestic Medium Hair Mix</td>
+                <td>546</td>
+              </tr>
+              <tr>
+                <th>1608</th>
+                <td>2015</td>
+                <td>Cat</td>
+                <td>Domestic Longhair Mix</td>
+                <td>332</td>
+              </tr>
+              <tr>
+                <th>1609</th>
+                <td>2015</td>
+                <td>Cat</td>
+                <td>Siamese Mix</td>
+                <td>282</td>
+              </tr>
+              <tr>
+                <th>1610</th>
+                <td>2015</td>
+                <td>Cat</td>
+                <td>Domestic Shorthair</td>
+                <td>96</td>
+              </tr>
+              <tr>
+                <th>1652</th>
+                <td>2015</td>
+                <td>Dog</td>
+                <td>Pit Bull Mix</td>
+                <td>1336</td>
+              </tr>
+              <tr>
+                <th>1653</th>
+                <td>2015</td>
+                <td>Dog</td>
+                <td>Chihuahua Shorthair Mix</td>
+                <td>1163</td>
+              </tr>
+              <tr>
+                <th>1654</th>
+                <td>2015</td>
+                <td>Dog</td>
+                <td>Labrador Retriever Mix</td>
+                <td>937</td>
+              </tr>
+              <tr>
+                <th>1655</th>
+                <td>2015</td>
+                <td>Dog</td>
+                <td>German Shepherd Mix</td>
+                <td>406</td>
+              </tr>
+              <tr>
+                <th>1656</th>
+                <td>2015</td>
+                <td>Dog</td>
+                <td>Australian Cattle Dog Mix</td>
+                <td>228</td>
+              </tr>
+              <tr>
+                <th>2657</th>
+                <td>2016</td>
+                <td>Cat</td>
+                <td>Domestic Shorthair Mix</td>
+                <td>5341</td>
+              </tr>
+              <tr>
+                <th>2658</th>
+                <td>2016</td>
+                <td>Cat</td>
+                <td>Domestic Medium Hair Mix</td>
+                <td>562</td>
+              </tr>
+              <tr>
+                <th>2659</th>
+                <td>2016</td>
+                <td>Cat</td>
+                <td>Domestic Longhair Mix</td>
+                <td>243</td>
+              </tr>
+              <tr>
+                <th>2660</th>
+                <td>2016</td>
+                <td>Cat</td>
+                <td>Siamese Mix</td>
+                <td>214</td>
+              </tr>
+              <tr>
+                <th>2661</th>
+                <td>2016</td>
+                <td>Cat</td>
+                <td>Domestic Shorthair</td>
+                <td>104</td>
+              </tr>
+              <tr>
+                <th>2699</th>
+                <td>2016</td>
+                <td>Dog</td>
+                <td>Pit Bull Mix</td>
+                <td>1499</td>
+              </tr>
+              <tr>
+                <th>2700</th>
+                <td>2016</td>
+                <td>Dog</td>
+                <td>Labrador Retriever Mix</td>
+                <td>1171</td>
+              </tr>
+              <tr>
+                <th>2701</th>
+                <td>2016</td>
+                <td>Dog</td>
+                <td>Chihuahua Shorthair Mix</td>
+                <td>1063</td>
+              </tr>
+              <tr>
+                <th>2702</th>
+                <td>2016</td>
+                <td>Dog</td>
+                <td>German Shepherd Mix</td>
+                <td>489</td>
+              </tr>
+              <tr>
+                <th>2703</th>
+                <td>2016</td>
+                <td>Dog</td>
+                <td>Australian Cattle Dog Mix</td>
+                <td>267</td>
+              </tr>
+              <tr>
+                <th>3440</th>
+                <td>2017</td>
+                <td>Cat</td>
+                <td>Domestic Shorthair Mix</td>
+                <td>5097</td>
+              </tr>
+              <tr>
+                <th>3441</th>
+                <td>2017</td>
+                <td>Cat</td>
+                <td>Domestic Medium Hair Mix</td>
+                <td>489</td>
+              </tr>
+              <tr>
+                <th>3442</th>
+                <td>2017</td>
+                <td>Cat</td>
+                <td>Domestic Longhair Mix</td>
+                <td>227</td>
+              </tr>
+              <tr>
+                <th>3443</th>
+                <td>2017</td>
+                <td>Cat</td>
+                <td>Siamese Mix</td>
+                <td>208</td>
+              </tr>
+              <tr>
+                <th>3444</th>
+                <td>2017</td>
+                <td>Cat</td>
+                <td>American Shorthair Mix</td>
+                <td>197</td>
+              </tr>
+  
+              <tr>
+                <th>3482</th>
+                <td>2017</td>
+                <td>Dog</td>
+                <td>Pit Bull Mix</td>
+                <td>1439</td>
+              </tr>
+              <tr>
+                <th>3483</th>
+                <td>2017</td>
+                <td>Dog</td>
+                <td>Labrador Retriever Mix</td>
+                <td>1341</td>
+              </tr>
+              <tr>
+                <th>3484</th>
+                <td>2017</td>
+                <td>Dog</td>
+                <td>Chihuahua Shorthair Mix</td>
+                <td>1041</td>
+              </tr>
+              <tr>
+                <th>3485</th>
+                <td>2017</td>
+                <td>Dog</td>
+                <td>German Shepherd Mix</td>
+                <td>485</td>
+              </tr>
+              <tr>
+                <th>3486</th>
+                <td>2017</td>
+                <td>Dog</td>
+                <td>Australian Cattle Dog Mix</td>
+                <td>226</td>
+              </tr>
+              </tbody>
+          </table>
+        </div>
+
+    </body>
+
+</html>

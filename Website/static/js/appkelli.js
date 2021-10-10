@@ -48,8 +48,6 @@ function kellicharts (data) {
     let trace1 = {
         x: owner_surrender.map(x => x.outcome_type),
         y: owner_surrender.map(x => 100 * x.count/surrender_sum),
-        // text: owner_surrender.outcome_type,
-        // name: "Owner Surrender",
         type: 'bar',
         marker: {
             color: '#A57548'
@@ -62,25 +60,33 @@ function kellicharts (data) {
         autosize: true,
         // width: 500,
         // height: 500,
-        title: `<b>Owner Surrender (count: ${surrender_sum})</b>`,
+        title: {
+            text:`<b>Owner Surrender (count: ${surrender_sum})</b>`,
+            font: {
+                size: 18
+            }
+        },
         yaxis: {
-            title: 'Outcome',
+            title: '<b>Percentage</b>',
             titlefont: {
-                size: 16,
+                size: 18,
                 color: 'black'
             },
-            range: [0, 70],
+            range: [0, 80],
             tickfont: {
-                size: 10,
+                size: 16,
                 color: 'black',
             },
         },
         xaxis:{
-            title: 'Intake Type',
-            // tickangle: 25,
+            title: '<b>Outcome Type</b>',
+            tickangle: 20,
             titlefont: {
                 size: 16,
                 color: 'black'
+            },
+            tickfont: {
+                size:12
             }
         }
     };
@@ -95,8 +101,6 @@ function kellicharts (data) {
     let trace2 = {
         x: pub_assist.map(x => x.outcome_type),
         y: pub_assist.map(x => 100 * x.count/passist_sum),
-        // text: owner_surrender.outcome_type,
-        // name: "Owner Surrender",
         type: 'bar',
         marker: {
             color: '#33658A'
@@ -109,25 +113,33 @@ function kellicharts (data) {
         autosize: true,
         // width: 500,
         // height: 500,
-        title: `<b>Public Assist (count: ${passist_sum})<b>`,
+        title: {
+            text: `<b>Public Assist (count: ${passist_sum})<b>`,
+            font: {
+                size: 18
+            }
+        },
         yaxis: {
-            title: 'Outcome',
+            title: '<b>Percentage</b>',
             titlefont: {
                 size: 16,
                 color: 'black'
             },
-            range: [0, 70],
+            range: [0, 80],
             tickfont: {
-                size: 10,
+                size: 16,
                 color: 'black',
             },
         },
         xaxis:{
-            title: 'Intake Type',
-            // tickangle: 25,
+            title: '<b>Outcome Type</b>',
+            tickangle: 20,
             titlefont: {
                 size: 16,
                 color: 'black'
+            },
+            tickfont: {
+                size:12
             }
         }
     };
@@ -143,8 +155,6 @@ function kellicharts (data) {
     let trace3 = {
         x: stray_data.map(x => x.outcome_type),
         y: stray_data.map(x => 100 * x.count/stray_sum),
-        // text: owner_surrender.outcome_type,
-        // name: "Owner Surrender",
         type: 'bar',
         marker: {
             color: '#F6AE2D'
@@ -157,25 +167,33 @@ function kellicharts (data) {
         autosize: true,
         // width: 500,
         // height: 500,
-        title: `<b>Stray (count: ${stray_sum})</b>`,
+        title: {
+            text:`<b>Stray (count: ${stray_sum})</b>`,
+            font: {
+                size: 18
+            }
+        },
         yaxis: {
-            title: 'Outcome',
+            title: '<b>Percentage</b>',
             titlefont: {
                 size: 16,
                 color: 'black'
             },
-            range: [0, 70],
+            range: [0, 80],
             tickfont: {
-                size: 10,
+                size: 16,
                 color: 'black',
             },
         },
         xaxis:{
-            title: 'Intake Type',
-            // tickangle: 25,
+            title:'<b>Outcome Type</b>',
+            tickangle: 20,
             titlefont: {
                 size: 16,
                 color: 'black'
+            },
+            tickfont: {
+                size:12
             }
         }
     };
