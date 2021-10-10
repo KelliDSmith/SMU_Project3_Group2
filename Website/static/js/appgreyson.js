@@ -59,7 +59,7 @@ function timeVisual(data,year,type) {
             x: intake_month_list,
             y: count_list,
             line: {
-                color: 'purple'
+                color: '#33658A'
             }
         }
         var trace2 = {

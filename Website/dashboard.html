@@ -1,81 +1,275 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Austin Animal Shelters</title>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Dashboard</title>
 
-    <!-- Bootstrap and Bootswatch CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/minty/bootstrap.min.css">
+        <!-- Bootstrap and Bootswatch CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/minty/bootstrap.min.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
-    <!-- Javascript -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js" integrity="sha384-LtrjvnR4Twt/qOuYxE721u19sVFLVSA4hf/rRt6PrZTmiPltdZcI7q7PXQBYTKyf" crossorigin="anonymous"></script>
+        <!-- Javascript -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js" integrity="sha384-LtrjvnR4Twt/qOuYxE721u19sVFLVSA4hf/rRt6PrZTmiPltdZcI7q7PXQBYTKyf" crossorigin="anonymous"></script>
 
-    <!-- Visualization Libs -->
-    <script src="https://d3js.org/d3.v7.min.js"></script>
-    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-    <script src="./static/js/appgreyson.js"></script>
-    <script src="./static/js/appkelli.js"></script>
-    <script src="./static/js/applucas.js"></script>
-</head>
+        <!-- Visualization Libs -->
+        <script src="https://d3js.org/d3.v7.min.js"></script>
+        <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+        <script src="./static/js/appgreyson.js"></script>
+        <script src="./static/js/appkelli.js"></script>
+        <script src="./static/js/applucas.js"></script>
+        <script src="./static/css/style.css"></script>
 
-<body>
-    <div class="container">
-        <div class="row">
-          <div class="col-md-12 jumbotron text-center">
-            <h1>Austin Animal Shelter Dashboard</h1>
-            <p>Use the interactive charts below to explore the dataset</p>
-          </div>
+
+        <script>
+            function w3_open() {
+                document.getElementById("mySidebar").style.display = "block";
+                document.getElementById("myOverlay").style.display = "block";
+            }
+                function w3_close() {
+                document.getElementById("mySidebar").style.display = "none";
+                document.getElementById("myOverlay").style.display = "none";
+            }
+        </script>
+
+            
+        <style>
+
+            body {
+                background-color: #F0F0F0;
+            }       
+
+            .container {
+                max-width: 640px;
+                margin: 30px auto;
+                background: #fff;
+                border-radius: 8px;
+                padding: 20px;
+            }
+
+            .pageTitleSection {
+                padding-top: 50px;
+                padding-bottom: 50px;
+            }
+            
+            .pageTitle {
+                color: whitesmoke;
+                text-align: center;
+            }
+
+            h1 {
+                font-size: 50px;
+            }
+
+            #myBtn:hover {
+                background-color: #555; /* Add a dark-grey background on hover */
+            }
+
+            .nav_background {
+                background-color: #474e5d; 
+            }
+
+            #openNav{
+                background-color: #474e5d; 
+            }
+            
+            .gauge{
+                border-style: double;
+                border: 2px solid 474e5d;
+                border-radius: 8px;
+                padding: 5px;
+            }
+
+            .bubble{
+                border-style: double;
+                border: 2px solid 474e5d;
+                border-radius: 8px;
+                padding: 5px;
+                margin-left: 20px;
+            }
+    
+            .demo{
+                border-style: double;
+                border: 2px solid 474e5d;
+                border-radius: 8px;
+                padding: 5px;
+                margin-left: 20px;
+            } 
+
+            .card{
+                border-style: double;
+                border: 2px solid 474e5d;
+                border-radius: 8px;
+                padding: 5px;
+            } 
+
+            .bar{
+                border-style: double;
+                border: 2px solid 474e5d;
+                border-radius: 8px;
+                padding: 5px;
+            }
+            
+            #openNav{
+            background-color: 474e5d;
+            color:white;
+
+            }
+
+            #animalFilter {
+                position: absolute;
+                right: 30px;
+            }
+
+            #yearFilter {
+                position: absolute;
+                right: 30px;
+            }
+
+            .chartTitle {
+                text-align: left;
+                background-color: #2c313a;
+                color: whitesmoke;
+                margin-top: 15px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 10px;
+            }
+
+            .textArea {
+                padding-top: 10px;
+                padding-left: 30px;
+            }
+        </style>
+
+    </head>
+    
+    <body>
+
+        <!-- Header Section and Side Nav -->
+        <div class="w3-sidebar w3-bar-block w3-card w3-animate-left" style="display:none" id="mySidebar">
+            <button class="w3-bar-item w3-button w3-xlarge" onclick="w3_close()">&times;</button>
+            
+            <img src="pup_pic.png" alt="Pups" style="width:100%">
+            <a href="index.html" class="w3-bar-item w3-button w3-large w3-hover-black w3-border-bottom w3-border-top">Home</a>
+            <a href="dashboard.html" class="w3-bar-item w3-button w3-large w3-hover-black w3-border-bottom">Dashboard</a>
+            <a href="#" class="w3-bar-item w3-button w3-large w3-hover-black w3-border-bottom">Map</a>
+            <a href="#" class="w3-bar-item w3-button w3-large w3-hover-black w3-border-bottom">Data Table</a>
+            <a href="work_cited.html" class="w3-bar-item w3-button w3-large w3-hover-black w3-border-bottom">Source Data & Citations</a>
+            <a href="about.html" class="w3-bar-item w3-button w3-large w3-hover-black w3-border-bottom">Meet The Team</a>
         </div>
-    <div class="container">
+          
+        <div id="main">
+          
+          <div class="nav_background">
+              <button id="openNav" class="w3-button  w3-xxlarge" onclick="w3_open()">&#9776;</button>
+                <div class="pageTitleSection" >
+                    <h1 class="pageTitle">Austin Animal Shelter Dashboard</h1>
+                    <h4 class="pageTitle">Use the interactive charts below to explore the dataset</h4>
+                </div>
+          </div>
+
+        </div>
+
+        <!-- Filters -->
         <div class="row">
-            <div class="col-md-6">
-                <h6 class="card-header">Animal Type:</h6>
+            <div class="col-md-4"></div>
+            <div class="col-md-2">
+                <h4 class="card-header">Animal Type:
                 <select id="animalFilter">
-                  <option value="Dog">Dog</option>
-                  <option value="Cat">Cat</option>
-                </select>
+                <option value="Dog">Dog</option>
+                <option value="Cat">Cat</option>
+                </select></h4>
             </div>
-            <div class="col-md-6">
-                <h6 class="card-header">Year:</h6>
+            <div class="col-md-2">
+                <h4 class="card-header">Year:
                 <select id="yearFilter">
                     <option value="2014">2014</option>
                     <option value="2015">2015</option>
                     <option value="2016">2016</option>
                     <option value="2017">2017</option>
-                </select>
+                </select></h4>
             </div>
+            <div class="col-md-4"></div>
         </div>
+        <!-- How To Section -->
         <div class="row">
-            <div class="col-md-4">
-                <div id="bar1"></div>
+            <div class="col-md-3">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3 class="chartTitle">How to Use This Dashboard</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 textArea">
+                        <h3>This dashboard was designed to be an interactive experience for the user. Please utilize both the Animal Type
+                             and Year filters located at the top center of the page. Each visualization element will refresh with new 
+                             information as the filters are changed. Additionaly, you can hover over the different chart components to highlight 
+                             specific data points. 
+                        </h3>
+                    </div>
+                </div>
             </div>
-            <div class="col-md-4">
-                <div id="bar2"></div>
-            </div>
-            <div class="col-md-4">
-                <div id="bar3"></div>
+            <div class="col-md-9">
+                <!-- Bar Chart Section -->
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3 class="chartTitle">Outcome Type vs Income Type</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div id="bar1"></div>
+                    </div>
+                    <div class="col-md-4">
+                        <div id="bar2"></div>
+                    </div>
+                    <div class="col-md-4">
+                        <div id="bar3"></div>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-md-6">
-                <div id="time"></div>
-            </div>
-            <div class="col-md-6">
-                <div id="pie"></div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-12">
-                <div id="visual4">Map</div>
-            </div>
-        </div>
-
     </div>
-</body>
+    <div class="container-fluid">
+        <div class="row" >
+            <!-- Time Series Section -->
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3 class="chartTitle">Animals in Shelters per Month</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div id="time"></div>
+                    </div>
+                </div>
+            </div>
+            <!-- Pie Chart Section -->
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3 class="chartTitle">Top 5 Breeds in Shelters</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div id="pie"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    </body>
+
+</html>

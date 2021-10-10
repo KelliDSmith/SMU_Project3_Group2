@@ -50,14 +50,15 @@ function lucuschart (data) {
             labels: top_ten.map(x => x.breed),
             type: 'pie',
             marker: {
-                colors: ["#DB2763","#B0DB43","#12EAEA","#BCE7FD","#C492B1"]
+                colors: ["#86BBD8","#33658A","#2F4858","#F6AE2D","#A57548"]
               }
           }];
           
           var layout = {
-            title: `<b>Top 10 Breeds in Shelters</b>`,
-            height: 600,
-            width: 600
+            autosize: true
+            // title: `<b>Top 5 Breeds in Shelters</b>`,
+            // height: 400,
+            // width: 600
           };
           
           Plotly.newPlot('pie', data, layout);

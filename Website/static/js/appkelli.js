@@ -9,13 +9,6 @@ $(document).ready(function() {
         getData();
     });
 
-    // $("#animalFilter").on("change",function() {
-    //     getData();
-    // });
-    // $("#yearFilter").on("change",function() {
-    //     getData();
-    // });
-
 });
 
 function getData() {
@@ -42,15 +35,6 @@ function getData() {
     });
 }
 
-// d3.json('https://raw.githubusercontent.com/plotly/datasets/master/custom_heatmap_colorscale.json', function(figure) {
-// var data = [{
-//   z: figure.z,
-//   colorscale: 'Electric',
-//   type: 'heatmap'
-// }];
-// Plotly.newPlot('myDiv', data);
-//    });
-
 function kellicharts (data) {
     let animal_type_filter = $("#animalFilter").val();
     let year_filter = $("#yearFilter").val();
@@ -68,17 +52,17 @@ function kellicharts (data) {
         // name: "Owner Surrender",
         type: 'bar',
         marker: {
-            color: 'blue'
+            color: '#A57548'
         }
     }
 
     let traces = [trace1];
 
     let layout = {
-        autosize: false,
-        width: 500,
-        height: 500,
-        title: `Owner Surrender (count: ${surrender_sum})`,
+        autosize: true,
+        // width: 500,
+        // height: 500,
+        title: `<b>Owner Surrender (count: ${surrender_sum})</b>`,
         yaxis: {
             title: 'Outcome',
             titlefont: {
@@ -93,6 +77,7 @@ function kellicharts (data) {
         },
         xaxis:{
             title: 'Intake Type',
+            // tickangle: 25,
             titlefont: {
                 size: 16,
                 color: 'black'
@@ -114,17 +99,17 @@ function kellicharts (data) {
         // name: "Owner Surrender",
         type: 'bar',
         marker: {
-            color: 'purple'
+            color: '#33658A'
         }
     }
 
     let traces2 = [trace2];
 
     let layout2 = {
-        autosize: false,
-        width: 500,
-        height: 500,
-        title: `Public Assist (count: ${passist_sum})`,
+        autosize: true,
+        // width: 500,
+        // height: 500,
+        title: `<b>Public Assist (count: ${passist_sum})<b>`,
         yaxis: {
             title: 'Outcome',
             titlefont: {
@@ -139,6 +124,7 @@ function kellicharts (data) {
         },
         xaxis:{
             title: 'Intake Type',
+            // tickangle: 25,
             titlefont: {
                 size: 16,
                 color: 'black'
@@ -161,17 +147,17 @@ function kellicharts (data) {
         // name: "Owner Surrender",
         type: 'bar',
         marker: {
-            color: 'orange'
+            color: '#F6AE2D'
         }
     }
 
     let traces3 = [trace3];
 
     let layout3 = {
-        autosize: false,
-        width: 500,
-        height: 500,
-        title: `Stray (count: ${stray_sum})`,
+        autosize: true,
+        // width: 500,
+        // height: 500,
+        title: `<b>Stray (count: ${stray_sum})</b>`,
         yaxis: {
             title: 'Outcome',
             titlefont: {
@@ -186,6 +172,7 @@ function kellicharts (data) {
         },
         xaxis:{
             title: 'Intake Type',
+            // tickangle: 25,
             titlefont: {
                 size: 16,
                 color: 'black'
