@@ -17,10 +17,10 @@ $(document).ready(function() {
 
 function runVisual(type,year) {
     if(type === "Dog"){
-        var url = "SMU_Project3_Group2/Website/data/dog_clean_time.json";
+        var url = "/SMU_Project3_Group2/Website/data/dog_clean_time.json";
     }
     else if(type === "Cat"){
-        var url = "SMU_Project3_Group2/Website/data/cat_clean_time.json";
+        var url = "/SMU_Project3_Group2/Website/data/cat_clean_time.json";
     }
     // AJAX
     $.ajax({
