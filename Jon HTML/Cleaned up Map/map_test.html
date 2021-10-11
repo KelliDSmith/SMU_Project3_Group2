@@ -38,13 +38,12 @@
         <script type="text/javascript" src="leaflet-heat.js"></script>
 
         <!-- Our JavaScript -->
-        <script type="text/javascript" src="config.js"></script>
         <script type="text/javascript" src="logic.js"></script>
         
 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/8.5.1/nouislider.min.css" />
         <script src="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/8.5.1/nouislider.min.js"></script>
-        <link rel="stylesheet" href="L.Control.HtmlLegend.css" />
+     
 
         <script>
 
@@ -63,8 +62,10 @@
 
         <style>
             body {
-        padding: 0;
-        margin: 0;
+                padding: 0;
+                margin: 0;
+                background-color: #F0F0F0;
+
             }
 
 
@@ -99,18 +100,6 @@
             }
 
 
-            .comment {
-                display: block;
-                transition: all 1s;
-            }
-
-                /* "add comment" button styling */
-            .commentClicked {
-                min-height: 0px;
-                border: 1px solid #eee;
-                border-radius: 5px;
-                padding: 5px 10px
-            }
             
                 /* background styling in "write a comment field" */
             .container textarea {
@@ -183,13 +172,22 @@
                 height: 100%;
             }
 
-            .legend {
-                padding: 10px;
-                line-height: 18px;
-                color: #555;
-                background-color: #fff;
-                border-radius: 5px;
+            #mapcontainer{
+                position: absolute;
+                left: 300px;
+                border: 3px solid #474e5d;
+                }
+
+                #yearFilter {
+                position: absolute;
+                right: 30px;
             }
+
+            #animalFilter {
+                position: absolute;
+                right: 30px;
+            }
+       
 
 
     </style>
@@ -202,16 +200,14 @@
         <div class="w3-sidebar w3-bar-block w3-card w3-animate-left" style="display:none" id="mySidebar">
             <button class="w3-bar-item w3-button w3-xlarge" onclick="w3_close()">&times;</button>
             
-            <!-- <img src="pup_pic.png" alt="Pups" style="width:100%"> -->
-            <a href="index.html" class="w3-bar-item w3-button w3-large w3-hover-black w3-border-bottom w3-border-top">Dashboard Home</a>
-            <a href="#" class="w3-bar-item w3-button w3-large w3-hover-black w3-border-bottom">Greyson's Viz</a>
-            <a href="#" class="w3-bar-item w3-button w3-large w3-hover-black w3-border-bottom">Jon's Viz</a>
-            <a href="#" class="w3-bar-item w3-button w3-large w3-hover-black w3-border-bottom">Lucas' Viz</a>
-            <a href="map_test.html" class="w3-bar-item w3-button w3-large w3-hover-black w3-border-bottom">The Map</a>
+            <img src="/images/pup_pic.png" alt="Pups" style="width:100%">
+            <a href="index.html" class="w3-bar-item w3-button w3-large w3-hover-black w3-border-bottom w3-border-top">Home</a>
+            <a href="dashboard.html" class="w3-bar-item w3-button w3-large w3-hover-black w3-border-bottom">Dashboard</a>
+            <a href="#" class="w3-bar-item w3-button w3-large w3-hover-black w3-border-bottom">Map</a>
+            <a href="table.html" class="w3-bar-item w3-button w3-large w3-hover-black w3-border-bottom">Data Tables</a>
             <a href="work_cited.html" class="w3-bar-item w3-button w3-large w3-hover-black w3-border-bottom">Source Data & Citations</a>
             <a href="about.html" class="w3-bar-item w3-button w3-large w3-hover-black w3-border-bottom">Meet The Team</a>
-            <a href="feedback.html" class="w3-bar-item w3-button w3-large w3-hover-black w3-border-bottom position-absolute">Feedback & Survey</a>
-          </div>
+        </div>
           
           <div id="main">
           
@@ -222,25 +218,54 @@
             </div>
           </div>
 
-          <div id="slider" style="top: 0px; right: 1px; margin: 10px 25px;"></div>
-            <div style="margin-right: auto; margin-left: auto; width: 90%; margin-bottom: 10px; text-align: center;">
-                <input type="number" min='1' max='35675999' id="input-number-min">
-                <input type="number" min='2' max='35676000' id="input-number-max">
-
-
+          <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-2">
+                <h4 class="card-header">Animal Type:
+                <select id="animalFilter">
+                <option value="Dog">Dog</option>
+                <option value="Cat">Cat</option>
+                </select></h4>
             </div>
+            <div class="col-md-2">
+                <h4 class="card-header">Year:
+                <select id="yearFilter">
+                    <option value="2014">2014</option>
+                    <option value="2015">2015</option>
+                    <option value="2016">2016</option>
+                    <option value="2017">2017</option>
+                </select></h4>
+            </div>
+            <div class="col-md-4"></div>
+        </div>
+      
 
             
         </div>
         <hr style="color:lightgray; border-width: 3px;">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-12">
-                    <h1 id="maptitle">Animal Shelter</h1>
+                <div class="col-md-10">
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-12" id="mapcontainer">
+                <div class="col-md-10" id="mapcontainer" position: relative></div>
+                <div class="col-md-3">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h4 class="chartTitle">How to Use This Map</h4>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-7 textArea">
+                            <h4>This map was designed to assist pet owners in their serach to recover their beloved lost pet.  
+                                Filter for the breed and year and hopefully you will see a marker that identifies your dog's breed, 
+                                color, and pick up location.  With any luck a nearby animal shelter has your loved one. 
+                            </h4>
+                            <br>
+                            <h4><p>Reference the Animal ID when calling your local shelter.</p></h4>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
