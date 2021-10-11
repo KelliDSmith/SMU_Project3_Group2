@@ -1,11 +1,11 @@
 $(document).ready(function() {
     // alert("Page Loaded");
     getData();
-    
-    $("#animalFilter").on("change",function() {
+
+    $("#animalFilter").on("change", function() {
         getData();
     });
-    $("#yearFilter").on("change",function() {
+    $("#yearFilter").on("change", function() {
         getData();
     });
 
@@ -23,7 +23,7 @@ function getData() {
         success: function(data) {
 
             console.log(data);
-            kellicharts (data);
+            kellicharts(data);
 
         },
         error: function(data) {
@@ -35,19 +35,19 @@ function getData() {
     });
 }
 
-function kellicharts (data) {
+function kellicharts(data) {
     let animal_type_filter = $("#animalFilter").val();
     let year_filter = $("#yearFilter").val();
     let curr_data = data.filter(x => x.animal_type === animal_type_filter & x.intake_year == year_filter);
 
     //Owner Surrender Chart
-    let owner_surrender = curr_data.filter(x=>x.intake_type === "Owner Surrender")
+    let owner_surrender = curr_data.filter(x => x.intake_type === "Owner Surrender")
     let surrender_sum = owner_surrender.map(x => x.count).reduce((a, b) => a + b, 0);
     owner_surrender.sort((a, b) => b.count - a.count);
 
     let trace1 = {
         x: owner_surrender.map(x => x.outcome_type),
-        y: owner_surrender.map(x => 100 * x.count/surrender_sum),
+        y: owner_surrender.map(x => 100 * x.count / surrender_sum),
         type: 'bar',
         marker: {
             color: '#A57548'
@@ -61,7 +61,7 @@ function kellicharts (data) {
         // width: 500,
         // height: 500,
         title: {
-            text:`<b>Owner Surrender (count: ${surrender_sum})</b>`,
+            text: `<b>Owner Surrender (count: ${surrender_sum})</b>`,
             font: {
                 size: 18
             }
@@ -78,7 +78,7 @@ function kellicharts (data) {
                 color: 'black',
             },
         },
-        xaxis:{
+        xaxis: {
             title: '<b>Outcome Type</b>',
             tickangle: 20,
             titlefont: {
@@ -86,7 +86,7 @@ function kellicharts (data) {
                 color: 'black'
             },
             tickfont: {
-                size:12
+                size: 12
             }
         }
     };
@@ -94,13 +94,13 @@ function kellicharts (data) {
     Plotly.newPlot('bar2', traces, layout);
 
     //Public Assist Chart
-    let pub_assist = curr_data.filter(x=>x.intake_type === "Public Assist");
+    let pub_assist = curr_data.filter(x => x.intake_type === "Public Assist");
     let passist_sum = pub_assist.map(x => x.count).reduce((a, b) => a + b, 0);
     pub_assist.sort((a, b) => b.count - a.count);
 
     let trace2 = {
         x: pub_assist.map(x => x.outcome_type),
-        y: pub_assist.map(x => 100 * x.count/passist_sum),
+        y: pub_assist.map(x => 100 * x.count / passist_sum),
         type: 'bar',
         marker: {
             color: '#33658A'
@@ -131,7 +131,7 @@ function kellicharts (data) {
                 color: 'black',
             },
         },
-        xaxis:{
+        xaxis: {
             title: '<b>Outcome Type</b>',
             tickangle: 20,
             titlefont: {
@@ -139,7 +139,7 @@ function kellicharts (data) {
                 color: 'black'
             },
             tickfont: {
-                size:12
+                size: 12
             }
         }
     };
@@ -147,14 +147,14 @@ function kellicharts (data) {
     Plotly.newPlot('bar1', traces2, layout2);
 
     //Stray Char
-    let stray_data = curr_data.filter(x=>x.intake_type === "Stray");
+    let stray_data = curr_data.filter(x => x.intake_type === "Stray");
     let stray_sum = stray_data.map(x => x.count).reduce((a, b) => a + b, 0);
     stray_data.sort((a, b) => b.count - a.count);
 
-    
+
     let trace3 = {
         x: stray_data.map(x => x.outcome_type),
-        y: stray_data.map(x => 100 * x.count/stray_sum),
+        y: stray_data.map(x => 100 * x.count / stray_sum),
         type: 'bar',
         marker: {
             color: '#F6AE2D'
@@ -168,7 +168,7 @@ function kellicharts (data) {
         // width: 500,
         // height: 500,
         title: {
-            text:`<b>Stray (count: ${stray_sum})</b>`,
+            text: `<b>Stray (count: ${stray_sum})</b>`,
             font: {
                 size: 18
             }
@@ -185,15 +185,15 @@ function kellicharts (data) {
                 color: 'black',
             },
         },
-        xaxis:{
-            title:'<b>Outcome Type</b>',
+        xaxis: {
+            title: '<b>Outcome Type</b>',
             tickangle: 20,
             titlefont: {
                 size: 16,
                 color: 'black'
             },
             tickfont: {
-                size:12
+                size: 12
             }
         }
     };
