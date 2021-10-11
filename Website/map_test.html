@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Marker Clusters</title>
+
+        <!-- Bootstrap and Bootswatch CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/minty/bootstrap.min.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+        <!-- Leaflet CSS -->
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="" />
+
+        <!-- Marker cluster CSS -->
+        <link rel="stylesheet" type="text/css" href="https://unpkg.com/leaflet.markercluster@1.0.3/dist/MarkerCluster.css">
+        <link rel="stylesheet" type="text/css" href="https://unpkg.com/leaflet.markercluster@1.0.3/dist/MarkerCluster.Default.css">
+
+        <!-- Our CSS -->
+        <!-- <link rel="stylesheet" type="text/css" href="static/css/style.css"> -->
+
+        <!-- Make sure you put this AFTER Leaflet's CSS -->
+        <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
+
+        <!-- JQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js" integrity="sha384-LtrjvnR4Twt/qOuYxE721u19sVFLVSA4hf/rRt6PrZTmiPltdZcI7q7PXQBYTKyf" crossorigin="anonymous"></script>
+
+        <script src="https://d3js.org/d3.v7.min.js"></script>
+
+        <!-- Marker cluster JavaScript code -->
+        <script type="text/javascript" src="https://unpkg.com/leaflet.markercluster@1.0.3/dist/leaflet.markercluster.js"></script>
+
+        <!-- Leaflet heatmap plugin-->
+        <script type="text/javascript" src="leaflet-heat.js"></script>
+
+        <!-- Our JavaScript -->
+        <!-- <script type="text/javascript" src="config.js"></script> -->
+        <script type="text/javascript" src="logic.js"></script>
+        
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/8.5.1/nouislider.min.css" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/8.5.1/nouislider.min.js"></script>
+        
+
+        <script>
+
+        function w3_open() {
+                document.getElementById("mySidebar").style.display = "block";
+                document.getElementById("myOverlay").style.display = "block";
+            }
+
+                function w3_close() {
+                document.getElementById("mySidebar").style.display = "none";
+                document.getElementById("myOverlay").style.display = "none";
+            }
+
+        </script>
+
+
+        <style>
+            body {
+        padding: 0;
+        margin: 0;
+            }
+
+
+            /* #map,
+            body,
+            html {
+                height: 100%;
+            } */
+
+            #mapid {
+                height: 800px;
+            }
+
+            .nav_background {
+                background-color: #474e5d; 
+            }
+
+            #openNav{
+                background-color: #474e5d; 
+            }
+
+            h1 {
+                color: white;
+            }
+
+            .container {
+            max-width: 640px;
+            margin: 30px auto;
+            background: #fff;
+            border-radius: 8px;
+            padding: 20px;
+            }
+
+
+            .comment {
+                display: block;
+                transition: all 1s;
+            }
+
+                /* "add comment" button styling */
+            .commentClicked {
+                min-height: 0px;
+                border: 1px solid #eee;
+                border-radius: 5px;
+                padding: 5px 10px
+            }
+            
+                /* background styling in "write a comment field" */
+            .container textarea {
+                width: 100%;
+                border: none;
+                background: #E8E8E8;
+                padding: 5px 10px;
+                height: 50%;
+                border-radius: 5px 5px 0px 0px;
+                border-bottom: 2px solid #016BA8;
+                transition: all 0.5s;
+                margin-top: 15px;
+            }
+
+
+                /* Styling for "add comment" button */
+            button.primaryContained {
+                background: #016ba8;
+                color: #fff;
+                padding: 10px 10px;
+                border: none;
+                margin-top: 0px;
+                cursor: pointer;
+                text-transform: uppercase;
+                letter-spacing: 4px;
+                box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.25);
+                transition: 1s all;
+                font-size: 10px;
+                border-radius: 5px;
+            }
+
+                /* Background color of "add comment" box */
+            button.primaryContained:hover {
+                background: #9201A8;
+            }
+
+
+
+
+            /* "back to top" button styling */
+            #myBtn {
+                display: none; /* Hidden by default */
+                position: fixed; /* Fixed/sticky position */
+                bottom: 20px; /* Place the button at the bottom of the page */
+                right: 30px; /* Place the button 30px from the right */
+                z-index: 99; /* Make sure it does not overlap */
+                border: none; /* Remove borders */
+                outline: none; /* Remove outline */
+                background-color: red; /* Set a background color */
+                color: white; /* Text color */
+                cursor: pointer; /* Add a mouse pointer on hover */
+                padding: 15px; /* Some padding */
+                border-radius: 10px; /* Rounded corners */
+                font-size: 18px; /* Increase font size */
+            }
+
+            #myBtn:hover {
+                background-color: #555; /* Add a dark-grey background on hover */
+            }
+
+            .nav_background {
+                background-color: #474e5d; 
+            }
+
+            #openNav{
+                background-color: #474e5d; 
+            }
+
+            #map, body, html {
+                height: 100%;
+            }
+
+            .legend {
+                padding: 10px;
+                line-height: 18px;
+                color: #555;
+                background-color: #fff;
+                border-radius: 5px;
+            }
+
+
+    </style>
+    </head>
+
+    <body>
+
+        
+        
+        <div class="w3-sidebar w3-bar-block w3-card w3-animate-left" style="display:none" id="mySidebar">
+            <button class="w3-bar-item w3-button w3-xlarge" onclick="w3_close()">&times;</button>
+            
+            <!-- <img src="pup_pic.png" alt="Pups" style="width:100%"> -->
+            <a href="index.html" class="w3-bar-item w3-button w3-large w3-hover-black w3-border-bottom w3-border-top">Dashboard Home</a>
+            <a href="#" class="w3-bar-item w3-button w3-large w3-hover-black w3-border-bottom">Greyson's Viz</a>
+            <a href="#" class="w3-bar-item w3-button w3-large w3-hover-black w3-border-bottom">Jon's Viz</a>
+            <a href="#" class="w3-bar-item w3-button w3-large w3-hover-black w3-border-bottom">Lucas' Viz</a>
+            <a href="map_test.html" class="w3-bar-item w3-button w3-large w3-hover-black w3-border-bottom">The Map</a>
+            <a href="work_cited.html" class="w3-bar-item w3-button w3-large w3-hover-black w3-border-bottom">Source Data & Citations</a>
+            <a href="about.html" class="w3-bar-item w3-button w3-large w3-hover-black w3-border-bottom">Meet The Team</a>
+            <a href="feedback.html" class="w3-bar-item w3-button w3-large w3-hover-black w3-border-bottom position-absolute">Feedback & Survey</a>
+          </div>
+          
+          <div id="main">
+          
+          <div class="nav_background">
+            <button id="openNav" class="w3-button  w3-xlarge" onclick="w3_open()">&#9776;</button>
+            <div class="w3-container">
+              <h1>The Dash</h1>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-2">
+                <h4 class="card-header">Animal Type:
+                <select id="animalFilter">
+                <option value="Dog">Dog</option>
+                <option value="Cat">Cat</option>
+                </select></h4>
+            </div>
+            <div class="col-md-2">
+                <h4 class="card-header">Year:
+                <select id="yearFilter">
+                    <option value="2014">2014</option>
+                    <option value="2015">2015</option>
+                    <option value="2016">2016</option>
+                    <option value="2017">2017</option>
+                </select></h4>
+            </div>
+            <div class="col-md-4"></div>
+        </div>
+        
+
+            
+        </div>
+        <hr style="color:lightgray; border-width: 3px;">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 id="maptitle">Animal Shelter</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12" id="mapcontainer">
+                </div>
+            </div>
+        </div>
+
+
+    </body>
+
+</html>
