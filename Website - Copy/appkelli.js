@@ -12,7 +12,7 @@ $(document).ready(function() {
 });
 
 function getData() {
-    let url = "../kellidata.json";
+    let url = "/Website - Copy/kellidata.json";
 
     // AJAX
     $.ajax({
