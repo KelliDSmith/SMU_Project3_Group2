@@ -35,16 +35,15 @@
         <script type="text/javascript" src="https://unpkg.com/leaflet.markercluster@1.0.3/dist/leaflet.markercluster.js"></script>
 
         <!-- Leaflet heatmap plugin-->
-        <script type="text/javascript" src="/SMU_Project3_Group2/Website - Copy/static/js/leaflet-heat.js"></script>
+        <script type="text/javascript" src="leaflet-heat.js"></script>
 
         <!-- Our JavaScript -->
-        <!-- <script type="text/javascript" src="config.js"></script> -->
-        <script type="text/javascript" src="/SMU_Project3_Group2/Website - Copy/static/js/logic.js"></script>
+        <script type="text/javascript" src="logic.js"></script>
         
 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/8.5.1/nouislider.min.css" />
         <script src="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/8.5.1/nouislider.min.js"></script>
-        
+     
 
         <script>
 
@@ -62,113 +61,11 @@
 
 
         <style>
-
             body {
-                background-color: #F0F0F0;
                 padding: 0;
                 margin: 0;
-            }       
+                background-color: #F0F0F0;
 
-            .container {
-                max-width: 640px;
-                margin: 30px auto;
-                background: #fff;
-                border-radius: 8px;
-                padding: 20px;
-            }
-
-            .pageTitleSection {
-                padding-top: 50px;
-                padding-bottom: 50px;
-            }
-            
-            .pageTitle {
-                color: whitesmoke;
-                text-align: center;
-            }
-
-            h1 {
-                font-size: 50px;
-            }
-
-            #myBtn:hover {
-                background-color: #555; /* Add a dark-grey background on hover */
-            }
-
-            .nav_background {
-                background-color: #474e5d; 
-            }
-
-            #openNav{
-                background-color: #474e5d; 
-            }
-            
-            .gauge{
-                border-style: double;
-                border: 2px solid 474e5d;
-                border-radius: 8px;
-                padding: 5px;
-            }
-
-            .bubble{
-                border-style: double;
-                border: 2px solid 474e5d;
-                border-radius: 8px;
-                padding: 5px;
-                margin-left: 20px;
-            }
-    
-            .demo{
-                border-style: double;
-                border: 2px solid 474e5d;
-                border-radius: 8px;
-                padding: 5px;
-                margin-left: 20px;
-            } 
-
-            .card{
-                border-style: double;
-                border: 2px solid 474e5d;
-                border-radius: 8px;
-                padding: 5px;
-            } 
-
-            .bar{
-                border-style: double;
-                border: 2px solid 474e5d;
-                border-radius: 8px;
-                padding: 5px;
-            }
-            
-            #openNav{
-            background-color: 474e5d;
-            color:white;
-
-            }
-
-            #animalFilter {
-                position: absolute;
-                right: 30px;
-            }
-
-            #yearFilter {
-                position: absolute;
-                right: 30px;
-            }
-
-            .chartTitle {
-                text-align: left;
-                background-color: #2c313a;
-                color: whitesmoke;
-                margin-top: 15px;
-                padding-top: 10px;
-                padding-bottom: 10px;
-                padding-left: 10px;
-            }
-
-            .textArea {
-                padding-top: 10px;
-                padding-left: 30px;
             }
 
 
@@ -182,17 +79,115 @@
                 height: 800px;
             }
 
+            .nav_background {
+                background-color: #474e5d; 
+            }
+
+            #openNav{
+                background-color: #474e5d; 
+            }
+
+            h1 {
+                color: white;
+            }
+
+            .container {
+            max-width: 640px;
+            margin: 30px auto;
+            background: #fff;
+            border-radius: 8px;
+            padding: 20px;
+            }
+
+
+            
+                /* background styling in "write a comment field" */
+            .container textarea {
+                width: 100%;
+                border: none;
+                background: #E8E8E8;
+                padding: 5px 10px;
+                height: 50%;
+                border-radius: 5px 5px 0px 0px;
+                border-bottom: 2px solid #016BA8;
+                transition: all 0.5s;
+                margin-top: 15px;
+            }
+
+
+                /* Styling for "add comment" button */
+            button.primaryContained {
+                background: #016ba8;
+                color: #fff;
+                padding: 10px 10px;
+                border: none;
+                margin-top: 0px;
+                cursor: pointer;
+                text-transform: uppercase;
+                letter-spacing: 4px;
+                box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.25);
+                transition: 1s all;
+                font-size: 10px;
+                border-radius: 5px;
+            }
+
+                /* Background color of "add comment" box */
+            button.primaryContained:hover {
+                background: #9201A8;
+            }
+
+
+
+
+            /* "back to top" button styling */
+            #myBtn {
+                display: none; /* Hidden by default */
+                position: fixed; /* Fixed/sticky position */
+                bottom: 20px; /* Place the button at the bottom of the page */
+                right: 30px; /* Place the button 30px from the right */
+                z-index: 99; /* Make sure it does not overlap */
+                border: none; /* Remove borders */
+                outline: none; /* Remove outline */
+                background-color: red; /* Set a background color */
+                color: white; /* Text color */
+                cursor: pointer; /* Add a mouse pointer on hover */
+                padding: 15px; /* Some padding */
+                border-radius: 10px; /* Rounded corners */
+                font-size: 18px; /* Increase font size */
+            }
+
+            #myBtn:hover {
+                background-color: #555; /* Add a dark-grey background on hover */
+            }
+
+            .nav_background {
+                background-color: #474e5d; 
+            }
+
+            #openNav{
+                background-color: #474e5d; 
+            }
+
             #map, body, html {
                 height: 100%;
             }
 
-            .legend {
-                padding: 10px;
-                line-height: 18px;
-                color: #555;
-                background-color: #fff;
-                border-radius: 5px;
+            #mapcontainer{
+                position: absolute;
+                left: 300px;
+                border: 3px solid #474e5d;
+                }
+
+                #yearFilter {
+                position: absolute;
+                right: 30px;
             }
+
+            #animalFilter {
+                position: absolute;
+                right: 30px;
+            }
+       
 
 
     </style>
@@ -202,43 +197,75 @@
 
         
         
-        <!-- Header Section and Side Nav -->
         <div class="w3-sidebar w3-bar-block w3-card w3-animate-left" style="display:none" id="mySidebar">
             <button class="w3-bar-item w3-button w3-xlarge" onclick="w3_close()">&times;</button>
             
-            <img src="/SMU_Project3_Group2/Website - Copy/static/images/pup_pic.png" alt="Pups" style="width:100%">
+            <img src="/images/pup_pic.png" alt="Pups" style="width:100%">
             <a href="index.html" class="w3-bar-item w3-button w3-large w3-hover-black w3-border-bottom w3-border-top">Home</a>
             <a href="dashboard.html" class="w3-bar-item w3-button w3-large w3-hover-black w3-border-bottom">Dashboard</a>
-            <a href="map_test.html" class="w3-bar-item w3-button w3-large w3-hover-black w3-border-bottom">Map</a>
+            <a href="#" class="w3-bar-item w3-button w3-large w3-hover-black w3-border-bottom">Map</a>
             <a href="table.html" class="w3-bar-item w3-button w3-large w3-hover-black w3-border-bottom">Data Tables</a>
             <a href="work_cited.html" class="w3-bar-item w3-button w3-large w3-hover-black w3-border-bottom">Source Data & Citations</a>
             <a href="about.html" class="w3-bar-item w3-button w3-large w3-hover-black w3-border-bottom">Meet The Team</a>
         </div>
           
-        <div id="main">
+          <div id="main">
           
           <div class="nav_background">
-              <button id="openNav" class="w3-button  w3-xxlarge" onclick="w3_open()">&#9776;</button>
-                <div class="pageTitleSection" >
-                    <h1 class="pageTitle">Found Locations Map</h1>
-                    <h4 class="pageTitle"></h4>
-                </div>
+            <button id="openNav" class="w3-button  w3-xlarge" onclick="w3_open()">&#9776;</button>
+            <div class="w3-container">
+              <h1>The Dash</h1>
+            </div>
           </div>
 
+          <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-2">
+                <h4 class="card-header">Animal Type:
+                <select id="animalFilter">
+                <option value="Dog">Dog</option>
+                <option value="Cat">Cat</option>
+                </select></h4>
+            </div>
+            <div class="col-md-2">
+                <h4 class="card-header">Year:
+                <select id="yearFilter">
+                    <option value="2014">2014</option>
+                    <option value="2015">2015</option>
+                    <option value="2016">2016</option>
+                    <option value="2017">2017</option>
+                </select></h4>
+            </div>
+            <div class="col-md-4"></div>
         </div>
-        
+      
 
             
         </div>
         <hr style="color:lightgray; border-width: 3px;">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-12">
-                    <h1 id="maptitle">Animal Shelter</h1>
+                <div class="col-md-10">
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-12" id="mapcontainer">
+                <div class="col-md-10" id="mapcontainer" position: relative></div>
+                <div class="col-md-3">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h4 class="chartTitle">How to Use This Map</h4>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-7 textArea">
+                            <h4>This map was designed to assist pet owners in their serach to recover their beloved lost pet.  
+                                Filter for the breed and year and hopefully you will see a marker that identifies your dog's breed, 
+                                color, and pick up location.  With any luck a nearby animal shelter has your loved one. 
+                            </h4>
+                            <br>
+                            <h4><p>Reference the Animal ID when calling your local shelter.</p></h4>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
