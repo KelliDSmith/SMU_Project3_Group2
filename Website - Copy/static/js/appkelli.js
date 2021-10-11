@@ -12,7 +12,7 @@ $(document).ready(function() {
 });
 
 function getData() {
-    let url = "SMU_Project3_Group2/Website - Copy/data/kellidata.json";
+    let url = "../data/kellidata.json";
 
     // AJAX
     $.ajax({
