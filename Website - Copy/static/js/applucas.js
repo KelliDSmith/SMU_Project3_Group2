@@ -11,7 +11,7 @@ $(document).ready(function() {
 });
 
 function getData2() {
-    let url = "SMU_Project3_Group2/Website/data/breed_data.json";
+    let url = "SMU_Project3_Group2/Website - Copy/data/breed_data.json";
 
     // AJAX
     $.ajax({
