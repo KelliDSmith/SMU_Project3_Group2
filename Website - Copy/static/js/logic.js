@@ -2,7 +2,7 @@
 var obj = ""
 
 $(document).ready(function() {
-    $.getJSON("geocode_data_animal.json", function(jsonData) {
+    $.getJSON("/SMU_Project3_Group2/Website - Copy/static/js/geocode_data_animal.json", function(jsonData) {
         makeMap(jsonData);
         console.log(jsonData[0]);
 
