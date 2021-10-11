@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Marker Clusters</title>
+
+        <!-- Bootstrap and Bootswatch CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/minty/bootstrap.min.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+        <!-- Leaflet CSS -->
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="" />
+
+        <!-- Marker cluster CSS -->
+        <link rel="stylesheet" type="text/css" href="https://unpkg.com/leaflet.markercluster@1.0.3/dist/MarkerCluster.css">
+        <link rel="stylesheet" type="text/css" href="https://unpkg.com/leaflet.markercluster@1.0.3/dist/MarkerCluster.Default.css">
+
+        <!-- Our CSS -->
+        <!-- <link rel="stylesheet" type="text/css" href="static/css/style.css"> -->
+
+        <!-- Make sure you put this AFTER Leaflet's CSS -->
+        <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
+
+        <!-- JQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js" integrity="sha384-LtrjvnR4Twt/qOuYxE721u19sVFLVSA4hf/rRt6PrZTmiPltdZcI7q7PXQBYTKyf" crossorigin="anonymous"></script>
+
+        <script src="https://d3js.org/d3.v7.min.js"></script>
+
+        <!-- Marker cluster JavaScript code -->
+        <script type="text/javascript" src="https://unpkg.com/leaflet.markercluster@1.0.3/dist/leaflet.markercluster.js"></script>
+
+        <!-- Leaflet heatmap plugin-->
+        <script type="text/javascript" src="/SMU_Project3_Group2/Website - Copy/static/js/leaflet-heat.js"></script>
+
+        <!-- Our JavaScript -->
+        <!-- <script type="text/javascript" src="config.js"></script> -->
+        <script type="text/javascript" src="/SMU_Project3_Group2/Website - Copy/static/js/logic.js"></script>
+        
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/8.5.1/nouislider.min.css" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/8.5.1/nouislider.min.js"></script>
+        
+
+        <script>
+
+        function w3_open() {
+                document.getElementById("mySidebar").style.display = "block";
+                document.getElementById("myOverlay").style.display = "block";
+            }
+
+                function w3_close() {
+                document.getElementById("mySidebar").style.display = "none";
+                document.getElementById("myOverlay").style.display = "none";
+            }
+
+        </script>
+
+
+        <style>
+
+            body {
+                background-color: #F0F0F0;
+                padding: 0;
+                margin: 0;
+            }       
+
+            .container {
+                max-width: 640px;
+                margin: 30px auto;
+                background: #fff;
+                border-radius: 8px;
+                padding: 20px;
+            }
+
+            .pageTitleSection {
+                padding-top: 50px;
+                padding-bottom: 50px;
+            }
+            
+            .pageTitle {
+                color: whitesmoke;
+                text-align: center;
+            }
+
+            h1 {
+                font-size: 50px;
+            }
+
+            #myBtn:hover {
+                background-color: #555; /* Add a dark-grey background on hover */
+            }
+
+            .nav_background {
+                background-color: #474e5d; 
+            }
+
+            #openNav{
+                background-color: #474e5d; 
+            }
+            
+            .gauge{
+                border-style: double;
+                border: 2px solid 474e5d;
+                border-radius: 8px;
+                padding: 5px;
+            }
+
+            .bubble{
+                border-style: double;
+                border: 2px solid 474e5d;
+                border-radius: 8px;
+                padding: 5px;
+                margin-left: 20px;
+            }
+    
+            .demo{
+                border-style: double;
+                border: 2px solid 474e5d;
+                border-radius: 8px;
+                padding: 5px;
+                margin-left: 20px;
+            } 
+
+            .card{
+                border-style: double;
+                border: 2px solid 474e5d;
+                border-radius: 8px;
+                padding: 5px;
+            } 
+
+            .bar{
+                border-style: double;
+                border: 2px solid 474e5d;
+                border-radius: 8px;
+                padding: 5px;
+            }
+            
+            #openNav{
+            background-color: 474e5d;
+            color:white;
+
+            }
+
+            #animalFilter {
+                position: absolute;
+                right: 30px;
+            }
+
+            #yearFilter {
+                position: absolute;
+                right: 30px;
+            }
+
+            .chartTitle {
+                text-align: left;
+                background-color: #2c313a;
+                color: whitesmoke;
+                margin-top: 15px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 10px;
+            }
+
+            .textArea {
+                padding-top: 10px;
+                padding-left: 30px;
+            }
+
+
+            /* #map,
+            body,
+            html {
+                height: 100%;
+            } */
+
+            #mapid {
+                height: 800px;
+            }
+
+            #map, body, html {
+                height: 100%;
+            }
+
+            .legend {
+                padding: 10px;
+                line-height: 18px;
+                color: #555;
+                background-color: #fff;
+                border-radius: 5px;
+            }
+
+
+    </style>
+    </head>
+
+    <body>
+
+        
+        
+        <!-- Header Section and Side Nav -->
+        <div class="w3-sidebar w3-bar-block w3-card w3-animate-left" style="display:none" id="mySidebar">
+            <button class="w3-bar-item w3-button w3-xlarge" onclick="w3_close()">&times;</button>
+            
+            <img src="/SMU_Project3_Group2/Website - Copy/static/images/pup_pic.png" alt="Pups" style="width:100%">
+            <a href="index.html" class="w3-bar-item w3-button w3-large w3-hover-black w3-border-bottom w3-border-top">Home</a>
+            <a href="dashboard.html" class="w3-bar-item w3-button w3-large w3-hover-black w3-border-bottom">Dashboard</a>
+            <a href="map_test.html" class="w3-bar-item w3-button w3-large w3-hover-black w3-border-bottom">Map</a>
+            <a href="table.html" class="w3-bar-item w3-button w3-large w3-hover-black w3-border-bottom">Data Tables</a>
+            <a href="work_cited.html" class="w3-bar-item w3-button w3-large w3-hover-black w3-border-bottom">Source Data & Citations</a>
+            <a href="about.html" class="w3-bar-item w3-button w3-large w3-hover-black w3-border-bottom">Meet The Team</a>
+        </div>
+          
+        <div id="main">
+          
+          <div class="nav_background">
+              <button id="openNav" class="w3-button  w3-xxlarge" onclick="w3_open()">&#9776;</button>
+                <div class="pageTitleSection" >
+                    <h1 class="pageTitle">Found Locations Map</h1>
+                    <h4 class="pageTitle"></h4>
+                </div>
+          </div>
+
+        </div>
+        
+
+            
+        </div>
+        <hr style="color:lightgray; border-width: 3px;">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 id="maptitle">Animal Shelter</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12" id="mapcontainer">
+                </div>
+            </div>
+        </div>
+
+
+    </body>
+
+</html>
