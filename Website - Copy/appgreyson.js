@@ -17,10 +17,10 @@ $(document).ready(function() {
 
 function runVisual(type,year) {
     if(type === "Dog"){
-        var url = "../dog_clean_time.json";
+        var url = "Website - Copy/dog_clean_time.json";
     }
     else if(type === "Cat"){
-        var url = "../cat_clean_time.json";
+        var url = "Website - Copy/cat_clean_time.json";
     }
     // AJAX
     $.ajax({

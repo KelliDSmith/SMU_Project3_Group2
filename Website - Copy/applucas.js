@@ -11,7 +11,7 @@ $(document).ready(function() {
 });
 
 function getData2() {
-    let url = "../breed_data.json";
+    let url = "Website - Copy/breed_data.json";
 
     // AJAX
     $.ajax({
