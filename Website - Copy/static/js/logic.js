@@ -2,7 +2,7 @@
 var obj = ""
 
 $(document).ready(function() {
-    $.getJSON("/SMU_Project3_Group2/Website - Copy/static/data/geocode_data_v104.json", function(jsonData) {
+    $.getJSON("../SMU_Project3_Group2/Website - Copy/static/data/geocode_data_v104.json", function(jsonData) {
         makeMap(jsonData);
         console.log(jsonData[0]);
 
