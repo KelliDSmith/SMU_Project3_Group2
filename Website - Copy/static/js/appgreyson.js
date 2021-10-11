@@ -15,18 +15,17 @@ $(document).ready(function() {
 });
 
 
-<<<<<<< HEAD
 function runVisual(type,year) {
     if(type === "Dog"){
         var url = "/SMU_Project3_Group2/Website - Copy/static/data/dog_clean_time.json";
     }
     else if(type === "Cat"){
-=======
+        var url = "/SMU_Project3_Group2/Website - Copy/static/data/cat_clean_time.json";
+    }
 function runVisual(type, year) {
     if (type === "Dog") {
         var url = "/SMU_Project3_Group2/Website - Copy/static/data/dog_clean_time.json";
     } else if (type === "Cat") {
->>>>>>> 07205f5a48e38750a1e2890acd82559f9107b3a2
         var url = "/SMU_Project3_Group2/Website - Copy/static/data/cat_clean_time.json";
     }
     // AJAX
