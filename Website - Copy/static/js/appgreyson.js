@@ -15,13 +15,13 @@ $(document).ready(function() {
 });
 
 
-function runVisual(type,year) {
-    if(type === "Dog"){
-        var url = "/SMU_Project3_Group2/Website - Copy/static/data/dog_clean_time.json";
-    }
-    else if(type === "Cat"){
-        var url = "/SMU_Project3_Group2/Website - Copy/static/data/cat_clean_time.json";
-    }
+// function runVisual(type,year) {
+//     if(type === "Dog"){
+//         var url = "/SMU_Project3_Group2/Website - Copy/static/data/dog_clean_time.json";
+//     }
+//     else if(type === "Cat"){
+//         var url = "/SMU_Project3_Group2/Website - Copy/static/data/cat_clean_time.json";
+//     }
 function runVisual(type, year) {
     if (type === "Dog") {
         var url = "/SMU_Project3_Group2/Website - Copy/static/data/dog_clean_time.json";
@@ -45,7 +45,7 @@ function runVisual(type, year) {
             console.log("Request finished");
         }
     });
-}
+};
 
 
 function timeVisual(data, year, type) {
@@ -129,4 +129,4 @@ function timeVisual(data, year, type) {
 
     };
     Plotly.newPlot('time', traces, layout, { response: true });
-}
+};
