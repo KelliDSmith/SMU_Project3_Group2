@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Animal Shelter Dash</title>
+
+        <!-- Bootstrap and Bootswatch CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/minty/bootstrap.min.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+        <!-- Javascript -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js" integrity="sha384-LtrjvnR4Twt/qOuYxE721u19sVFLVSA4hf/rRt6PrZTmiPltdZcI7q7PXQBYTKyf" crossorigin="anonymous"></script>
+
+        <!-- Visualization Libs -->
+        <script src="https://d3js.org/d3.v7.min.js"></script>
+        <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    
+
+
+
+                                <!-- Script for submiting the comment box and appending the comment -->
+        <!-- Vue JS -->
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.17/vue.min.js'></script>
+        <!-- jQuery -->
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+
+
+    
+        <!-- <script src="app.js"></script> -->
+
+        <!-- <script>
+            function w3_open() {
+              document.getElementById("main").style.marginLeft = "25%";
+              document.getElementById("mySidebar").style.width = "25%";
+              document.getElementById("mySidebar").style.display = "block";
+              document.getElementById("openNav").style.display = 'none';
+            }
+            function w3_close() {
+              document.getElementById("main").style.marginLeft = "0%";
+              document.getElementById("mySidebar").style.display = "none";
+              document.getElementById("openNav").style.display = "inline-block";
+            }
+            </script> -->
+
+            <script>
+
+            // function w3_open() {
+            //     document.getElementById("mySidebar").style.display = "block";
+            // }
+
+
+            // function w3_close() {
+            //     document.getElementById("mySidebar").style.display = "none";
+            // }
+
+            function w3_open() {
+                document.getElementById("mySidebar").style.display = "block";
+                document.getElementById("myOverlay").style.display = "block";
+            }
+
+                function w3_close() {
+                document.getElementById("mySidebar").style.display = "none";
+                document.getElementById("myOverlay").style.display = "none";
+            }
+
+
+            </script>
+
+            
+        <style>
+
+
+
+        .container {
+            max-width: 1240px;
+            margin: 30px auto;
+            background: #fff;
+            border-radius: 8px;
+            padding: 20px;
+        }
+
+
+
+        .comment {
+            display: block;
+            transition: all 1s;
+        }
+
+            /* "add comment" button styling */
+        .commentClicked {
+            min-height: 0px;
+            border: 1px solid #eee;
+            border-radius: 5px;
+            padding: 5px 10px
+        }
+        
+            /* background styling in "write a comment field" */
+        .container textarea {
+            width: 100%;
+            border: none;
+            background: #E8E8E8;
+            padding: 5px 10px;
+            height: 50%;
+            border-radius: 5px 5px 0px 0px;
+            border-bottom: 2px solid #016BA8;
+            transition: all 0.5s;
+            margin-top: 15px;
+        }
+
+
+            /* Styling for "add comment" button */
+        button.primaryContained {
+            background: #016ba8;
+            color: #fff;
+            padding: 10px 10px;
+            border: none;
+            margin-top: 0px;
+            cursor: pointer;
+            text-transform: uppercase;
+            letter-spacing: 4px;
+            box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.25);
+            transition: 1s all;
+            font-size: 10px;
+            border-radius: 5px;
+        }
+
+            /* Background color of "add comment" box */
+        button.primaryContained:hover {
+            background: #9201A8;
+        }
+
+        h1{
+            color: white;
+        }
+
+
+
+        /* "back to top" button styling */
+        #myBtn {
+            display: none; /* Hidden by default */
+            position: fixed; /* Fixed/sticky position */
+            bottom: 20px; /* Place the button at the bottom of the page */
+            right: 30px; /* Place the button 30px from the right */
+            z-index: 99; /* Make sure it does not overlap */
+            border: none; /* Remove borders */
+            outline: none; /* Remove outline */
+            background-color: red; /* Set a background color */
+            color: white; /* Text color */
+            cursor: pointer; /* Add a mouse pointer on hover */
+            padding: 15px; /* Some padding */
+            border-radius: 10px; /* Rounded corners */
+            font-size: 18px; /* Increase font size */
+        }
+
+        #myBtn:hover {
+            background-color: #555; /* Add a dark-grey background on hover */
+        }
+
+        .nav_background {
+            background-color: #474e5d; 
+        }
+
+        #openNav{
+            background-color: #474e5d; 
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+          }
+
+          html {
+            box-sizing: border-box;
+          }
+
+          *, *:before, *:after {
+            box-sizing: inherit;
+          }
+
+          .column {
+            float: left;
+            width: 33.3%;
+            margin-bottom: 16px;
+            padding: 0 8px;
+          }
+
+          .card {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            margin: 8px;
+          }
+
+          .about-section {
+            padding: 50px;
+            text-align: center;
+            background-color: #474e5d;
+            color: white;
+          }
+
+          .container {
+            padding: 0 16px;
+          }
+
+          .container::after, .row::after {
+            content: "";
+            clear: both;
+            display: table;
+          }
+
+          .title {
+            color: grey;
+          }
+
+          .button {
+            border: none;
+            outline: 0;
+            display: inline-block;
+            padding: 8px;
+            color: white;
+            background-color: #86bbd8;
+            text-align: center;
+            cursor: pointer;
+            width: 100%;
+          }
+
+          .button:hover {
+            background-color: #555;
+          }
+
+          @media screen and (max-width: 650px) {
+            .column {
+              width: 100%;
+              display: block;
+            }
+          }
+        </style>
+
+    </head>
+    
+    <body>
+
+        <div class="w3-sidebar w3-bar-block w3-card w3-animate-left" style="display:none" id="mySidebar">
+            <button class="w3-bar-item w3-button w3-xlarge" onclick="w3_close()">&times;</button>
+            
+            <img src="/images/pup_pic.png" alt="Pups" style="width:100%">
+            <a href="index.html" class="w3-bar-item w3-button w3-large w3-hover-black w3-border-bottom w3-border-top">Home</a>
+            <a href="dashboard.html" class="w3-bar-item w3-button w3-large w3-hover-black w3-border-bottom">Dashboard</a>
+            <a href="map.html" class="w3-bar-item w3-button w3-large w3-hover-black w3-border-bottom">Map</a>
+            <a href="table.html" class="w3-bar-item w3-button w3-large w3-hover-black w3-border-bottom">Data Tables</a>
+            <a href="work_cited.html" class="w3-bar-item w3-button w3-large w3-hover-black w3-border-bottom">Source Data & Citations</a>
+            <a href="about.html" class="w3-bar-item w3-button w3-large w3-hover-black w3-border-bottom">Meet The Team</a>
+            <!-- <a href="feedback.html" class="w3-bar-item w3-button w3-large w3-hover-black w3-border-bottom position-absolute">Feedback & Survey</a> -->
+          </div>
+          
+          <div id="main">
+          
+          <div class="nav_background">
+            <button id="openNav" class="w3-button  w3-xlarge" onclick="w3_open()">&#9776;</button>
+            <div class="w3-container">
+              
+            </div>
+          </div>
+
+    
+
+
+  <!-- *****************************************************comment box code****************************************** -->
+  <div class="about-section">
+    <h1>Austin Animal Shelter Visual Dashboard</h1>
+    <hr>
+    <h3 style="color:white">SMU Data Science</h3>
+    <h4 style="color:white">Jon Arnold, Greyson Moore, Lucas Da Silva, Kelli Smith</h4>
+  </div>
+  
+  <h2 style="text-align:center">Home</h2>
+  <div class="row"> 
+    <!-- <div class="column"> -->
+      <!-- <div class="card"> -->
+        <!-- <img src="/images/puppy_home.jpg" alt="kaggle" style="width:70%; text-align:center"> -->
+    </div>
+        <div class="container" style="text-align:center; display:block">
+                    <img src="/images/puppy_home.jpg" alt="kaggle" style="width:70%; text-align:center">
+          <h3>Inspiration</h3>
+          <hr>
+          <p class="title"></p>
+          <p>The group was interested in looking for a subject of study that was fun, not related to our
+            jobs, that had an easy to manipulate dataset and that we all loved, so no other subject
+            caught our interests as much as pets/animals in Austin. Austin is growing rapidly and has an increasing number of animals brought to shelters. Data ranges from 2014 to 2017. We chose to limit our information to cats and dogs as they formed the strong majority of animals in shelters.</p>
+          <b>We wanted to answer questions such as:</b>
+          <br>
+          <br>
+          <ul>
+              <li>What kind of animals are in animal shelters?</li>
+              <li>What are the outcomes of an animal’s visit?</li>
+              <li>How long do animals typically stay in shelters?</li>
+              <li>Where and what time are animals brought to the shelter?</li>
+          </ul>
+          <h3>Process</h3>
+          <hr>
+          <p>In order to best display data from Austin animal shelters, the group created a
+            full-stack, interactive dashboard hosted on this website. Data is pulled in from an
+            Austin animal shelter data set. The website uses the data to create at four
+            visualizations using javascript and various third-party libraries. The visualizations are interactive. The website uses HTML code and bootstrap components to build the
+            structure.</p>
+        </div>
+      
+    </div>
+    
+  </div>
+  
+    
+
+
+
+    </body>
+
+</html>
